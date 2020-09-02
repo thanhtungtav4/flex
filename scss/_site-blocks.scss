@@ -1504,3 +1504,22 @@
 		color: $white;
 	}
 }
+.why-select-flex{
+	color: $black;
+	font-style: normal;
+	text-align: center;
+	margin: 0 auto;
+	.text-why{
+		font-style: normal;
+		font-size: 48px;
+		line-height: 65px;
+		font-weight: bold;
+	}
+	.text-why-description{
+		font-style: italic;
+		font-weight: 250;
+		font-size: 16px;
+		line-height: 23px;
+		text-align: center;
+	}
+}

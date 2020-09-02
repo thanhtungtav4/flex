@@ -1480,3 +1480,27 @@
 		line-height: 26px;
 	}
 }
+.section-get-ìno{
+	color: $white;
+	font-style: normal;
+	background: linear-gradient(90deg, #08F2C5 0%, #08AEBE 29.17%, #093EB3 66.67%, #0909AD 100%);
+	.info-business{
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.info-description{
+		font-weight: 500;
+		font-size: 15px;
+	}
+	.form-control{
+		background: #E6E6E6;
+		border-radius: 10px;
+	}
+	.btn-download{
+		width: 40%;
+		background: $color_logo;
+		border-radius: 26.5px;
+		color: $white;
+	}
+}

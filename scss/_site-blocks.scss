@@ -1458,4 +1458,25 @@
 	padding: 10px 20px;
 	font-style: normal;
 	font-weight: bold;
+
+	&:hover {
+		background: $white;
+		border: $white;
+	}
+}
+.maketing-box{
+	color: $black;
+	.text-service-maketing{
+		color: $black;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 120.1%;
+		font-size: 3rem;
+	}
+	.text-service-maketing-description{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 26px;
+	}
 }

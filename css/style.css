@@ -499,6 +499,11 @@ h1, h2, h3, h4, h5,
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
+  .sticky-wrapper .home_img_banner {
+    max-height: 400px; }
+
+.site-blocks-cover .aos-init {
+  margin-top: 9vh; }
 
 /* Blocks */
 .site-blocks-cover {
@@ -515,7 +520,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 0;
       top: 0;
-      background: rgba(0, 0, 0, 0.2); }
+      background: #CEFFF6; }
   .site-blocks-cover .player {
     position: absolute;
     bottom: -250px;
@@ -1592,5 +1597,13 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+.btn_reg {
+  color: #fff;
+  border: 1px solid #0909AD;
+  background: #0909AD;
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

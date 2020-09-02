@@ -12,7 +12,7 @@
 			bottom: 0;
 			right: 0;
 			top: 0;
-			background: rgba($black, .2);
+			background: $bg_banner;
 		}
 	}
 	.player {
@@ -1450,4 +1450,12 @@
     color: $white;
     border-bottom: 1px solid rgba($white, .5);
   }
+}
+.btn_reg {
+	color: $white;
+	border: 1px solid $btn_bg;
+	background: $btn_bg;
+	padding: 10px 20px;
+	font-style: normal;
+	font-weight: bold;
 }

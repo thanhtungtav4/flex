@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
+    <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-blocks.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_site-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +62,35 @@
       <updated>1598924264724</updated>
       <workItem from="1598924268007" duration="736000" />
       <workItem from="1599062233288" duration="2426000" />
-      <workItem from="1599067873694" duration="332000" />
+      <workItem from="1599067873694" duration="5649000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1599068458785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599068458785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-840" y="568" key="FileChooserDialogImpl" timestamp="1599066729073">
@@ -50,5 +98,17 @@
     </state>
     <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599066729073" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599068465942">
+      <screen x="-1366" y="375" width="1366" height="728" />
+    </state>
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599068465942" />
+    <state x="-1063" y="375" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599072521406">
+      <screen x="-1366" y="375" width="1366" height="728" />
+    </state>
+    <state x="-1063" y="375" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599072521406" />
+    <state x="-976" y="375" width="585" height="728" key="find.popup" timestamp="1599069402270">
+      <screen x="-1366" y="375" width="1366" height="728" />
+    </state>
+    <state x="-976" y="375" width="585" height="728" key="find.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599069402270" />
   </component>
 </project>

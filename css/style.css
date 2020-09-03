@@ -1749,4 +1749,21 @@ h1, h2, h3, h4, h5,
   .section-inbound-marketing .inbound-marketing-text {
     font-weight: 300; }
 
+.box-change-image-fly-wheel {
+  background-image: url("../images/fly-wheel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .box-change-image-fly-wheel:hover {
+    background-image: url("../images/fly-whell-hover.png"); }
+
+.flywhell-tittle {
+  text-align: left; }
+
+.customer_retention {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px; }
+
 /*# sourceMappingURL=style.css.map */

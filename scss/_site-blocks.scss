@@ -1641,3 +1641,21 @@
 		@include small-text;
 	}
 }
+.box-change-image-fly-wheel{
+	background-image: url('../images/fly-wheel.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&:hover {
+		background-image: url('../images/fly-whell-hover.png');
+	}
+}
+.flywhell-tittle{
+	text-align: left;
+}
+.customer_retention{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 53px;
+}

@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vset-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +57,9 @@
       <updated>1598924264724</updated>
       <workItem from="1598924268007" duration="736000" />
       <workItem from="1599062233288" duration="2426000" />
-      <workItem from="1599067873694" duration="10446000" />
+      <workItem from="1599067873694" duration="10504000" />
+      <workItem from="1599097923426" duration="65000" />
+      <workItem from="1599136660776" duration="1461000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1599068458785</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599077523324</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add">
+      <created>1599078390525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599078390525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,21 +112,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-840" y="568" key="FileChooserDialogImpl" timestamp="1599066729073">
-      <screen x="-1366" y="375" width="1366" height="728" />
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599097987100">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599066729073" />
+    <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078420062" />
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599077531712">
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599078398253">
       <screen x="-1366" y="375" width="1366" height="728" />
     </state>
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599077531712" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078398253" />
     <state x="645" y="62" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599074413093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1522,4 +1522,31 @@
 		line-height: 23px;
 		text-align: center;
 	}
+	.why-select-flex-box{
+		text-align: center;
+		.card-title{
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 26px;
+		}
+		.card-text{
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 23px;
+		}
+		.card-body{
+			img{
+				padding: 15px;
+				margin-bottom: 0.75rem;
+			}
+		}
+	}
+}
+.grown-up{
+	background: #F5F5F5;
+	.active{
+		background: linear-gradient(259.02deg, #0909AD 2.97%, #08F2C5 97.26%);
+		box-shadow: 0px 0px 10px rgba(9, 9, 173, 0.3);
+		border-radius: 10px;
+	}
 }

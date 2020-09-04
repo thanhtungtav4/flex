@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Base */
 body {
   line-height: 1.7;
@@ -1624,21 +1623,21 @@ h1, h2, h3, h4, h5,
     font-size: 18px;
     line-height: 26px; }
 
-.section-get-ìno {
+.section-get-info {
   color: #fff;
   font-style: normal;
   background: linear-gradient(90deg, #08F2C5 0%, #08AEBE 29.17%, #093EB3 66.67%, #0909AD 100%); }
-  .section-get-ìno .info-business {
+  .section-get-info .info-business {
     font-weight: bold;
     font-size: 18px;
     line-height: 26px; }
-  .section-get-ìno .info-description {
+  .section-get-info .info-description {
     font-weight: 500;
     font-size: 15px; }
-  .section-get-ìno .form-control {
+  .section-get-info .form-control {
     background: #E6E6E6;
     border-radius: 10px; }
-  .section-get-ìno .btn-download {
+  .section-get-info .btn-download {
     width: 40%;
     background: #08F2C5;
     border-radius: 26.5px;
@@ -1749,21 +1748,30 @@ h1, h2, h3, h4, h5,
   .section-inbound-marketing .inbound-marketing-text {
     font-weight: 300; }
 
-.box-change-image-fly-wheel {
+.flywheel-section .box-change-image-fly-wheel {
   background-image: url("../images/fly-wheel.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  .box-change-image-fly-wheel:hover {
+  .flywheel-section .box-change-image-fly-wheel:hover {
     background-image: url("../images/fly-whell-hover.png"); }
-
-.flywhell-tittle {
+.flywheel-section .flywhell-tittle {
   text-align: left; }
-
-.customer_retention {
+.flywheel-section .customer_retention {
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 53px; }
+.flywheel-section .detail_customer_retention {
+  font-weight: 300; }
+  .flywheel-section .detail_customer_retention li {
+    font-size: 16px;
+    line-height: 23px; }
+
+ul {
+  padding-left: 0; }
+
+ul li {
+  list-style: none; }
 
 /*# sourceMappingURL=style.css.map */

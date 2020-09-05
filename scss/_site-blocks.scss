@@ -20,10 +20,10 @@
 		bottom: -250px;
 		width: 100%;
 	}
-	&, & > .container > .row {
-		min-height: 600px;
-		height: calc(100vh);
-	}
+	//&, & > .container > .row {
+	//	min-height: 600px;
+	//	height: calc(100vh);
+	//}
 	&.inner-page-cover {
 		&, & > .container > .row {
 			min-height: 400px;

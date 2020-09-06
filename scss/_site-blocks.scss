@@ -398,7 +398,7 @@
 			right: 10px!important;
 		}
 		.owl-prev, .owl-next {
-			color: $white;
+			color: $black;
 			position: absolute!important;
 			top: 50%;
 			padding: 0px;
@@ -406,7 +406,7 @@
 			width: 50px;
 			border-radius: 50%;	
 			transform: translateY(-50%);
-			background: rgba($black, .2);
+			background: rgba($white, .2);
 			transition: .3s all ease-in-out;
 			
 			line-height: 0;
@@ -424,7 +424,7 @@
 			}
 			
 			&:hover, &:focus {
-				background: rgba($black, 1);
+				background: rgba($fly_color_nav, 1);
 			}
 		}
 
@@ -1761,5 +1761,13 @@ ul li{
 		margin-top: 24px;
 		display: inline-block;
 	}
-
+	.icon-keyboard_arrow_right:before {
+		content: url("../images/arrow_next.png");
+	}
+	.icon-keyboard_arrow_left:before {
+		content: url("../images/arrow_back.png");
+	}
+	.owl-next{
+		background: unset;
+	}
 }

@@ -1673,5 +1673,40 @@ ul{
 }
 ul li{
 	list-style: none;
-
+}
+.card-kpi-box{
+	.card-kpi {
+		padding: 15px;
+		.card{
+			margin: 0 auto;
+			max-width: 215px;
+			.card-body{
+				img{
+					padding: 20px;
+				}
+				.card-title{
+					font-style: italic;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 23px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+.transform_rotate{
+	transform: rotate(180deg);
+}
+.section-get-grow{
+	color: $white;
+	font-style: normal;
+	background: linear-gradient(90deg, #08F2C5 0%, #08AEBE 29.17%, #093EB3 66.67%, #0909AD 100%);
+	.btn-download{
+		width: 100%;
+		background: transparent;
+		border-radius: 26.5px;
+		color: $white;
+		border: 2px solid $white;
+	}
 }

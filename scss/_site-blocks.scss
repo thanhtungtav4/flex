@@ -1835,3 +1835,25 @@ ul li{
 		}
 	}
 }
+.section-reg-maketing{
+	.bg-reg-maketing-image{
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("../images/img_4.jpg");
+		background-size: cover;
+		max-height: 255px;
+		width: 100%;
+	}
+}
+.section-qa{
+	.card-title:after {
+		content: '+';
+		font-size: 15px;
+		color: #fff;
+		position: absolute;
+		right: 0;
+		top: 10px;
+		padding: 0 6px;
+		background: #6C7166;
+	}
+}

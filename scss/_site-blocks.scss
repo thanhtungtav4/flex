@@ -1786,5 +1786,34 @@ ul li{
 	.btn-view-more{
 		background: #08F2C5;
 		border-radius: 35px;
+		max-width: 240px;
+		color: $white;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.card-title{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 35px;
+		color: $black;
+	}
+	.badges{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 23px;
+		color: #969696;
+		.badge-pill {
+			padding-right: 1em;
+			padding-left: 1em;
+		}
+		.badge{
+			background: #CEFFF6;
+		}
+		.badge:nth-last-child(0){
+			background: #D6D6FF;
+		}
 	}
 }

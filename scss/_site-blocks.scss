@@ -1771,3 +1771,20 @@ ul li{
 		background: unset;
 	}
 }
+.case-study{
+	.case-study-box{
+		color: $white;
+		.study_box{
+			margin: 15px;
+			background: linear-gradient(135deg, #0909AD 0%, #08F2C5 100%);
+			min-height: 180px;
+			min-width: 180px;
+		}
+	}
+}
+.section-flex-news{
+	.btn-view-more{
+		background: #08F2C5;
+		border-radius: 35px;
+	}
+}

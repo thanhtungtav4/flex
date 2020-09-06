@@ -1710,3 +1710,62 @@ ul li{
 		border: 2px solid $white;
 	}
 }
+.slide-one-item{
+	font-style: normal;
+	.card-wrap {
+		margin: 0 auto;
+	}
+	.card {
+		position: relative;
+		margin: 0 auto;
+		border: none;
+		box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		border-radius: 0;
+	}
+
+	.card-img-top {
+		width: 367px;
+		background: #ccc;
+
+		img {
+			min-height: 16rem;
+			display: block;
+			object-fit: cover;
+		}
+	}
+
+	.card-block-content {
+		padding: 24px;
+		text-align: left;
+		.blockquote-designation{
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 23px;
+		}
+		.position-custome{
+			font-style: italic;
+			font-weight: 250;
+			font-size: 16px;
+			line-height: 23px;
+		}
+	}
+
+	.card .card-block {
+		position: relative;
+		width: calc(100% - 367px);
+	}
+	.card .card-text {
+		margin-bottom: 0;
+	}
+
+	.card-designation {
+		font-size: 12px;
+		color: #9b9b9b;
+		margin-top: 24px;
+		display: inline-block;
+	}
+
+}

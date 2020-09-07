@@ -1649,6 +1649,8 @@ h1, h2, h3, h4, h5,
     color: #fff; }
 
 .why-select-flex {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   color: #000;
   font-style: normal;
   text-align: center;
@@ -1714,7 +1716,8 @@ h1, h2, h3, h4, h5,
       font-style: italic;
       font-weight: bold;
       font-size: 36px;
-      line-height: 48px; }
+      line-height: 48px;
+      color: #969696; }
   .grown-up-flex #cart-custime .card .card-block {
     position: relative;
     width: calc(100% - 40%); }
@@ -1724,7 +1727,7 @@ h1, h2, h3, h4, h5,
     font-weight: bold;
     font-size: 18px;
     line-height: 26px;
-    text-align: center; }
+    text-align: justify; }
   .grown-up-flex #cart-custime .card-designation {
     font-size: 12px;
     color: #9b9b9b;

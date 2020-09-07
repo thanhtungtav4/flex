@@ -1,3 +1,7 @@
+@mixin padding_section{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
 .site-blocks-cover {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1511,6 +1515,7 @@
 	}
 }
 .why-select-flex{
+	@include padding_section();
 	color: $black;
 	font-style: normal;
 	text-align: center;
@@ -1592,6 +1597,8 @@
 				font-weight: bold;
 				font-size: 36px;
 				line-height: 48px;
+				color: #969696;
+
 			}
 		}
 
@@ -1606,7 +1613,7 @@
 			font-weight: bold;
 			font-size: 18px;
 			line-height: 26px;
-			text-align: center;
+			text-align: justify;
 		}
 
 		.card-designation {

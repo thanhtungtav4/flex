@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="min size image">
-      <change afterPath="$PROJECT_DIR$/images/reg-maketing-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project_flex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project_flex_fly.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-flex-one.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/project-flex-one.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-blocks.scss" afterDir="false" />
     </list>
@@ -50,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../factory-trip-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +72,12 @@
       <workItem from="1599270880692" duration="1137000" />
       <workItem from="1599306516690" duration="6975000" />
       <workItem from="1599322102290" duration="2754000" />
-      <workItem from="1599360764396" duration="17183000" />
+      <workItem from="1599360764396" duration="17392000" />
+      <workItem from="1599443077761" duration="217000" />
+      <workItem from="1599443684813" duration="99000" />
+      <workItem from="1599443806643" duration="12000" />
+      <workItem from="1599443858331" duration="193000" />
+      <workItem from="1599497713172" duration="2497000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1599068458785</created>
@@ -212,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599412019103</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="min size image">
+      <created>1599413743450</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599413743450</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,20 +256,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="min size image" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599310075290">
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599444052504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078420062" />
     <state x="2013" y="-17" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599272737694" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599310075290" />
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599412026923">
-      <screen x="-1366" y="375" width="1366" height="728" />
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599444052504" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599443923457">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599412026923" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599413754794" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599160296375" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599443923457" />
     <state x="645" y="62" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599074413093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,5 +290,9 @@
       <screen x="-1366" y="375" width="1366" height="728" />
     </state>
     <state x="-1027" y="350" key="run.anything.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599074917286" />
+    <state x="-996" y="49" key="search.everywhere.popup" timestamp="1599443862751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-996" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599443862751" />
   </component>
 </project>

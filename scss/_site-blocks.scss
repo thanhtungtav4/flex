@@ -1467,15 +1467,17 @@
 		line-height: 120.1%;
 		font-size: 3rem;
 		position: relative;
-		.line-vertical{
-			position: absolute;
-			background: #08F2C5;
-			color: #08F2C5;
-			max-height: 208px;
-			height: 100%;
-			width: 50px;
-			top: 0;
+		z-index: 99;
 		}
+	.line-vertical{
+		top: 0;
+		height: 200px;
+		position: absolute;
+		width: 60px;
+		color: #08F2C5;
+		background: #08F2C5;
+		z-index: 1;
+		left: 4px;
 	}
 	.text-service-maketing-description{
 		font-style: normal;

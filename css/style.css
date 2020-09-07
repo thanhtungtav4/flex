@@ -1610,7 +1610,16 @@ h1, h2, h3, h4, h5,
     font-style: normal;
     font-weight: 800;
     line-height: 120.1%;
-    font-size: 3rem; }
+    font-size: 3rem;
+    position: relative; }
+    .maketing-box .text-service-maketing .line-vertical {
+      position: absolute;
+      background: #08F2C5;
+      color: #08F2C5;
+      max-height: 208px;
+      height: 100%;
+      width: 50px;
+      top: 0; }
   .maketing-box .text-service-maketing-description {
     font-style: normal;
     font-weight: bold;

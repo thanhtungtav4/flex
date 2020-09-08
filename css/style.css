@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5,
     max-height: 400px; }
 
 .site-blocks-cover .aos-init {
-  margin-top: 9vh; }
+  margin-top: 0; }
 
 /* Blocks */
 .site-blocks-cover {

@@ -353,8 +353,6 @@
 	z-index: 100;
 	width: 100%;
 	& + .site-blocks-cover {
-		// margin-top: 140px;
-		//margin-top: 96px;
 	}
 	.site-navbar {
 		transition: .3s all ease;
@@ -374,7 +372,7 @@
 }
 .site-blocks-cover{
 	.aos-init{
-		margin-top: 9vh;
+		margin-top: 0;
 	}
 }
 

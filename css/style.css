@@ -1759,7 +1759,8 @@ h1, h2, h3, h4, h5,
   font-size: 48px;
   line-height: 65px;
   text-align: center;
-  color: #000; }
+  color: #000;
+  z-index: 99; }
 
 .section-inbound-marketing {
   font-style: normal;
@@ -1862,7 +1863,8 @@ ul li {
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
-    border-radius: 100px; }
+    border-radius: 100px;
+    max-width: 324px; }
   .section-get-grow .info-description {
     width: 600px;
     text-align: center;
@@ -1994,5 +1996,14 @@ ul li {
   padding-bottom: 3rem;
   background: #F5F5F5;
   border-bottom-left-radius: 20%; }
+  .section_procedure .title-flex {
+    position: relative; }
+  .section_procedure .line-vertical-procedure {
+    width: 267px;
+    height: 43px;
+    bottom: -8px;
+    left: 0;
+    background: #08F2C5;
+    z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */

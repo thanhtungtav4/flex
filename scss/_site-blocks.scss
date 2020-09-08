@@ -7,6 +7,7 @@
 	background-repeat: no-repeat;
 	background-position: top;
 	background-position: center center;
+	max-height: 600px;
 	&.overlay {
 		position: relative;
 		&:before {
@@ -1453,9 +1454,11 @@
 	color: $white;
 	border: 1px solid $btn_bg;
 	background: $btn_bg;
-	padding: 10px 20px;
+	padding: 14px 50px;
 	font-style: normal;
 	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
 
 	&:hover {
 		background: $white;
@@ -1512,6 +1515,7 @@
 		background: $color_logo;
 		border-radius: 26.5px;
 		color: $white;
+		max-width: 210px;
 	}
 }
 .why-select-flex{

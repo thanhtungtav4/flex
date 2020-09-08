@@ -1687,6 +1687,8 @@
 	}
 	.flywhell-tittle{
 		text-align: left;
+		z-index: 99;
+		position: relative;
 	}
 	.customer_retention{
 		font-style: normal;
@@ -1699,6 +1701,16 @@
 		li{
 			font-size: 16px;
 			line-height: 23px;
+		}
+	}
+	.box-flywhell{
+		.line-vertical-flywhell{
+			width: 327px;
+			height: 35px;
+			left: -17px;
+			background: #08F2C5;
+			top: 36px;
+			z-index: 1;
 		}
 	}
 }

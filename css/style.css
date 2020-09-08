@@ -1783,7 +1783,9 @@ h1, h2, h3, h4, h5,
   .flywheel-section .box-change-image-fly-wheel:hover {
     background-image: url("../images/fly-whell-hover.png"); }
 .flywheel-section .flywhell-tittle {
-  text-align: left; }
+  text-align: left;
+  z-index: 99;
+  position: relative; }
 .flywheel-section .customer_retention {
   font-style: normal;
   font-weight: 500;
@@ -1794,6 +1796,13 @@ h1, h2, h3, h4, h5,
   .flywheel-section .detail_customer_retention li {
     font-size: 16px;
     line-height: 23px; }
+.flywheel-section .box-flywhell .line-vertical-flywhell {
+  width: 327px;
+  height: 35px;
+  left: -17px;
+  background: #08F2C5;
+  top: 36px;
+  z-index: 1; }
 
 ul {
   padding-left: 0; }

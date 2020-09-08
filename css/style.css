@@ -1653,7 +1653,7 @@ h1, h2, h3, h4, h5,
     max-width: 210px; }
 
 .why-select-flex {
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 6rem;
   color: #000;
   font-style: normal;
@@ -1669,20 +1669,33 @@ h1, h2, h3, h4, h5,
     font-weight: 250;
     font-size: 16px;
     line-height: 23px;
-    text-align: center; }
+    text-align: center;
+    max-width: 673px;
+    margin: 0 auto; }
   .why-select-flex .why-select-flex-box {
     text-align: center; }
+    .why-select-flex .why-select-flex-box .card {
+      box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
+      border-radius: 10px; }
     .why-select-flex .why-select-flex-box .card-title {
       font-weight: bold;
       font-size: 18px;
-      line-height: 26px; }
+      line-height: 26px;
+      max-width: 200px;
+      margin: 0 auto;
+      font-style: normal;
+      text-align: center; }
     .why-select-flex .why-select-flex-box .card-text {
+      width: 260px;
+      margin: 0 auto;
+      font-style: normal;
       font-weight: 300;
       font-size: 16px;
-      line-height: 23px; }
+      line-height: 23px;
+      text-align: center; }
     .why-select-flex .why-select-flex-box .card-body img {
       padding: 15px;
-      margin-bottom: 0.75rem; }
+      margin: 1rem; }
 
 .grown-up-flex {
   background: #F5F5F5;
@@ -1715,7 +1728,8 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 30px; }
   .grown-up-flex #cart-custime .card-block-content {
-    padding: 24px; }
+    padding: 24px;
+    height: 359px; }
     .grown-up-flex #cart-custime .card-block-content .card-title {
       font-style: italic;
       font-weight: bold;
@@ -1726,7 +1740,8 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: calc(100% - 40%); }
   .grown-up-flex #cart-custime .card .card-text {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    height: 135px; }
   .grown-up-flex #cart-custime .child-designation {
     font-weight: bold;
     font-size: 18px;

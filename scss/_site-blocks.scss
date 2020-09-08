@@ -1536,23 +1536,38 @@
 		font-size: 16px;
 		line-height: 23px;
 		text-align: center;
+		max-width: 673px;
+		margin: 0 auto;
+
 	}
 	.why-select-flex-box{
 		text-align: center;
+		.card{
+			box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
+			border-radius: 10px;
+		}
 		.card-title{
 			font-weight: bold;
 			font-size: 18px;
 			line-height: 26px;
+			max-width: 200px;
+			margin: 0 auto;
+			font-style: normal;
+			text-align: center;
 		}
 		.card-text{
+			width: 260px;
+			margin: 0 auto;
+			font-style: normal;
 			font-weight: 300;
 			font-size: 16px;
 			line-height: 23px;
+			text-align: center;
 		}
 		.card-body{
 			img{
 				padding: 15px;
-				margin-bottom: 0.75rem;
+				margin: 1rem;
 			}
 		}
 	}
@@ -1596,6 +1611,7 @@
 
 		.card-block-content {
 			padding: 24px;
+			height: 359px;
 			.card-title{
 				font-style: italic;
 				font-weight: bold;
@@ -1612,6 +1628,7 @@
 		}
 		.card .card-text {
 			margin-bottom: 0;
+			height: 135px;
 		}
 		.child-designation{
 			font-weight: bold;

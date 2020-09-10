@@ -2103,5 +2103,47 @@ ul li {
       font-size: 16px;
       line-height: 23px;
       max-width: 236px; }
+  .why-need-seo .line-vertical-flywhell {
+    width: 326px;
+    height: 37px;
+    background: #08F2C5;
+    top: 36px;
+    z-index: 1; }
+
+.select-maketing-flex {
+  background: linear-gradient(90deg, #08F2C5 0%, #0909AD 100%);
+  border-bottom-right-radius: 11rem;
+  border-top-left-radius: 11rem; }
+  .select-maketing-flex .title-flex {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px; }
+  .select-maketing-flex .strong {
+    font-weight: bold; }
+  .select-maketing-flex .card {
+    max-width: 325px;
+    max-height: 325px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    margin: 0 auto; }
+  .select-maketing-flex .card-text {
+    padding-top: 15px;
+    max-width: 256px;
+    text-align: justify;
+    margin: 0 auto; }
+  .select-maketing-flex .btn-view-more {
+    width: 211px;
+    background: #08F2C5;
+    border-radius: 28.5px;
+    color: #fff !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
 
 /*# sourceMappingURL=style.css.map */

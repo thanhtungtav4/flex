@@ -2087,4 +2087,52 @@ ul li{
 			max-width: 236px;
 		}
 	}
+	.line-vertical-flywhell{
+		width: 326px;
+		height: 37px;
+		background: #08F2C5;
+		top: 36px;
+		z-index: 1;
+	}
+}
+.select-maketing-flex{
+	background: linear-gradient(90deg, #08F2C5 0%, #0909AD 100%);
+	border-bottom-right-radius: 11rem;
+	border-top-left-radius: 11rem;
+	.title-flex{
+		color: $white;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 65px;
+	}
+	.strong{
+		font-weight: bold;
+	}
+	.card{
+		max-width: 325px;
+		max-height: 325px;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.card-text{
+		padding-top: 15px;
+		max-width: 256px;
+		text-align: justify;
+		margin: 0 auto;
+	}
+	.btn-view-more{
+		width: 211px;
+		background: #08F2C5;
+		border-radius: 28.5px;
+		color: $white !important;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 26px;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
 }

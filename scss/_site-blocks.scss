@@ -2012,3 +2012,21 @@ ul li{
 		padding: 15px;
 	}
 }
+.site-blocks-page-2{
+	background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
+	height: 500px;
+	.text-service-maketing{
+		color: $white;
+	}
+	.block-2-description{
+		color: $white;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.btn_reg{
+		border: 1px solid $color_logo;
+		background: $color_logo;
+	}
+}

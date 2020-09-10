@@ -2043,4 +2043,19 @@ ul li {
 .customer-feedback .card-container {
   padding: 15px; }
 
+.site-blocks-page-2 {
+  background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
+  height: 500px; }
+  .site-blocks-page-2 .text-service-maketing {
+    color: #fff; }
+  .site-blocks-page-2 .block-2-description {
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px; }
+  .site-blocks-page-2 .btn_reg {
+    border: 1px solid #08F2C5;
+    background: #08F2C5; }
+
 /*# sourceMappingURL=style.css.map */

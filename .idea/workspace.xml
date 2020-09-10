@@ -85,7 +85,7 @@
       <workItem from="1599579314519" duration="5132000" />
       <workItem from="1599616393328" duration="35000" />
       <workItem from="1599731043281" duration="2066000" />
-      <workItem from="1599743818047" duration="3504000" />
+      <workItem from="1599743818047" duration="6476000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1599068458785</created>
@@ -332,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599734422181</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update home 2 banner 2">
+      <created>1599748531848</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599748531848</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,10 +380,10 @@
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599616426180" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599734428506">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599748545772">
+      <screen x="-1366" y="375" width="1366" height="728" />
     </state>
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599588627364" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599748545772" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599734428506" />
     <state x="645" y="62" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599074413093">

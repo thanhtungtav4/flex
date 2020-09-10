@@ -2053,5 +2053,38 @@ ul li{
 	}
 }
 .what-seo{
-
+	.line-vertical-seo{
+		width: 326px;
+		height: 37px;
+		background: #08F2C5;
+		top: 36px;
+		z-index: 1;
+	}
+	.seo-tittle{
+		z-index: 99;
+		position: relative;
+	}
+}
+.why-need-seo{
+	background: #F5F5F5;
+	color: $black;
+	font-style: normal;
+	border-top-right-radius: 20%;
+	.seo-card-box{
+		margin-bottom: 3rem;
+		margin-top: 3rem;
+		.seo-tittle-card{
+			padding-top: 15px;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 26px;
+			max-width: 236px;
+		}
+		.seo-card-description{
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 23px;
+			max-width: 236px;
+		}
+	}
 }

@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="update card">
+      <change afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
@@ -51,6 +52,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\flex" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +83,9 @@
       <workItem from="1599497713172" duration="4901000" />
       <workItem from="1599530290291" duration="270000" />
       <workItem from="1599550319914" duration="3978000" />
-      <workItem from="1599579314519" duration="3463000" />
+      <workItem from="1599579314519" duration="5132000" />
+      <workItem from="1599616393328" duration="35000" />
+      <workItem from="1599731043281" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1599068458785</created>
@@ -296,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599588181285</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update card">
+      <created>1599588618164</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599588618164</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,18 +342,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="update card" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599530558911">
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599616426180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078420062" />
     <state x="2013" y="-17" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599272737694" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599530558911" />
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599588188183">
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599616426180" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599588627364">
       <screen x="-1366" y="375" width="1366" height="728" />
     </state>
-    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599588188183" />
+    <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599588627364" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599553703021" />
     <state x="645" y="62" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599074413093">

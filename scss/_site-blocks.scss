@@ -1,3 +1,6 @@
+*{
+	font-family: 'Be Vietnam', sans-serif;
+}
 @mixin padding_section{
 	padding-top: 3rem;
 	padding-bottom: 6rem;
@@ -391,7 +394,7 @@
 			position: absolute!important;
 			top: 50%!important;
 			bottom: auto!important;
-			width: 100%;
+			width: 80%;
 			@include media-breakpoint-down(md) {
 				display: none;
 			}
@@ -424,7 +427,7 @@
 				position: absolute;
 				line-height: 0;
 				top: 50%;
-				left: 50%;
+				left: 30%;
 				transform: translate(-50%, -50%);
 			}
 			
@@ -1873,6 +1876,29 @@ ul li{
 			min-height: 180px;
 			min-width: 180px;
 		}
+		.number-study{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 72px;
+			line-height: 105px;
+			text-align: center;
+		}
+		.number-study-description{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 35px;
+			text-align: center;
+		}
+		.line-vertical-case-study{
+			z-index: 99;
+			width: 260px;
+			height: 43px;
+			left: 117px;
+			top: 6806px;
+			position: absolute;
+			background: #08F2C5;
+		}
 	}
 }
 .section-flex-news{
@@ -1965,5 +1991,24 @@ ul li{
 		left: 0;
 		background: #08F2C5;
 		z-index: 1;
+	}
+}
+.customer-feedback{
+	.card-block-content{
+		max-width: 327px;
+		.card-title{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 36px;
+			line-height: 53px;
+		}
+	}
+	.card{
+		background: #FFFFFF;
+		box-shadow: 0px 0px 20px rgba(9, 9, 173, 0.5);
+		border-radius: 10px;
+	}
+	.card-container{
+		padding: 15px;
 	}
 }

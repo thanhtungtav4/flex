@@ -1869,7 +1869,7 @@ ul li {
     border-radius: 100px;
     max-width: 324px; }
   .section-get-grow .info-description {
-    width: 600px;
+    max-width: 600px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 2rem; }

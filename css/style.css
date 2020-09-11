@@ -2224,6 +2224,62 @@ ul li {
         line-height: 26px;
         color: #000; }
 
+.site-blocks-page-3 {
+  background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
+  font-style: normal;
+  color: #fff; }
+  .site-blocks-page-3 .text-hello {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #fff; }
+  .site-blocks-page-3 .text-flex-banner-3 .fiks {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #fff;
+    position: absolute;
+    left: 11rem; }
+  .site-blocks-page-3 .block-3-description {
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    line-height: 23px; }
+
+.the-finest-experience-marketing .the-finest-experience-marketing-bg {
+  background-image: url("../images/the-finest-experience-marketing-section-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .the-finest-experience-marketing .the-finest-experience-marketing-bg .the-finest-experience-des {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #000; }
+
+.flex-custome-section {
+  background: linear-gradient(90deg, #08F2C5 0%, #0909AD 100%);
+  font-style: normal; }
+  .flex-custome-section .flex-custome-tittle {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #fff; }
+  .flex-custome-section .flex-custome-logo .col-md-4 {
+    padding: 15px; }
+  .flex-custome-section .btn-view-more {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff !important;
+    width: 211px;
+    height: 57px;
+    background: #08F2C5;
+    border-radius: 28.5px; }
+
 @media (max-width: 991.98px) {
   .customer-feedback .card-img-top {
     width: 270px; }

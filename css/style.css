@@ -1898,11 +1898,14 @@ ul li {
       object-fit: cover; }
   .slide-one-item .card-block-content {
     padding: 24px;
-    text-align: left; }
+    text-align: left;
+    margin: 0 auto; }
     .slide-one-item .card-block-content .blockquote-designation {
       font-weight: 300;
       font-size: 16px;
-      line-height: 23px; }
+      line-height: 23px;
+      font-style: normal;
+      padding-top: 2rem; }
     .slide-one-item .card-block-content .position-custome {
       font-style: italic;
       font-weight: 250;
@@ -2147,5 +2150,25 @@ ul li {
       line-height: 26px;
       margin-top: 3rem;
       margin-bottom: 3rem; }
+
+.overall_seo_process .line-vertical-flywhell {
+  width: 326px;
+  height: 37px;
+  background: #08F2C5;
+  top: 36px;
+  z-index: 1; }
+.overall_seo_process .overall_seo_process_text_box {
+  max-width: 445px;
+  color: #000;
+  font-style: normal;
+  margin: 0 auto; }
+  .overall_seo_process .overall_seo_process_text_box .overall_seo_process_title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px; }
+  .overall_seo_process .overall_seo_process_text_box .overall_seo_process_des {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px; }
 
 /*# sourceMappingURL=style.css.map */

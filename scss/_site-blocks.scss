@@ -1830,10 +1830,13 @@ ul li{
 	.card-block-content {
 		padding: 24px;
 		text-align: left;
+		margin: 0 auto;
 		.blockquote-designation{
 			font-weight: 300;
 			font-size: 16px;
 			line-height: 23px;
+			font-style: normal;
+			padding-top: 2rem;
 		}
 		.position-custome{
 			font-style: italic;
@@ -2139,4 +2142,29 @@ ul li{
 		}
 	}
 
+}
+.overall_seo_process{
+	.line-vertical-flywhell {
+		width: 326px;
+		height: 37px;
+		background: #08F2C5;
+		top: 36px;
+		z-index: 1;
+	}
+	.overall_seo_process_text_box{
+		max-width: 445px;
+		color: $black;
+		font-style: normal;
+		margin: 0 auto;
+		.overall_seo_process_title{
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 35px;
+		}
+		.overall_seo_process_des{
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 23px;
+		}
+	}
 }

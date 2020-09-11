@@ -86,6 +86,8 @@
       <workItem from="1599616393328" duration="35000" />
       <workItem from="1599731043281" duration="2066000" />
       <workItem from="1599743818047" duration="10613000" />
+      <workItem from="1599799220352" duration="44000" />
+      <workItem from="1599833567201" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1599068458785</created>
@@ -386,14 +388,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="update home 2 banner 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599616426180">
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1599799263834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078420062" />
     <state x="2013" y="-17" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599272737694" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599616426180" />
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599799263834" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2" timestamp="1599753254467">
       <screen x="-1366" y="375" width="1366" height="728" />
     </state>

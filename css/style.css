@@ -2215,6 +2215,14 @@ ul li {
     border-radius: 10px; }
     .section-send-feedback .get-submit-box .custome-padding-form {
       padding: 4rem; }
+      .section-send-feedback .get-submit-box .custome-padding-form .form-control {
+        border-radius: unset; }
+      .section-send-feedback .get-submit-box .custome-padding-form .col-form-label, .section-send-feedback .get-submit-box .custome-padding-form .title-checkbox {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        color: #000; }
 
 @media (max-width: 991.98px) {
   .customer-feedback .card-img-top {

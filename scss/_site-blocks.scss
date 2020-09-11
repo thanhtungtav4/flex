@@ -2215,41 +2215,52 @@ ul li{
 		border-radius: 10px;
 		.custome-padding-form{
 			padding: 4rem;
-		}
-	}
+			.form-control {
+				border-radius: unset;
+			}
+			.col-form-label, .title-checkbox {
+				font-style: normal;
+				font-weight: bold;
+				font-size: 18px;
+				line-height: 26px;
+				color: $black;
+
+			}
+    }
+}
 }
 
 .customer-feedback{
 
-	// Small devices (landscape phones, less than 768px)
-	@include media-breakpoint-down(md) {
-		 .card-img-top {
-			width: 270px;
-		}
-		.card-block-content{
-			padding: 0rem;
-		}
-		.card-block-content .blockquote-designation {
-			padding-top: 1rem;
-		}
-		.card .card-block {
-			position: relative;
-			width: calc(100% - 300px);
-		}
-		.card-block-content .card-title {
-			font-size: 28px;
-		}
-	}
-	// Extra small devices (portrait phones, less than 576px)
-	@include media-breakpoint-down(sm) {
-		.card-img-top {
-			width: 220px;
-		}
-		.testimonial {
-			max-width: 600px;
-		}
-		.card .card-block {
-			width: calc(100% - 230px);
-		}
-	}
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(md) {
+     .card-img-top {
+        width: 270px;
+    }
+    .card-block-content{
+        padding: 0rem;
+    }
+    .card-block-content .blockquote-designation {
+        padding-top: 1rem;
+    }
+    .card .card-block {
+        position: relative;
+        width: calc(100% - 300px);
+    }
+    .card-block-content .card-title {
+        font-size: 28px;
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+    .card-img-top {
+        width: 220px;
+    }
+    .testimonial {
+        max-width: 600px;
+    }
+    .card .card-block {
+        width: calc(100% - 230px);
+    }
+}
 }

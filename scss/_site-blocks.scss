@@ -2361,6 +2361,70 @@ ul li{
 		}
 	}
 }
+.community-section{
+	.line-vertical-flywhell{
+		width: 326px;
+		height: 37px;
+		background: #08F2C5;
+		top: 36px;
+		z-index: 1;
+	}
+	.community-des{
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 23px;
+		color: $black;
+		max-width: 600px;
+	}
+	.card {
+		max-width: 325px;
+		max-height: 325px;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		text-align: center;
+		margin: 0 auto;
+		.card-text{
+			max-width: 256px;
+			text-align: center;
+			padding-top: 15px;
+		}
+		@include media-breakpoint-down(md) {
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
+		.card-body{
+			@include media-breakpoint-down(md) {
+				min-height: 230px;
+			}
+		}
+	}
+}
+.section-mission{
+	background-image: url("../images/bg-section.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: $white;
+	font-style: normal;
+	.title-flex{
+		color: $white;
+	}
+	.mission-des{
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 35px;
+		text-align: center;
+	}
+}
+.bg-seo-maketing{
+	background: #F5F5F5;
+}
+.box-core{
+	padding: 2rem 1rem;
+	box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
 .customer-feedback{
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(md) {

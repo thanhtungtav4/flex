@@ -513,8 +513,7 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-position: center center;
-  max-height: 580px; }
+  background-position: center center; }
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
@@ -1687,7 +1686,7 @@ h1, h2, h3, h4, h5,
       font-style: normal;
       text-align: center; }
     .why-select-flex .why-select-flex-box .card-text {
-      width: 260px;
+      max-width: 260px;
       margin: 0 auto;
       font-style: normal;
       font-weight: 300;

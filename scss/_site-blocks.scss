@@ -2312,6 +2312,23 @@ ul li{
 		border-radius: 25px;
 		.block-feedback-description{
 			padding: 15px;
+			max-width: 386px;
+			border-bottom: 2px solid $white;
+		}
+		.start-box{
+			width: 89px;
+			height: 19px;
+			background: #08F2C5;
+			display: flex;
+		}
+		.star{
+			height: 12px;
+			width: 12px;
+			background-image: url("../images/star.png");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin-top: 3px;
+			margin-left: 4px;
 		}
 	}
 }

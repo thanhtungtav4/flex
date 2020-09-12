@@ -2290,16 +2290,19 @@ ul li {
     box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
     width: 443px;
     height: 374px;
-    border-radius: 25px; }
+    border-radius: 25px;
+    padding: 15px;
+    font-style: normal; }
     .word-section .customer-feedback-box .block-feedback-description {
-      padding: 15px;
+      position: relative;
       max-width: 386px;
       border-bottom: 2px solid #fff; }
     .word-section .customer-feedback-box .start-box {
       width: 89px;
       height: 19px;
       background: #08F2C5;
-      display: flex; }
+      display: flex;
+      margin: 10px; }
     .word-section .customer-feedback-box .star {
       height: 12px;
       width: 12px;
@@ -2308,6 +2311,25 @@ ul li {
       background-size: 100%;
       margin-top: 3px;
       margin-left: 4px; }
+    .word-section .customer-feedback-box .name-customer {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 26px; }
+    .word-section .customer-feedback-box .position-customer {
+      font-style: italic;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 23px; }
+    .word-section .customer-feedback-box .image-customer-box {
+      max-width: 128px;
+      max-height: 129px; }
+      .word-section .customer-feedback-box .image-customer-box img {
+        border-radius: 50%; }
+    .word-section .customer-feedback-box .custome-positon {
+      position: relative;
+      bottom: -4rem; }
+      .word-section .customer-feedback-box .custome-positon .mt-rem {
+        margin-top: 2rem; }
 
 @media (max-width: 991.98px) {
   .customer-feedback .card-img-top {

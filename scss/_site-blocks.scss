@@ -2310,8 +2310,10 @@ ul li{
 		width: 443px;
 		height: 374px;
 		border-radius: 25px;
+		padding: 15px;
+		font-style: normal;
 		.block-feedback-description{
-			padding: 15px;
+			position: relative;
 			max-width: 386px;
 			border-bottom: 2px solid $white;
 		}
@@ -2320,6 +2322,7 @@ ul li{
 			height: 19px;
 			background: #08F2C5;
 			display: flex;
+			margin: 10px;
 		}
 		.star{
 			height: 12px;
@@ -2329,6 +2332,32 @@ ul li{
 			background-size: 100%;
 			margin-top: 3px;
 			margin-left: 4px;
+		}
+		.name-customer{
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 26px;
+		}
+		.position-customer{
+			font-style: italic;
+			font-weight: 200;
+			font-size: 16px;
+			line-height: 23px;
+		}
+		.image-customer-box{
+			max-width: 128px;
+			max-height: 129px;
+			img{
+				border-radius: 50%;
+				//border: 17px solid red;
+			}
+		}
+		.custome-positon{
+			position: relative;
+			bottom: -4rem;
+			.mt-rem{
+				margin-top: 2rem;
+			}
 		}
 	}
 }

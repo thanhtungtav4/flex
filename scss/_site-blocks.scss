@@ -14,6 +14,12 @@ $blue_color : #08F2C5!default;
 		top: 24px;
 	}
 }
+@mixin des-p{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 23px;
+}
 @mixin text-des-nt{
 	font-weight: bold;
 	font-size: 24px;
@@ -1786,10 +1792,7 @@ $blue_color : #08F2C5!default;
 			.card-text {
 				max-width: 260px;
 				margin: 0 auto;
-				font-style: normal;
-				font-weight: 300;
-				font-size: 16px;
-				line-height: 23px;
+				@include des-p;
 				text-align: center;
 			}
 
@@ -2300,10 +2303,7 @@ $blue_color : #08F2C5!default;
 
 		.block-2-description {
 			color: $white;
-			font-style: normal;
-			font-weight: 300;
-			font-size: 16px;
-			line-height: 23px;
+			@include des-p;
 		}
 
 		.btn_reg {
@@ -2553,10 +2553,7 @@ $blue_color : #08F2C5!default;
 			background-size: cover;
 
 			.the-finest-experience-des {
-				font-style: normal;
-				font-weight: 300;
-				font-size: 16px;
-				line-height: 23px;
+				@include des-p;
 				text-align: center;
 				color: $black;
 			}
@@ -2676,10 +2673,7 @@ $blue_color : #08F2C5!default;
 		}
 
 		.community-des {
-			font-style: normal;
-			font-weight: 300;
-			font-size: 16px;
-			line-height: 23px;
+			@include des-p;
 			color: $black;
 			max-width: 600px;
 		}
@@ -2790,6 +2784,25 @@ $blue_color : #08F2C5!default;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: bottom;
+	}
+	.section-we-are-flex{
+		.we-are-flex-bg{
+			background: url("../images/bg_we_are_flex.png");
+			@include background-custome;
+		}
+		.we-are-flex-des{
+			@include des-p;
+			color: $white;
+		}
+		.title-flex{
+			color: $white;
+		}
+		.transform_rotate_we{
+			transform: rotate(-6.79deg);
+			img{
+				box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
+			}
+		}
 	}
 	.customer-feedback {
 		// Small devices (landscape phones, less than 768px)

@@ -2438,17 +2438,6 @@ ul li {
       width: 200px;
       height: 22px;
       top: 24px; } }
-.flex-user-section .btn-view-more {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 30px;
-  color: #fff !important;
-  width: 211px;
-  background: #08F2C5;
-  border-radius: 28.5px; }
-  .flex-user-section .btn-view-more:hover {
-    background: #0909AD; }
 .flex-user-section .pd-left-right .col-6 {
   padding-left: 6px;
   padding-right: 6px; }
@@ -2517,5 +2506,28 @@ ul li {
     max-width: 600px; }
   .customer-feedback .card .card-block {
     width: calc(100% - 230px); } }
+
+.btn-view-more {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff !important;
+  width: 211px;
+  background: #08F2C5;
+  border-radius: 28.5px; }
+  .btn-view-more:hover {
+    background: #0909AD; }
+
+.btn_blog {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  border: 5px solid #08F2C5;
+  width: 211px;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 28.5px; }
 
 /*# sourceMappingURL=style.css.map */

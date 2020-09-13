@@ -2530,4 +2530,11 @@ ul li {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 28.5px; }
 
+.up_item {
+  margin-top: -6rem;
+  margin-bottom: 20vh; }
+
+.down-item {
+  margin-bottom: 5rem; }
+
 /*# sourceMappingURL=style.css.map */

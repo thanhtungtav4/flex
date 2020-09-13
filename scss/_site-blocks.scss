@@ -2786,6 +2786,7 @@ $blue_color : #08F2C5!default;
 		background-position: bottom;
 	}
 	.section-we-are-flex{
+		overflow: hidden;
 		.we-are-flex-bg{
 			background: url("../images/bg_we_are_flex.png");
 			@include background-custome;
@@ -2801,6 +2802,35 @@ $blue_color : #08F2C5!default;
 			transform: rotate(-6.79deg);
 			img{
 				box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
+			}
+		}
+		.transform_rotate_gird{
+			margin-bottom: 20vh;
+			transform: rotate(-6.79deg);
+			@include media-breakpoint-down(md) {
+				transform: rotate(0);
+				text-align: center;
+			}
+
+		}
+		.no-gutters {
+			img{
+			padding: 6px;
+			}
+		}
+		.box-img-small{
+			img{
+				max-width: 302px;
+				max-height: 198px;
+				width: 100%;
+				height: auto;
+			}
+		}
+		.box-img-big{
+			img{
+				max-height: 396px;
+				width: 100%;
+				height: auto;
 			}
 		}
 	}

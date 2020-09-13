@@ -2541,4 +2541,9 @@ ul li {
 .down-item {
   margin-bottom: 5rem; }
 
+.banner-page-4 {
+  background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
+  transform: rotate(180deg);
+  height: 369px; }
+
 /*# sourceMappingURL=style.css.map */

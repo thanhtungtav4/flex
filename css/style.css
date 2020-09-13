@@ -509,6 +509,19 @@ h1, h2, h3, h4, h5,
 * {
   font-family: 'Be Vietnam', sans-serif; }
 
+.title-flex {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: #000;
+  z-index: 99; }
+  @media (max-width: 767.98px) {
+    .title-flex {
+      font-size: 30px;
+      line-height: 45px; } }
+
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
@@ -864,7 +877,7 @@ h1, h2, h3, h4, h5,
       background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
       background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
       background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0); }
   .block-12 .text-overlay {
     position: absolute;
     bottom: 20px;
@@ -1033,7 +1046,7 @@ h1, h2, h3, h4, h5,
     background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0); }
   .unit-1 img {
     object-fit: cover;
     transform: scale(1); }
@@ -1753,15 +1766,6 @@ h1, h2, h3, h4, h5,
     margin-top: 24px;
     display: inline-block; }
 
-.title-flex {
-  font-weight: bold;
-  font-style: normal;
-  font-size: 48px;
-  line-height: 65px;
-  text-align: center;
-  color: #000;
-  z-index: 99; }
-
 .section-inbound-marketing {
   font-style: normal;
   font-size: 16px;
@@ -2089,6 +2093,11 @@ ul li {
   background: #08F2C5;
   top: 36px;
   z-index: 1; }
+  @media (max-width: 767.98px) {
+    .what-seo .line-vertical-seo {
+      width: 200px;
+      height: 22px;
+      top: 24px; } }
 .what-seo .seo-tittle {
   z-index: 99;
   position: relative; }
@@ -2118,6 +2127,11 @@ ul li {
     background: #08F2C5;
     top: 36px;
     z-index: 1; }
+    @media (max-width: 767.98px) {
+      .why-need-seo .line-vertical-flywhell {
+        width: 200px;
+        height: 22px;
+        top: 24px; } }
 
 .select-maketing-flex {
   background: #F5F5F5; }
@@ -2272,10 +2286,9 @@ ul li {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 30px;
     color: #fff !important;
     width: 211px;
-    height: 57px;
     background: #08F2C5;
     border-radius: 28.5px; }
 
@@ -2392,10 +2405,25 @@ ul li {
   background: #08F2C5;
   top: 36px;
   z-index: 1; }
+  @media (max-width: 767.98px) {
+    .flex-agency-section .line-vertical-seo {
+      width: 200px;
+      height: 22px;
+      top: 24px; } }
 
 .great {
   font-size: 20rem;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 15rem; }
+  @media (max-width: 1199.98px) {
+    .great {
+      font-size: 10rem; } }
+  @media (max-width: 991.98px) {
+    .great {
+      font-size: 9rem; } }
+  @media (max-width: 767.98px) {
+    .great {
+      font-size: 7rem; } }
 
 .flex-user-section .line-vertical-seo {
   width: 326px;
@@ -2403,9 +2431,21 @@ ul li {
   background: #08F2C5;
   top: 36px;
   z-index: 1; }
+  @media (max-width: 767.98px) {
+    .flex-user-section .line-vertical-seo {
+      width: 200px;
+      height: 22px;
+      top: 24px; } }
 .flex-user-section .pd-left-right .col-6 {
   padding-left: 6px;
   padding-right: 6px; }
+
+.uc-first:first-letter {
+  text-transform: uppercase;
+  background: url("../images/first-letter.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom; }
 
 @media (max-width: 991.98px) {
   .customer-feedback .card-img-top {

@@ -14,11 +14,21 @@ $blue_color : #08F2C5!default;
 		top: 24px;
 	}
 }
-	@mixin padding_section {
+@mixin text-des-nt{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 35px;
+}
+@mixin background-custome{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+@mixin padding_section {
 		padding-top: 3rem;
 		padding-bottom: 6rem;
-	}
-	@mixin text_bold {
+}
+@mixin text_bold {
 		font-weight: bold;
 		font-style: normal;
 		font-size: 48px;
@@ -26,19 +36,18 @@ $blue_color : #08F2C5!default;
 		text-align: center;
 		color: $black;
 		z-index: 99;
-
-	}
-	@mixin small-text {
+}
+@mixin small-text {
 		font-weight: 300;
-	}
-	.title-flex {
+}
+.title-flex {
 		@include text_bold;
 		@include media-breakpoint-down(sm) {
 			font-size: 30px;
 			line-height: 45px;
 		}
 	}
-	.site-blocks-cover {
+.site-blocks-cover {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -2700,9 +2709,7 @@ $blue_color : #08F2C5!default;
 	}
 	.section-mission {
 		background-image: url("../images/bg-section.png");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
+		@include background-custome;
 		color: $white;
 		font-style: normal;
 		.title-flex {

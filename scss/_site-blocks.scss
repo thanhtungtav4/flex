@@ -2240,13 +2240,19 @@ $blue_color : #08F2C5!default;
 	.section-qa {
 		.card-title:after {
 			content: '+';
-			font-size: 15px;
-			color: #fff;
+			font-size: 30px;
+			font-weight: 700;
+			color: $black;
 			position: absolute;
 			right: 0;
 			top: 10px;
 			padding: 0 6px;
-			background: #6C7166;
+		}
+		.card-header {
+			background-color:unset;
+		}
+		.card{
+			border: unset;
 		}
 	}
 	.section_procedure {

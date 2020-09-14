@@ -2592,4 +2592,7 @@ ul li {
   margin-top: 4rem;
   margin-bottom: 2rem; }
 
+.site-menu .dropdown-toggle:after {
+  content: unset; }
+
 /*# sourceMappingURL=style.css.map */

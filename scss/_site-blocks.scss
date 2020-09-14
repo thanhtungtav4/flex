@@ -2938,3 +2938,8 @@ $blue_color : #08F2C5!default;
 	margin-top: 4rem;
 	margin-bottom: 2rem;
 }
+.site-menu{
+	.dropdown-toggle:after{
+		content: unset;
+	}
+	}

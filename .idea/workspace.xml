@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-blocks.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +94,7 @@
       <workItem from="1599970720491" duration="27000" />
       <workItem from="1600008646068" duration="18340000" />
       <workItem from="1600052733590" duration="58000" />
-      <workItem from="1600090250644" duration="11832000" />
-    </task>
-    <task id="LOCAL-00016" summary="min size image">
-      <created>1599363826294</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1599363826294</updated>
+      <workItem from="1600090250644" duration="12457000" />
     </task>
     <task id="LOCAL-00017" summary="min size image">
       <created>1599364971504</created>
@@ -442,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600101998490</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add hover event btn">
+      <created>1600105633145</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1600105633145</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,10 +474,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add hover event btn" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1058" y="313" key="CommitChangelistDialog2" timestamp="1600101996470">
+    <state x="-1058" y="313" key="CommitChangelistDialog2" timestamp="1600105631667">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
-    <state x="-1058" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600101996470" />
+    <state x="-1058" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600105631667" />
     <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600052790754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -490,11 +487,11 @@
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599905938458" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600052790754" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600102004108">
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600105639128">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600102004108" />
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600105639128" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />

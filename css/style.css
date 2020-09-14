@@ -1965,14 +1965,20 @@ ul li {
     font-size: 24px;
     line-height: 35px;
     text-align: center; }
-  .case-study .case-study-box .line-vertical-case-study {
-    z-index: 99;
-    width: 260px;
-    height: 43px;
-    left: 117px;
-    top: 6806px;
-    position: absolute;
-    background: #08F2C5; }
+.case-study .line-vertical-case-study {
+  width: 260px;
+  height: 43px;
+  left: 0;
+  top: 37px;
+  background: #08F2C5;
+  z-index: 1; }
+.case-study .site-section-heading {
+  left: 8%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  z-index: 99; }
 
 .section-flex-news {
   background: linear-gradient(100.38deg, #08A9BE 2.42%, #0909AD 95.88%);
@@ -2052,6 +2058,12 @@ ul li {
   background-color: unset; }
 .section-qa .card {
   border: unset; }
+.section-qa .q_and_a {
+  width: 110px;
+  height: 37px;
+  background: #08F2C5;
+  top: 36px;
+  z-index: 1; }
 
 .section_procedure {
   padding-top: 3rem;

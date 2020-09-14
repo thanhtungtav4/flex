@@ -1876,7 +1876,7 @@ ul li {
     font-size: 42px;
     line-height: 70px; }
   .section-get-grow .btn-download {
-    border: 5px solid #fff;
+    border: 3px solid #fff;
     box-sizing: border-box;
     font-style: normal;
     font-weight: bold;
@@ -2575,5 +2575,9 @@ ul li {
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate3d(0, -3px, 0);
   box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2); }
+
+.custome-top-home {
+  margin-top: 4rem;
+  margin-bottom: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

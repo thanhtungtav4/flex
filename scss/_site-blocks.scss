@@ -2030,7 +2030,7 @@ $blue_color : #08F2C5!default;
 		}
 
 		.btn-download {
-			border: 5px solid $white;
+			border: 3px solid $white;
 			box-sizing: border-box;
 			font-style: normal;
 			font-weight: bold;
@@ -2863,6 +2863,7 @@ $blue_color : #08F2C5!default;
 			.card-block-content .card-title {
 				font-size: 28px;
 			}
+
 		}
 		// Extra small devices (portrait phones, less than 576px)
 		@include media-breakpoint-down(sm) {
@@ -2919,4 +2920,8 @@ $blue_color : #08F2C5!default;
 		transform: translate3d(0,-3px,0);
 		box-shadow: 0 14px 26px -12px rgba(156,39,176,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(156,39,176,.2);
 	}
+}
+.custome-top-home{
+	margin-top: 4rem;
+	margin-bottom: 2rem;
 }

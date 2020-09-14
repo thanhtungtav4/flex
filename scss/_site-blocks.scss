@@ -1683,10 +1683,11 @@ $blue_color : #08F2C5!default;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 26px;
-
+		transition: all .2s cubic-bezier(.4,0,.2,1);
 		&:hover {
-			background: $white;
-			border: $white;
+			background: $color_logo;
+			border: $color_logo;
+			color: $white;
 		}
 	}
 	.maketing-box {
@@ -1782,6 +1783,10 @@ $blue_color : #08F2C5!default;
 			.card {
 				box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
 				border-radius: 10px;
+				transition: all .2s cubic-bezier(.4,0,.2,1);
+				&:hover{
+					transform: translate3d(0,-10px,0);
+				}
 			}
 
 			.card-title {
@@ -1970,7 +1975,10 @@ $blue_color : #08F2C5!default;
 				margin: 0 auto;
 				box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
 				border-radius: 10px;
-
+				transition: all .2s cubic-bezier(.4,0,.2,1);
+				&:hover{
+					transform: translate3d(0,-10px,0);
+				}
 				.card-body {
 					img {
 						padding: 20px;
@@ -2030,6 +2038,9 @@ $blue_color : #08F2C5!default;
 			line-height: 35px;
 			border-radius: 100px;
 			max-width: 324px;
+			&:hover{
+				background:$btn_bg;
+			}
 		}
 
 		.info-description {
@@ -2160,10 +2171,9 @@ $blue_color : #08F2C5!default;
 		}
 	}
 	.section-flex-news {
-		background: linear-gradient(100.38deg, #64F208 2.42%, #08A9BE 43.31%, #0909AD 95.88%);
+		background: linear-gradient(100.38deg, #08A9BE 2.42%, #0909AD 95.88%);
 		border-bottom-right-radius: 11rem;
 		border-top-left-radius: 11rem;
-
 		.btn-view-more {
 			background: $blue_color;
 			border-radius: 35px;
@@ -2179,8 +2189,14 @@ $blue_color : #08F2C5!default;
 		}
 
 		.card {
+			box-shadow: 0px 0px 12px rgba(9, 9, 173, 0.5);
 			background-color: unset;
 			border: unset;
+			border-radius: 10px;
+			transition: all .2s cubic-bezier(.4,0,.2,1);
+			&:hover{
+				transform: translate3d(0,-10px,0);
+			}
 		}
 
 		.card-body {
@@ -2211,6 +2227,10 @@ $blue_color : #08F2C5!default;
 
 			.badge {
 				background: #CEFFF6;
+				&:hover{
+					transform: translate3d(0,-3px,0);
+					transition: all .2s cubic-bezier(.4,0,.2,1);
+				}
 			}
 
 			.badge:nth-child(2) {
@@ -2893,6 +2913,10 @@ $blue_color : #08F2C5!default;
 	transform: rotate(180deg);
 	height: 369px;
 }
-.social_media_swipe{
-
+.btn{
+	&:hover{
+		transition: all .2s cubic-bezier(.4,0,.2,1);
+		transform: translate3d(0,-3px,0);
+		box-shadow: 0 14px 26px -12px rgba(156,39,176,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(156,39,176,.2);
+	}
 }

@@ -46,6 +46,12 @@ $blue_color : #08F2C5!default;
 @mixin small-text {
 		font-weight: 300;
 }
+@mixin des_text_page{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+}
 .title-flex {
 		@include text_bold;
 		@include media-breakpoint-down(sm) {
@@ -56,9 +62,7 @@ $blue_color : #08F2C5!default;
 .site-blocks-cover {
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: top;
-		background-position: center center;
-
+		background-position: center;
 		&.overlay {
 			position: relative;
 
@@ -78,11 +82,10 @@ $blue_color : #08F2C5!default;
 			bottom: -250px;
 			width: 100%;
 		}
-
-		//&, & > .container > .row {
-		//	min-height: 600px;
-		//	height: calc(100vh);
-		//}
+		.img-box{
+			margin-bottom: -2.3rem;
+			margin-top: -1rem;
+		}
 		&.inner-page-cover {
 			&, & > .container > .row {
 				min-height: 400px;
@@ -1707,14 +1710,12 @@ $blue_color : #08F2C5!default;
 			color: $blue_color;
 			background: $blue_color;
 			z-index: 1;
-			left: 4px;
+			left: 4%;
 		}
 
 		.text-service-maketing-description {
-			font-style: normal;
-			font-weight: bold;
-			font-size: 18px;
-			line-height: 26px;
+			@include des_text_page;
+			max-width: 450px;
 		}
 	}
 	.section-get-info {
@@ -1726,8 +1727,8 @@ $blue_color : #08F2C5!default;
 			font-weight: bold;
 			font-size: 18px;
 			line-height: 26px;
+			margin-bottom: 0.4rem;
 		}
-
 		.info-description {
 			font-weight: 500;
 			font-size: 15px;
@@ -1744,6 +1745,10 @@ $blue_color : #08F2C5!default;
 			border-radius: 26.5px;
 			color: $white;
 			max-width: 210px;
+			font-weight: bold;
+			&:hover{
+				background: $btn_bg;
+			}
 		}
 	}
 	.why-select-flex {
@@ -2423,10 +2428,7 @@ $blue_color : #08F2C5!default;
 				background: $blue_color;
 				border-radius: 28.5px;
 				color: $white !important;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 18px;
-				line-height: 26px;
+				@include des_text_page;
 				margin-top: 3rem;
 				margin-bottom: 3rem;
 			}
@@ -2471,10 +2473,7 @@ $blue_color : #08F2C5!default;
 			border: 5px solid $white;
 			box-sizing: border-box;
 			border-radius: 28.5px;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 18px;
-			line-height: 26px;
+			@include des_text_page;
 			color: $white;
 			width: 211px;
 			height: 57px;
@@ -2510,10 +2509,7 @@ $blue_color : #08F2C5!default;
 				}
 
 				.col-form-label, .title-checkbox {
-					font-style: normal;
-					font-weight: bold;
-					font-size: 18px;
-					line-height: 26px;
+					@include des_text_page;
 					color: $black;
 
 				}

@@ -1924,11 +1924,19 @@ ul li {
       line-height: 23px;
       font-style: normal;
       padding-top: 2rem; }
+      @media (max-width: 767.98px) {
+        .slide-one-item .card-block-content .blockquote-designation {
+          font-size: 12px;
+          line-height: 20px; } }
     .slide-one-item .card-block-content .position-custome {
       font-style: italic;
       font-weight: 250;
       font-size: 16px;
       line-height: 23px; }
+      @media (max-width: 767.98px) {
+        .slide-one-item .card-block-content .position-custome {
+          font-size: 14px;
+          line-height: 20px; } }
   .slide-one-item .card .card-block {
     position: relative;
     width: calc(100% - 367px); }
@@ -2540,13 +2548,19 @@ ul li {
     width: calc(100% - 300px); }
   .customer-feedback .card-block-content .card-title {
     font-size: 28px; } }
+  @media (max-width: 991.98px) and (max-width: 767.98px) {
+    .customer-feedback .card-block-content .card-title {
+      font-size: 18px;
+      line-height: 25px; } }
+
 @media (max-width: 767.98px) {
   .customer-feedback .card-img-top {
-    width: 220px; }
+    width: 190px; }
   .customer-feedback .testimonial {
     max-width: 600px; }
   .customer-feedback .card .card-block {
-    width: calc(100% - 230px); } }
+    width: calc(100% - 250px);
+    padding: 15px; } }
 
 .btn-view-more {
   font-style: normal;
@@ -2633,6 +2647,23 @@ ul li {
   .megamenu-nt {
     height: 100vh !important;
     overflow-y: scroll !important; } }
+@media (max-width: 500px) {
+  .customer-feedback .card-img-top {
+    width: 159px; }
+
+  .customer-feedback .card .card-block {
+    width: calc(100% - 163px);
+    padding: 15px; } }
+@media (max-width: 390px) {
+  .customer-feedback .card-img-top {
+    width: 140px; }
+
+  .customer-feedback .card .card-block {
+    width: calc(100% - 140px);
+    padding: 15px; }
+
+  .customer-feedback .card-container {
+    padding: 5px; } }
 .page-footer {
   background: #F5F5F5;
   color: #000;

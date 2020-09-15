@@ -2594,9 +2594,23 @@ ul li {
 
 .site-menu .dropdown-toggle:after {
   content: unset; }
-
-.dropdown-large {
-  padding: 20px; }
+.site-menu .nav-link {
+  font-style: normal;
+  font-weight: bold; }
+.site-menu .hsg-nav__header {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: #000; }
+.site-menu .hsg-nav__subheader {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #000; }
+.site-menu .col-megamenu .hsg-nav__box-link {
+  padding: 10px 5px; }
+  .site-menu .col-megamenu .hsg-nav__box-link:hover {
+    background-color: #e5f5f8; }
 
 @media all and (min-width: 992px) {
   .navbar {

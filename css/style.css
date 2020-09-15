@@ -2655,19 +2655,21 @@ ul li {
   .page-footer .footer-copyright .footer_info {
     color: #000;
     font-weight: 500; }
-  .page-footer .btn_contact_footer {
-    font-weight: bold;
-    font-style: normal;
-    font-size: 48px;
-    line-height: 65px;
-    text-align: center;
-    color: #000;
-    z-index: 99;
-    font-size: 2rem; }
-    .page-footer .btn_contact_footer:hover {
-      color: #0909AD; }
   .page-footer .footer_info {
     font-weight: 500;
-    font-size: 13px; }
+    font-size: 14px; }
+
+.btn_contact_footer {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: #000;
+  z-index: 99;
+  font-size: 2rem; }
+
+.btn_contact_footer:hover {
+  color: #0909AD; }
 
 /*# sourceMappingURL=style.css.map */

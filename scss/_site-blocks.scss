@@ -3013,15 +3013,16 @@ $blue_color : #08F2C5!default;
 		color: $black;
 		font-weight:500;
 	}
-	.btn_contact_footer{
-		@include text_bold;
-		font-size: 2rem;
-		&:hover{
-			color: $btn_bg;
-		}
-	}
+
 	.footer_info{
 		font-weight: 500;
-		font-size: 13px;
+		font-size: 14px;
 	}
+}
+.btn_contact_footer{
+	@include text_bold;
+	font-size: 2rem;
+}
+.btn_contact_footer:hover{
+	color: $btn_bg;
 }

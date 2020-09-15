@@ -2629,5 +2629,19 @@ ul li {
   .navbar .nav-link {
     padding-top: 1rem;
     padding-bottom: 1rem; } }
+@media (max-width: 767.98px) {
+  .megamenu-nt {
+    height: 100vh !important;
+    overflow-y: scroll !important; } }
+.page-footer {
+  background: #fff;
+  color: #000; }
+  .page-footer .titile_footer {
+    font-size: 14px;
+    font-weight: bold; }
+  .page-footer .list-unstyled li a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */

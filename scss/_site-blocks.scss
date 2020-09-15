@@ -2966,7 +2966,6 @@ $blue_color : #08F2C5!default;
 
 			}
 		}
-
 	}
 
 }
@@ -2976,4 +2975,24 @@ $blue_color : #08F2C5!default;
 	.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
 	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
 }
-
+@media (max-width: 767.98px) {
+	.megamenu-nt{
+		height: 100vh !important;
+		overflow-y: scroll !important;
+	}
+}
+.page-footer{
+	background: $white;
+	color: $black;
+	.titile_footer{
+		font-size: 14px;
+		font-weight:bold;
+	}
+	.list-unstyled{
+		li a{
+			color: $black;
+			font-size: 14px;
+			font-weight:500;
+		}
+	}
+}

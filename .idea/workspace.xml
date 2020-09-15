@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="" />
+    <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/project_flex_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Group-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-blocks.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,14 +102,7 @@
       <workItem from="1600052733590" duration="58000" />
       <workItem from="1600090250644" duration="12457000" />
       <workItem from="1600134018469" duration="104000" />
-      <workItem from="1600178406063" duration="16159000" />
-    </task>
-    <task id="LOCAL-00024" summary="min size image">
-      <created>1599504766297</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1599504766297</updated>
+      <workItem from="1600178406063" duration="17705000" />
     </task>
     <task id="LOCAL-00025" summary="min size image">
       <created>1599550995257</created>
@@ -438,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600203078534</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="update menu  foooter">
+      <created>1600203321173</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1600203321173</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,24 +488,25 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600199880936" />
-    <state x="-1058" y="313" key="CommitChangelistDialog2" timestamp="1600203077162">
+    <state x="-1058" y="313" key="CommitChangelistDialog2" timestamp="1600203320077">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
-    <state x="-1058" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600203077162" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600134121584">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1058" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600203320077" />
+    <state x="-840" y="506" key="FileChooserDialogImpl" timestamp="1600204734236">
+      <screen x="-1366" y="313" width="1366" height="728" />
     </state>
+    <state x="-840" y="506" key="FileChooserDialogImpl/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600204734236" />
     <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078420062" />
     <state x="2013" y="-17" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599272737694" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599905938458" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600134121584" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600203081942">
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600203327666">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600203081942" />
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600203327666" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />

@@ -2119,6 +2119,9 @@ ul li {
   .site-blocks-page-2 .btn_reg {
     border: 1px solid #08F2C5;
     background: #08F2C5; }
+    .site-blocks-page-2 .btn_reg:hover {
+      border: 1px solid #0909AD;
+      background: #0909AD; }
 
 .section-traffic-info {
   background: #F5F5F5;
@@ -2202,7 +2205,9 @@ ul li {
       padding-top: 4rem;
       padding-bottom: 4rem;
       text-align: center;
-      margin: 0 auto; }
+      margin: 0 auto;
+      box-shadow: 0px 0px 14px rgba(9, 9, 173, 0.3);
+      border-radius: 10px; }
     .select-maketing-flex .bg_select-maketing-flex .card-text {
       padding-top: 15px;
       max-width: 256px;
@@ -2219,6 +2224,8 @@ ul li {
       line-height: 26px;
       margin-top: 3rem;
       margin-bottom: 3rem; }
+      .select-maketing-flex .bg_select-maketing-flex .btn-view-more:hover {
+        background: #0909AD; }
 
 .overall_seo_process .line-vertical-flywhell {
   width: 326px;

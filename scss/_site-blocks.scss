@@ -2982,17 +2982,46 @@ $blue_color : #08F2C5!default;
 	}
 }
 .page-footer{
-	background: $white;
+	background: #F5F5F5;
 	color: $black;
+	font-size: 14px;
 	.titile_footer{
-		font-size: 14px;
-		font-weight:bold;
+		border-bottom: 2px solid #76c8a1;
+	}
+	.titile_footer1 {
+		border-bottom:2px solid #f9ca33;
+	}
+	.titile_footer2 {
+		border-bottom:2px solid #72a4db;
+	}
+	.titile_footer3 {
+		border-bottom:2px solid #9079c1;
 	}
 	.list-unstyled{
-		li a{
+		li {
+			padding-bottom: 15px;
+			a{
 			color: $black;
-			font-size: 14px;
 			font-weight:500;
+			&:hover{
+				color: $btn_bg;
+				}
+			}
 		}
+	}
+	.footer-copyright .footer_info{
+		color: $black;
+		font-weight:500;
+	}
+	.btn_contact_footer{
+		@include text_bold;
+		font-size: 2rem;
+		&:hover{
+			color: $btn_bg;
+		}
+	}
+	.footer_info{
+		font-weight: 500;
+		font-size: 13px;
 	}
 }

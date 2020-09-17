@@ -1,6 +1,7 @@
 *{
 	font-family: 'Be Vietnam', sans-serif;
 }
+$black:    #303030;
 $blue_color : #08F2C5!default;
 @mixin line_nt {
 	width: 326px;
@@ -2141,6 +2142,12 @@ $blue_color : #08F2C5!default;
 		}
 	}
 	.case-study {
+		.lead{
+			font-style: normal;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 23px;
+		}
 		.case-study-box {
 			color: $white;
 
@@ -2166,6 +2173,7 @@ $blue_color : #08F2C5!default;
 				line-height: 35px;
 				text-align: center;
 			}
+
 		}
 		.line-vertical-case-study {
 			width: 260px;
@@ -2347,7 +2355,7 @@ $blue_color : #08F2C5!default;
 	}
 	.site-blocks-page-2 {
 		background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
-		height: 500px;
+		min-height: 500px;
 
 		.text-service-maketing {
 			color: $white;
@@ -3070,4 +3078,13 @@ $blue_color : #08F2C5!default;
 }
 .btn_contact_footer:hover{
 	color: $btn_bg;
+}
+.project_flex_box{
+	background-image: url(../images/project_flex_fly.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&:hover{
+		background-image: url(../images/project_flex_hover.png);
+	}
 }

@@ -194,5 +194,5 @@ jQuery(document).ready(function($) {
 	 $(this).css("background-image", "url('images/fly-whell-hover.png')");
  });
  $(".project_flex_box").hover(function(){
-	 document.getElementsByClassName("project_flex_box").src = "images/project_flex_hover.png";
+	 $(this).css("background-image", "url('images/project_flex_hover.png')");
  });

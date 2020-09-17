@@ -277,7 +277,7 @@ $blue_color : #08F2C5!default;
 		color: darken($white, 40%);
 
 		&.no-margin-top {
-			margin-top: 0px;
+			margin-top: 0;
 		}
 
 		.feature-block-1 {
@@ -509,7 +509,7 @@ $blue_color : #08F2C5!default;
 				color: $black;
 				position: absolute !important;
 				top: 50%;
-				padding: 0px;
+				padding: 0;
 				height: 50px;
 				width: 50px;
 				border-radius: 50%;
@@ -935,7 +935,7 @@ $blue_color : #08F2C5!default;
 	.overlap-left {
 		margin-left: -100px;
 		@include media-breakpoint-down(md) {
-			margin-left: 0px;
+			margin-left: 0;
 		}
 	}
 
@@ -1358,7 +1358,7 @@ $blue_color : #08F2C5!default;
 	.social-media {
 		display: inline-block;
 		float: right;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 
 		li {
 			display: inline-block;
@@ -1485,7 +1485,7 @@ $blue_color : #08F2C5!default;
 				opacity: 0;
 				visibility: hidden;
 				bottom: -10px;
-				margin-bottom: 0px;
+				margin-bottom: 0;
 			}
 
 			.category {
@@ -1508,7 +1508,7 @@ $blue_color : #08F2C5!default;
 			}
 
 			h2 {
-				bottom: 0px;
+				bottom: 0;
 				opacity: 1;
 				visibility: visible;
 			}
@@ -1516,7 +1516,7 @@ $blue_color : #08F2C5!default;
 			.category {
 				opacity: 1;
 				visibility: visible;
-				bottom: 0px;
+				bottom: 0;
 				transition-delay: 0.09s;
 				// animation-direction: alternate;
 			}
@@ -3053,12 +3053,24 @@ $blue_color : #08F2C5!default;
 	@include background-custome;
 	color: $black;
 	font-size: 15px;
-	.titile_footer:before {
+	.titile_footer:first-letter{
 		text-transform: uppercase;
 		background: url("../images/first-letter.png");
 		background-repeat: no-repeat;
 		background-position: center;
 
+	}
+	.titile_footer{
+		border-bottom: 2px solid #76c8a1;
+	}
+	.titile_footer1 {
+		border-bottom:2px solid #f9ca33;
+	}
+	.titile_footer2 {
+		border-bottom:2px solid #72a4db;
+	}
+	.titile_footer3 {
+		border-bottom:2px solid #9079c1;
 	}
 	.list-unstyled{
 		li {
@@ -3082,7 +3094,7 @@ $blue_color : #08F2C5!default;
 		font-size: 14px;
 	}
 	h5{
-		color: $blue_color;
+		color: $black;
 	}
 }
 .btn_contact_footer{

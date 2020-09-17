@@ -678,7 +678,7 @@ h1, h2, h3, h4, h5,
   z-index: 2;
   color: #999999; }
   .feature-blocks-1.no-margin-top {
-    margin-top: 0px; }
+    margin-top: 0; }
   .feature-blocks-1 .feature-block-1 {
     position: relative;
     top: 0;
@@ -829,7 +829,7 @@ h1, h2, h3, h4, h5,
   color: #303030;
   position: absolute !important;
   top: 50%;
-  padding: 0px;
+  padding: 0;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -1099,7 +1099,7 @@ h1, h2, h3, h4, h5,
   margin-left: -100px; }
   @media (max-width: 991.98px) {
     .overlap-left {
-      margin-left: 0px; } }
+      margin-left: 0; } }
 
 .overlap-section {
   margin-top: -100px; }
@@ -1387,7 +1387,7 @@ h1, h2, h3, h4, h5,
 .social-media {
   display: inline-block;
   float: right;
-  margin-bottom: 0px; }
+  margin-bottom: 0; }
   .social-media li {
     display: inline-block; }
 
@@ -1477,7 +1477,7 @@ h1, h2, h3, h4, h5,
       opacity: 0;
       visibility: hidden;
       bottom: -10px;
-      margin-bottom: 0px; }
+      margin-bottom: 0; }
     .media-1 .media-1-content .category {
       position: relative;
       transition: .3s all ease-in-out;
@@ -1492,13 +1492,13 @@ h1, h2, h3, h4, h5,
     opacity: 1;
     visibility: visible; }
   .media-1:hover h2 {
-    bottom: 0px;
+    bottom: 0;
     opacity: 1;
     visibility: visible; }
   .media-1:hover .category {
     opacity: 1;
     visibility: visible;
-    bottom: 0px;
+    bottom: 0;
     transition-delay: 0.09s; }
   .media-1:hover img {
     transform: scale(1.05); }
@@ -2694,11 +2694,19 @@ ul li {
   background-repeat: no-repeat;
   color: #303030;
   font-size: 15px; }
-  .page-footer .titile_footer:before {
+  .page-footer .titile_footer:first-letter {
     text-transform: uppercase;
     background: url("../images/first-letter.png");
     background-repeat: no-repeat;
     background-position: center; }
+  .page-footer .titile_footer {
+    border-bottom: 2px solid #76c8a1; }
+  .page-footer .titile_footer1 {
+    border-bottom: 2px solid #f9ca33; }
+  .page-footer .titile_footer2 {
+    border-bottom: 2px solid #72a4db; }
+  .page-footer .titile_footer3 {
+    border-bottom: 2px solid #9079c1; }
   .page-footer .list-unstyled li {
     padding-bottom: 15px; }
     .page-footer .list-unstyled li a {
@@ -2713,7 +2721,7 @@ ul li {
     font-weight: 500;
     font-size: 14px; }
   .page-footer h5 {
-    color: #08F2C5; }
+    color: #303030; }
 
 .btn_contact_footer {
   font-weight: bold;

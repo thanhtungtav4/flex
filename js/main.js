@@ -215,8 +215,19 @@ $("#has-megamenu-menu").hover(function(){
 	 },
 	 function() {
 		 const $this = $(this);
-		 $this.removeClass(showClass);
+		 $this.removeClass(showClass, {duration:500});
 		 $this.find($dropdownToggle).attr("aria-expanded", "false");
-		 $this.find($dropdownMenu).removeClass(showClass);
+		 $this.find($dropdownMenu).removeClass(showClass ,{duration:500});
 	 }
  );
+ /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+ var prevScrollpos = window.pageYOffset;
+ window.onscroll = function () {
+	 var currentScrollPos = window.pageYOffset;
+	 if (prevScrollpos > currentScrollPos) {
+		 document.getElementById("site-menu").style.position = "relative";
+	 } else {
+		 document.getElementById("site-menu").style.position = "fixed";
+	 }
+	 prevScrollpos = currentScrollPos;
+ };

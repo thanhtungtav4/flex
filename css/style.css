@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5,
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
-        padding: 5px 20px;
+        padding: 15px 20px;
         color: #000;
         display: inline-block;
         text-decoration: none !important; }
@@ -2657,6 +2657,7 @@ ul li {
     position: static !important; }
 
   .navbar .megamenu {
+    top: 30px;
     left: 0;
     right: 0;
     width: 100%;

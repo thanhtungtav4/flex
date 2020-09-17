@@ -3084,6 +3084,11 @@ $blue_color : #08F2C5!default;
 			}
 		}
 	}
+	.list-unstyled-icon{
+		li{
+			padding: 7px;
+		}
+	}
 	.footer-copyright .footer_info{
 		color: $black;
 		font-weight:500;

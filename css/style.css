@@ -2714,6 +2714,8 @@ ul li {
       font-weight: 500; }
       .page-footer .list-unstyled li a:hover {
         color: #0909AD; }
+  .page-footer .list-unstyled-icon li {
+    padding: 7px; }
   .page-footer .footer-copyright .footer_info {
     color: #303030;
     font-weight: 500; }

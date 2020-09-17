@@ -3003,6 +3003,15 @@ $blue_color : #08F2C5!default;
 .megamenu-nt{
 	transition: 0.2s 0s;
 	border-top: 2px solid $blue_color;
+	.hsg-nav__box-link:not(:last-child) {
+			border-bottom: 1px solid #cbd6e2;
+	}
+	.row{
+		.col-md-4{
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
 }
 @media all and (min-width: 992px) {
 	.navbar{ padding-top: 0; padding-bottom: 0; }

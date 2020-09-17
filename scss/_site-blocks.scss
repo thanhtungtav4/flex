@@ -3016,7 +3016,7 @@ $blue_color : #08F2C5!default;
 @media all and (min-width: 992px) {
 	.navbar{ padding-top: 0; padding-bottom: 0; }
 	.navbar .has-megamenu{position:static!important;}
-	.navbar .megamenu{top:30px; left:0; right:0; width:100%; padding:20px;  }
+	.navbar .megamenu{top:40px; left:0; right:0; width:100%; padding:20px;  }
 	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
 }
 @media (max-width: 767.98px) {
@@ -3049,20 +3049,16 @@ $blue_color : #08F2C5!default;
 
 }
 .page-footer{
-	background: #F5F5F5;
+	background: url("../images/bg_footer.png");
+	@include background-custome;
 	color: $black;
-	font-size: 14px;
-	.titile_footer{
-		border-bottom: 2px solid #76c8a1;
-	}
-	.titile_footer1 {
-		border-bottom:2px solid #f9ca33;
-	}
-	.titile_footer2 {
-		border-bottom:2px solid #72a4db;
-	}
-	.titile_footer3 {
-		border-bottom:2px solid #9079c1;
+	font-size: 15px;
+	.titile_footer:before {
+		text-transform: uppercase;
+		background: url("../images/first-letter.png");
+		background-repeat: no-repeat;
+		background-position: center;
+
 	}
 	.list-unstyled{
 		li {
@@ -3085,6 +3081,9 @@ $blue_color : #08F2C5!default;
 		font-weight: 500;
 		font-size: 14px;
 	}
+	h5{
+		color: $blue_color;
+	}
 }
 .btn_contact_footer{
 	@include text_bold;
@@ -3100,5 +3099,17 @@ $blue_color : #08F2C5!default;
 	background-size: cover;
 	&:hover{
 		background-image: url(../images/project_flex_hover.png);
+	}
+}
+.background-whitesmoke{
+	background: whitesmoke;
+}
+.gap-10{
+	height: 3.5rem;
+}
+.section-send-feedback-home{
+	background-image:unset;
+	.get-submit-box{
+		box-shadow:unset;
 	}
 }

@@ -190,12 +190,12 @@ jQuery(document).ready(function($) {
   siteScroll();
 
 });
- $(".box-change-image-fly-wheel").hover(function(){
-	 $(this).css("background-image", "url('images/fly-whell-hover.png')");
- });
- $(".project_flex_box").hover(function(){
-	 $(this).css("background-image", "url('images/project_flex_hover.png')");
- });
+ // $(".box-change-image-fly-wheel").hover(function(){
+	//  $(this).css("background-image", "url('images/fly-whell-hover.png')");
+ // });
+ // $(".project_flex_box").hover(function(){
+	//  $(this).css("background-image", "url('images/project_flex_hover.png')");
+ // });
 $("#has-megamenu-menu").hover(function(){
 		 var dropdownMenu = $("#has-megamenu-menu");
 		 if(dropdownMenu.is(":visible")){

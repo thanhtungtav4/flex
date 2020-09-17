@@ -196,3 +196,27 @@ jQuery(document).ready(function($) {
  $(".project_flex_box").hover(function(){
 	 $(this).css("background-image", "url('images/project_flex_hover.png')");
  });
+$("#has-megamenu-menu").hover(function(){
+		 var dropdownMenu = $("#has-megamenu-menu");
+		 if(dropdownMenu.is(":visible")){
+			 $("#megamenu-nt-check").addClass("intro");
+		 }
+ });
+ const $dropdown = $("#has-megamenu-menu");
+ const $dropdownToggle = $(".dropdown-toggle");
+ const $dropdownMenu = $(".dropdown-menu");
+ const showClass = "show";
+ $dropdown.hover(
+	 function() {
+		 const $this = $(this);
+		 $this.addClass(showClass);
+		 $this.find($dropdownToggle).attr("aria-expanded", "true");
+		 $this.find($dropdownMenu).addClass(showClass);
+	 },
+	 function() {
+		 const $this = $(this);
+		 $this.removeClass(showClass);
+		 $this.find($dropdownToggle).attr("aria-expanded", "false");
+		 $this.find($dropdownMenu).removeClass(showClass);
+	 }
+ );

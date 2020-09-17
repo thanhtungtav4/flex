@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/project_flex_fly_bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-blocks.scss" afterDir="false" />
@@ -104,14 +102,9 @@
       <workItem from="1600134018469" duration="104000" />
       <workItem from="1600178406063" duration="17791000" />
       <workItem from="1600222417108" duration="1936000" />
-      <workItem from="1600300352344" duration="2762000" />
-    </task>
-    <task id="LOCAL-00026" summary="min size image">
-      <created>1599551207047</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1599551207047</updated>
+      <workItem from="1600300352344" duration="4443000" />
+      <workItem from="1600306830002" duration="1810000" />
+      <workItem from="1600329949993" duration="2898000" />
     </task>
     <task id="LOCAL-00027" summary="update card">
       <created>1599552414515</created>
@@ -449,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600204810263</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="update menu  foooter">
+      <created>1600303490611</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1600303490612</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,11 +490,12 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600199880936" />
-    <state x="-1058" y="313" key="CommitChangelistDialog2" timestamp="1600204809148">
-      <screen x="-1366" y="313" width="1366" height="728" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600303488616">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1058" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600204809148" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600231664989">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600303488616" />
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600312919432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-840" y="506" key="FileChooserDialogImpl/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600204734236" />
@@ -503,16 +504,16 @@
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599905938458" />
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600231664989" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600204815019">
-      <screen x="-1366" y="313" width="1366" height="728" />
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600312919432" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600303494894">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600204815019" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599876119150" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600303494894" />
     <state x="645" y="62" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599074413093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

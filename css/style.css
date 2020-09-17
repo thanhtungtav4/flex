@@ -1632,7 +1632,8 @@ h1, h2, h3, h4, h5,
     line-height: 120.1%;
     font-size: 3rem;
     position: relative;
-    z-index: 99; }
+    z-index: 99;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .maketing-box .line-vertical {
     top: 0;
     height: 200px;
@@ -2637,6 +2638,10 @@ ul li {
   padding: 10px 5px; }
   .site-menu .col-megamenu .hsg-nav__box-link:hover {
     background-color: #e5f5f8; }
+
+.megamenu-nt {
+  transition: 0.2s 0s;
+  border-top: 2px solid #08F2C5; }
 
 @media all and (min-width: 992px) {
   .navbar {

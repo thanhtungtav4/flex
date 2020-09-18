@@ -2932,4 +2932,10 @@ ul li {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     fill: #fff; }
 
+.step-box .step-tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px; }
+
 /*# sourceMappingURL=style.css.map */

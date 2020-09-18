@@ -2752,4 +2752,19 @@ ul li {
 .gap-10 {
   height: 3.5rem; }
 
+.st1 {
+  fill: #303030; }
+  .st1:hover {
+    fill: url(#paint7_linear); }
+
+.st2 {
+  fill: #E5E5E5; }
+  .st2:hover {
+    fill: url(#paint9_linear); }
+
+.tabs-title {
+  fill: #303030; }
+  .tabs-title:hover {
+    fill: #fff; }
+
 /*# sourceMappingURL=style.css.map */

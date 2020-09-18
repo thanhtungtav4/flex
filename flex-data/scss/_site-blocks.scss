@@ -3124,3 +3124,21 @@ $blue_color : #08F2C5!default;
 .gap-10{
 	height: 3.5rem;
 }
+.st1 {
+	fill: #303030;
+	&:hover{
+		fill: url(#paint7_linear);
+	}
+}
+.st2 {
+	fill: #E5E5E5;
+	&:hover{
+		fill:url(#paint9_linear);
+	}
+}
+.tabs-title{
+	fill: #303030;
+	&:hover{
+		fill: $white;
+	}
+}

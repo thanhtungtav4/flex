@@ -3127,18 +3127,35 @@ $blue_color : #08F2C5!default;
 .st1 {
 	fill: #303030;
 	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		fill: url(#paint7_linear);
 	}
 }
 .st2 {
 	fill: #E5E5E5;
 	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		fill:url(#paint9_linear);
+	}
+}
+.st3 {
+	fill: #E5E5E5;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint8_linear);
+	}
+}
+.st4 {
+	fill: #E5E5E5;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint6_linear);
 	}
 }
 .tabs-title{
 	fill: #303030;
 	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		fill: $white;
 	}
 }

@@ -1,22 +1,11 @@
- AOS.init({
- 	duration: 800,
- 	easing: 'slide',
- 	once: true
- });
-
 jQuery(document).ready(function($) {
-
 	"use strict";
-
-	
-
 	var siteMenuClone = function() {
 
 		$('.js-clone-nav').each(function() {
 			var $this = $(this);
 			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
 		});
-
 
 		setTimeout(function() {
 			
@@ -35,11 +24,8 @@ jQuery(document).ready(function($) {
           'class' : 'collapse',
           'id' : 'collapseItem' + counter,
         });
-
         counter++;
-
       });
-
     }, 1000);
 
 		$('body').on('click', '.arrow-collapse', function(e) {
@@ -49,21 +35,17 @@ jQuery(document).ready(function($) {
       } else {
         $this.addClass('active');
       }
-      e.preventDefault();  
-      
+      e.preventDefault();
     });
-
 		$(window).resize(function() {
 			var $this = $(this),
 				w = $this.width();
-
 			if ( w > 768 ) {
 				if ( $('body').hasClass('offcanvas-menu') ) {
 					$('body').removeClass('offcanvas-menu');
 				}
 			}
 		})
-
 		$('body').on('click', '.js-menu-toggle', function(e) {
 			var $this = $(this);
 			e.preventDefault();

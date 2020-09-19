@@ -102,10 +102,6 @@ jQuery(document).ready(function($) {
     $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
       " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 	};
-	// siteSliderRange();
-
-
-	
 	var siteCarousel = function () {
 		$('.slide-one-item').owlCarousel({
 	    center: false,
@@ -160,12 +156,6 @@ jQuery(document).ready(function($) {
   };
   siteScroll();
 });
- // $(".box-change-image-fly-wheel").hover(function(){
-	//  $(this).css("background-image", "url('images/fly-whell-hover.png')");
- // });
- // $(".project_flex_box").hover(function(){
-	//  $(this).css("background-image", "url('images/project_flex_hover.png')");
- // });
 $("#has-megamenu-menu").hover(function(){
 		 var dropdownMenu = $("#has-megamenu-menu");
 		 if(dropdownMenu.is(":visible")){

@@ -108,14 +108,7 @@
       <workItem from="1600413172975" duration="1794000" />
       <workItem from="1600438883383" duration="17164000" />
       <workItem from="1600479849151" duration="2352000" />
-      <workItem from="1600486887618" duration="3621000" />
-    </task>
-    <task id="LOCAL-00048" summary="update home 2 banner 2">
-      <created>1599928684714</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1599928684714</updated>
+      <workItem from="1600486887618" duration="3856000" />
     </task>
     <task id="LOCAL-00049" summary="update home 2 banner 2">
       <created>1599934036806</created>
@@ -453,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600490630944</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="add svg">
+      <created>1600491147146</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1600491147146</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,11 +497,11 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600199880936" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600490629413">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600491145887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600454088988" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600490629413" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600491145887" />
     <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600334899755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -512,7 +512,7 @@
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599905938458" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600334899755" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600490633218">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1600491149529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
@@ -520,7 +520,7 @@
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600490633218" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600491149529" />
     <state x="645" y="62" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599074413093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

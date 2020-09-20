@@ -2308,6 +2308,10 @@ $blue_color : #08F2C5!default;
 			background: #08F2C5;
 			top: 36px;
 			z-index: 1;
+			@include media-breakpoint-down(sm) {
+				width: 70px;
+				top: 23px;
+			}
 		}
 	}
 	.section_procedure {
@@ -2356,17 +2360,13 @@ $blue_color : #08F2C5!default;
 	}
 	.site-blocks-page-2 {
 		background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
-		min-height: 500px;
-
 		.text-service-maketing {
 			color: $white;
 		}
-
 		.block-2-description {
 			color: $white;
 			@include des-p;
 		}
-
 		.btn_reg {
 			border: 1px solid $color_logo;
 			background: $color_logo;

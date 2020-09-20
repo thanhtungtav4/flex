@@ -25,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,14 +116,7 @@
       <workItem from="1600500724677" duration="541000" />
       <workItem from="1600501763665" duration="359000" />
       <workItem from="1600522543354" duration="8092000" />
-      <workItem from="1600618430488" duration="411000" />
-    </task>
-    <task id="LOCAL-00068" summary="update menu">
-      <created>1600196165321</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1600196165321</updated>
+      <workItem from="1600618430488" duration="937000" />
     </task>
     <task id="LOCAL-00069" summary="update menu">
       <created>1600199055352</created>
@@ -462,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600526086313</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="add lazy load img">
+      <created>1600618881138</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1600618881138</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,10 +506,10 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600525954026" />
-    <state x="-1214" y="313" key="CommitChangelistDialog2" timestamp="1600526085173">
+    <state x="-1214" y="313" key="CommitChangelistDialog2" timestamp="1600618877569">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
-    <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600526085173" />
+    <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600618877569" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600499053162" />
     <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600500328168">
       <screen x="0" y="0" width="1366" height="728" />
@@ -522,11 +521,11 @@
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599905938458" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600500328168" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600526090436">
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600618885146">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600526090436" />
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600618885146" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />
@@ -547,9 +546,10 @@
       <screen x="-1366" y="375" width="1366" height="728" />
     </state>
     <state x="-866" y="653" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599380807136" />
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1600399952351">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-976" y="313" width="585" height="728" key="find.popup" timestamp="1600619246759">
+      <screen x="-1366" y="313" width="1366" height="728" />
     </state>
+    <state x="-976" y="313" width="585" height="728" key="find.popup/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600619246759" />
     <state x="-976" y="375" width="585" height="728" key="find.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599069402270" />
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600399952351" />
     <state x="-1027" y="319" key="run.anything.popup" timestamp="1600348743519">

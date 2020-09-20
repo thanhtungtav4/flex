@@ -191,9 +191,7 @@ $("#has-megamenu-menu").hover(function(){
 	 }
 	 prevScrollpos = currentScrollPos;
  };
-$(".tabs-title").mouseover(function(){
-	var $checkid =this.id;
-	if ($('.'.'.checkid').is(':hover')) {
-		alert('hello');
-	}
-});
+// $(".tabs-title").mouseover(function(){
+// 	var $checkid =this.id;
+//
+// });

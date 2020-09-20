@@ -25,13 +25,13 @@
     </div>
     <div class="site-mobile-menu-body"></div>
   </div>
-  <header class="site-navbar py-2 bg-white js-sticky-header site-navbar-target" role="banner">
+  <header class="site-navbar py-2 bg-white js-sticky-header site-navbar-target" id="site-menu" role="banner">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-10 col-xl-2">
           <h1 class="mb-0 site-logo p-1">
             <a href="index.html" class="text-black h2 mb-0">
-              <img src="flex-data/images/logo.png" class="img-fluid">
+              <img data-src="flex-data/images/logo.png" class="img-fluid lazyload">
             </a>
           </h1>
         </div>
@@ -50,9 +50,9 @@
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="#"> Báo giá dịch vụ </a></li>
-              <li class="nav-item dropdown has-megamenu has-children">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Tài nguyên FIEX </a>
-                <div class="dropdown-menu megamenu megamenu-nt" role="menu">
+              <li class="nav-item dropdown has-megamenu has-children" id="has-megamenu-menu">
+                <a class="nav-link dropdown-toggle nt-click" href="#" data-toggle="dropdown" data-hover="dropdown">Tài nguyên FIEX </a>
+                <div class="dropdown-menu megamenu megamenu-nt" role="menu" id="megamenu-nt-check">
                   <div class="row">
                     <div class="col-md-4">
                       <div class="col-megamenu">

@@ -2360,6 +2360,9 @@ $blue_color : #08F2C5!default;
 	}
 	.site-blocks-page-2 {
 		background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
+		@include media-breakpoint-up(lg) {
+			//max-height: 415px;
+		}
 		.text-service-maketing {
 			color: $white;
 		}
@@ -3350,4 +3353,10 @@ $blue_color : #08F2C5!default;
 }
 .block-box{
 	display: block;
+}
+.home_img_banner-fix{
+	margin-bottom: -15vh;
+	@include media-breakpoint-down(lg) {
+		margin-bottom: -18vh;
+	}
 }

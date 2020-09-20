@@ -1861,14 +1861,19 @@ $blue_color : #08F2C5!default;
 			.card-block-content {
 				padding: 24px;
 				height: 359px;
-
+				@include media-breakpoint-down(sm) {
+					height: 300px;
+				}
 				.card-title {
 					font-style: italic;
 					font-weight: bold;
 					font-size: 36px;
 					line-height: 48px;
 					color: #969696;
-
+					@include media-breakpoint-down(sm) {
+						font-size: 25px;
+						line-height: 30px;
+					}
 				}
 			}
 
@@ -3340,4 +3345,9 @@ $blue_color : #08F2C5!default;
 		line-height: 35px;
 	}
 }
-
+.none-box{
+		display: none;
+}
+.block-box{
+	display: block;
+}

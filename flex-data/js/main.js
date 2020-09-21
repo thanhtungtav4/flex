@@ -216,6 +216,10 @@ $("#has-megamenu-menu").hover(function(){
 // 		$this.find($dropdownMenu).removeClass(showClass ,{duration:500});
 // 	}
 // );
+jQuery(document).ready(function($) {
+	$('.noselector').hide();
+	$('.tungnt-x').show();
+});
 $('.tabs-title').mouseover(function(){
 	var check2 ='.' + this.id;
 	$('.noselector').hide();

@@ -3383,7 +3383,7 @@ $blue_color : #08F2C5!default;
 	stroke-miterlimit: 10;
 	&:hover{
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		fill:url(#paint0_linear);
+		fill:url(#paint1_linear);
 		stroke: unset;
 		stroke-miterlimit: unset;
 	}
@@ -3400,7 +3400,7 @@ $blue_color : #08F2C5!default;
 	stroke-miterlimit: 10;
 	&:hover{
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		fill:url(#paint0_linear);
+		fill:url(#paint8_linear);
 		stroke: unset;
 		stroke-miterlimit: unset;
 	}
@@ -3417,7 +3417,92 @@ $blue_color : #08F2C5!default;
 	stroke-miterlimit: 10;
 	&:hover{
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		fill:url(#paint0_linear);
+		fill:url(#paint10_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-05{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint2_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-06{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint12_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-07{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint13_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-08{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint5_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-09{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint7_linear);
 		stroke: unset;
 		stroke-miterlimit: unset;
 	}

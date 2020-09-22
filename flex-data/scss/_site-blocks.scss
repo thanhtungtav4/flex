@@ -3361,25 +3361,71 @@ $blue_color : #08F2C5!default;
 	}
 }
 .seo-01{
-	fill: #E5E5E5;
-	stroke: rgb(48, 48, 48);
+	fill: #E6E6E6;
+	stroke: #303030;
 	stroke-miterlimit: 10;
 	&:hover{
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		fill:url(#paint1_linear);
+		fill:url(#paint0_linear);
 		stroke: unset;
 		stroke-miterlimit: unset;
 	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
 }
-.seo-01-text{
-	fill: #E5E5E5;
-	stroke: rgb(48, 48, 48);
+.seo-02{
+	fill: #E6E6E6;
+	stroke: #303030;
 	stroke-miterlimit: 10;
 	&:hover{
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-		fill:url(#paint1_linear);
+		fill:url(#paint0_linear);
 		stroke: unset;
 		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-03{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint0_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
+	}
+}
+.seo-04{
+	fill: #E6E6E6;
+	stroke: #303030;
+	stroke-miterlimit: 10;
+	&:hover{
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		fill:url(#paint0_linear);
+		stroke: unset;
+		stroke-miterlimit: unset;
+	}
+	.icon-six{
+		fill: $black;
+		&:hover{
+			fill:$white;
+		}
 	}
 }
 .no-over-x{

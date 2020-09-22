@@ -23,11 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/scss/bootstrap/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/scss/bootstrap/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,21 +122,7 @@
       <workItem from="1600651892088" duration="974000" />
       <workItem from="1600699129693" duration="10348000" />
       <workItem from="1600755934669" duration="9663000" />
-      <workItem from="1600789828671" duration="3137000" />
-    </task>
-    <task id="LOCAL-00089" summary="add svg">
-      <created>1600450641850</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1600450641850</updated>
-    </task>
-    <task id="LOCAL-00090" summary="add svg">
-      <created>1600454090193</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1600454090193</updated>
+      <workItem from="1600789828671" duration="5459000" />
     </task>
     <task id="LOCAL-00091" summary="add svg">
       <created>1600482419613</created>
@@ -470,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600793917099</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="add lazy load img">
+      <created>1600795304322</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1600795304322</updated>
+    </task>
+    <task id="LOCAL-00139" summary="add lazy load img">
+      <created>1600795467592</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1600795467592</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,10 +512,10 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600525954026" />
-    <state x="-1214" y="313" key="CommitChangelistDialog2" timestamp="1600793913857">
+    <state x="-1214" y="313" key="CommitChangelistDialog2" timestamp="1600795465525">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
-    <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600793913857" />
+    <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600795465525" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600765254306" />
     <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600653529454">
       <screen x="0" y="0" width="1366" height="728" />
@@ -534,11 +531,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600756119313" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600793920514">
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1600795471375">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600793920514" />
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600795471375" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1599271221479" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />

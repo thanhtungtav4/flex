@@ -102,21 +102,21 @@ jQuery(document).ready(function($) {
     $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
       " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 	};
-	// var siteCarousel = function () {
-	// 	$('.slide-one-item').owlCarousel({
-	//     center: false,
-	//     items: 1,
-	//     loop: true,
-	// 		stagePadding: 0,
-	//     margin: 0,
-	// 	dots:false,
-	//     autoplay: false,
-	//     pauseOnHover: false,
-	//     nav: true,
-	//     navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
-	//   });
-	// };
-	// siteCarousel();
+	var siteCarousel = function () {
+		$('.slide-one-item').owlCarousel({
+	    center: false,
+	    items: 1,
+	    loop: true,
+			stagePadding: 0,
+	    margin: 0,
+		dots:false,
+	    autoplay: false,
+	    pauseOnHover: false,
+	    nav: true,
+	    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
+	  });
+	};
+	siteCarousel();
 	// var siteStellar = function() {
 	// 	$(window).stellar({
 	//     responsive: false,

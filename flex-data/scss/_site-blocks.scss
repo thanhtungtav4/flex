@@ -2977,6 +2977,7 @@ $blue_color : #08F2C5!default;
 			padding-top: 15px;
 		}
 	}
+
 }
 .section-qa-faq{
 	.card-title:before{
@@ -2997,6 +2998,14 @@ $blue_color : #08F2C5!default;
 			font-size: 18px;
 			line-height: 26px;
 		}
+	}
+	.row-qa-faq{
+		background: #CEFFF6;
+		border-radius: 10px;
+		padding: 20px;
+	}
+	.card{
+		margin: 15px;
 	}
 }
 .btn{

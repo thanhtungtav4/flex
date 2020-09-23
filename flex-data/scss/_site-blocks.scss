@@ -2978,6 +2978,27 @@ $blue_color : #08F2C5!default;
 		}
 	}
 }
+.section-qa-faq{
+	.card-title:before{
+		content: url("../images/arrow_forward.png");
+		position: absolute;
+		left: 0;
+		padding: 0 6px;
+	}
+	.card-title:after{
+		content:unset;
+	}
+	.card-title{
+		margin-bottom:unset;
+		margin-left: 20px;
+		p{
+			margin-bottom:unset;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 26px;
+		}
+	}
+}
 .btn{
 	&:hover{
 		transition: all .2s cubic-bezier(.4,0,.2,1);

@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="flex-data/fonts/icomoon/style.css">
     <link rel="stylesheet" href="flex-data/css/bootstrap.min.css">
+    <link rel="preload" href="flex-data/css/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" >
+    <noscript><link rel="stylesheet" href="flex-data/css/owl.carousel.min.css" ></noscript>
+    <link  rel="preload" href="flex-data/css/owl.theme.default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="flex-data/css/owl.theme.default.min.css" ></noscript>
     <link rel="stylesheet" href="flex-data/css/jquery-ui.css">
     <link rel="stylesheet" href="flex-data/css/style.css">
   </head>
@@ -1983,6 +1987,28 @@
   <script src="flex-data/js/popper.min.js" ></script>
   <script src="flex-data/js/bootstrap.min.js"></script>
   <script src="flex-data/js/lazysizes.min.js" defer></script>
+  <script src="flex-data/js/owl.carousel.min.js" defer></script>
   <script src="flex-data/js/main.js" defer></script>
+  <script>
+    $(document).ready(function() {
+      $('#owl-carousel-logo').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots:false,
+        responsive: {
+          0: {
+            items: 2
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      })
+    });
+  </script>
   </body>
 </html>

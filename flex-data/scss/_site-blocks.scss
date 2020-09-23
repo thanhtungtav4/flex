@@ -3010,8 +3010,11 @@ $blue_color : #08F2C5!default;
 }
 .section-queue{
 	background: #F5F5F5;
-	position: relative;
-	margin-bottom: 309px;
+	margin-top: 7rem;
+	margin-bottom: 30vh;
+	@include media-breakpoint-down(sm) {
+		margin-top: 20rem;
+	}
 	.img-box-queue{
 		position: absolute;
 		bottom: 0;
@@ -3029,6 +3032,9 @@ $blue_color : #08F2C5!default;
 		font-size: 16px;
 		line-height: 23px;
 		color: $black;
+	}
+	.page-top-10rem{
+		height: 309px;
 	}
 }
 .btn{

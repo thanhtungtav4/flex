@@ -2958,7 +2958,25 @@ $blue_color : #08F2C5!default;
 .banner-page-4{
 	background: linear-gradient(79.63deg, #0909AD 0%, #08F2C5 99.25%);
 	transform: rotate(180deg);
-	height: 369px;
+	padding-bottom: 369px;
+}
+.social_media_swipe{
+	margin-top: -19rem;
+	.templates-tittle{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 53px;
+		color: $black;
+	}
+	.page-4-ul {
+		margin-left: 2rem;
+		li{
+			list-style: url("../images/check.svg") !important;
+			padding-left: 2rem;
+			padding-top: 15px;
+		}
+	}
 }
 .btn{
 	&:hover{

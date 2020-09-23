@@ -3008,6 +3008,29 @@ $blue_color : #08F2C5!default;
 		margin: 15px;
 	}
 }
+.section-queue{
+	background: #F5F5F5;
+	position: relative;
+	margin-bottom: 309px;
+	.img-box-queue{
+		position: absolute;
+		bottom: 0;
+	}
+	.frequently_asked{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 26px;
+		color: $black;
+	}
+	.frequently_asked_des{
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 23px;
+		color: $black;
+	}
+}
 .btn{
 	&:hover{
 		transition: all .2s cubic-bezier(.4,0,.2,1);

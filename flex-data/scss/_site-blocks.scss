@@ -3366,6 +3366,7 @@ $blue_color : #08F2C5!default;
 }
 @mixin stroke-page-six{
 	fill: $black;
+	pointer-events: none;
 	&:hover{
 		fill:$white;
 	}
@@ -3418,6 +3419,7 @@ $blue_color : #08F2C5!default;
 .seo-05{
 	@include stroke-page;
 	&:hover{
+		fill:url(#paint2_linear);
 		@include stroke-unset;
 	}
 	.icon-six{
@@ -3472,10 +3474,7 @@ $blue_color : #08F2C5!default;
 		fill:url(#paint1_linear);
 	}
 	.icon-six{
-		fill: $black;
-		&:hover{
-			fill:$blue;
-		}
+		@include stroke-page-six;
 	}
 }
 .tab-seo-02-v2{
@@ -3486,10 +3485,7 @@ $blue_color : #08F2C5!default;
 		fill:url(#paint4_linear);
 	}
 	.icon-six{
-		fill: $black;
-		&:hover{
-			fill:$blue;
-		}
+		@include stroke-page-six;
 	}
 }
 .tab-seo-03-v2{
@@ -3500,10 +3496,7 @@ $blue_color : #08F2C5!default;
 		fill:url(#paint2_linear);
 	}
 	.icon-six{
-		fill: $black;
-		&:hover{
-			fill:$blue;
-		}
+		@include stroke-page-six;
 	}
 }
 .tab-seo-04-v2{
@@ -3514,10 +3507,7 @@ $blue_color : #08F2C5!default;
 		fill:url(#paint3_linear);
 	}
 	.icon-six{
-		fill: $black;
-		&:hover{
-			fill:$blue;
-		}
+		@include stroke-page-six;
 	}
 }
 .tab-seo-05-v2{
@@ -3528,10 +3518,7 @@ $blue_color : #08F2C5!default;
 		fill:url(#paint0_linear);
 	}
 	.icon-six{
-		fill: $black;
-		&:hover{
-			fill:$blue;
-		}
+		@include stroke-page-six;
 	}
 }
 #great-01-child{
@@ -3590,4 +3577,7 @@ $blue_color : #08F2C5!default;
 }
 .slider-full-box-v2::-webkit-scrollbar {
 	overflow-x: scroll;
+}
+.icon-six{
+	pointer-events: none;
 }

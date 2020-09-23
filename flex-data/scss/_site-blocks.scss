@@ -3584,3 +3584,22 @@ $blue_color : #08F2C5!default;
 #icon-six{
 	pointer-events: none;
 }
+.active-svg{
+	.tab-six-1{
+		fill: url(#paint6_linear);
+	}
+	.icon-six{
+		fill: #fff;
+	}
+}
+.active-seo-svg{
+	.tab-seo-01-v2{
+		fill: url(#paint1_linear);
+	}
+	.icon-six{
+		fill: #fff;
+	}
+}
+.active-great-svg{
+	fill: url(#paint0_linear) !important;
+}

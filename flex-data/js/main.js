@@ -57,8 +57,7 @@ jQuery(document).ready(function($) {
 				$('body').addClass('offcanvas-menu');
 				$this.addClass('active');
 			}
-		}) 
-
+		})
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
 	    var container = $(".site-mobile-menu");
@@ -70,8 +69,6 @@ jQuery(document).ready(function($) {
 		});
 	}; 
 	siteMenuClone();
-
-
 	var sitePlusMinus = function() {
 		$('.js-btn-minus').on('click', function(e){
 			e.preventDefault();
@@ -87,8 +84,6 @@ jQuery(document).ready(function($) {
 		});
 	};
 	// sitePlusMinus();
-
-
 	var siteSliderRange = function() {
     $( "#slider-range" ).slider({
       range: true,
@@ -200,3 +195,4 @@ $('.tabs-title').mouseover(function(){
 	$('.noselector').hide();
 	$(check2).show();
 });
+

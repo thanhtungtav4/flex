@@ -188,8 +188,8 @@
             <div class="row">
                 <div class="col-md-5 order-2 order-md-1">
                     <div class="blog-tittle-box">
-                        <p class="name-category">Marketing</p>
-                        <h1 class="name-blog">Marketing là gì? Cẩm nang mới nhất về ngành marketing 2020</h1>
+                        <p class="name-category bold_text"><a href="#">Marketing</a></p>
+                        <h1 class="name-blog title-flex text-left">Marketing là gì? Cẩm nang mới nhất về ngành marketing 2020</h1>
                         <div class="date-blog mt-4">August 27, 2020</div>
                         <h5 class="post-author mt-3  mb-4">
                             <a href="#"><img src="flex-data/images/mr-thu.png" class="circle post-author-img" alt="mr-thuho"></a>
@@ -205,7 +205,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col-lg-2 col-md-3 col-sm-12">
-                    <div id="hs_cos_wrapper_module" class="hs_cos_wrapper ">
+                    <div id="hs_cos_wrapper_module" class="hs_cos_wrapper hs_cos_wrapper">
                         <div class="share-this">
                         <h5 class="mt0"><strong class="uppercase">Share</strong></h5>
                         <div class="share-icon">
@@ -264,9 +264,26 @@
                         </ol>
                         <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
                     </div>
+                    <div class="view-more-post text-left">
+                        <p><strong> Nguồn tham khảo:</strong></p>
+                        <ul class="post-view-more">
+                            <li><a href="#">1. Content Marketing Problems: 7 Reasons Your Strategy Is Failing in 2020</a></li>
+                            <li><a href="#">2. Content Marketing Problems: 7 Reasons Your Strategy Is Failing in 2020</a></li>
+                            <li><a href="#">3. Content Marketing Problems: 7 Reasons Your Strategy Is Failing in 2020</a></li>
+                        </ul>
+                    </div>
+                    <div class="author-box-blog">
+                    </div>
+                    <div class="row recommended_posts">
+
+                    </div>
                 </div>
                 <div class="col-lg-3 d-md-none d-lg-block">
-
+                    <div class="box-ads-view w-75 mx-auto text-center">
+                        <a href="#" target="_blank">
+                            <img src="flex-data/images/pasted-ads.png" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -473,9 +490,9 @@
     });
     $(window).scroll(function(){
         if ($(this).scrollTop() > 450) {
-            $('#hs_cos_wrapper_module').addClass('position-fixed');
+            $('.hs_cos_wrapper').addClass('position-fixed');
         } else {
-            $('#hs_cos_wrapper_module').removeClass('position-fixed');
+            $('.hs_cos_wrapper').removeClass('position-fixed');
         }
     });
 </script>

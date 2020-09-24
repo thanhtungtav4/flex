@@ -1088,7 +1088,17 @@ $blue_color : #08F2C5!default;
 		}
 	}
 }
-
+.post-view-more{
+	li{
+		a{
+			color: $black;
+			font-weight: 500;
+			&:hover{
+				color: $btn_bg;
+			}
+		}
+	}
+}
 .text-muted {
 		color: #ccc !important;
 		font-size: 12px;

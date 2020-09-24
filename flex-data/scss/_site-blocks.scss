@@ -3763,3 +3763,26 @@ $blue_color : #08F2C5!default;
 		margin: 0 auto;
 	}
 }
+.section-top-blog{
+	padding-right: 1.625rem;
+	padding-left: 1.625rem;
+	.post-author-img{
+		max-width: 50px;
+		max-height: 50px;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		border-radius: 50%;
+	}
+	@include media-breakpoint-down(sm) {
+		padding-right: .625rem;
+		padding-left: .625rem;
+	}
+	@include media-breakpoint-down(md) {
+		padding-right: .9375rem;
+		padding-left: .9375rem;
+	}
+	.breadcrumb{
+		background-color:unset;
+	}
+}

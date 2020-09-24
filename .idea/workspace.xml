@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flex-data.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,14 +122,7 @@
       <workItem from="1600789828671" duration="10257000" />
       <workItem from="1600844677052" duration="4912000" />
       <workItem from="1600870874688" duration="14393000" />
-      <workItem from="1600915048648" duration="6594000" />
-    </task>
-    <task id="LOCAL-00117" summary="add lazy load img">
-      <created>1600618881138</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1600618881138</updated>
+      <workItem from="1600915048648" duration="7269000" />
     </task>
     <task id="LOCAL-00118" summary="add lazy load img">
       <created>1600619489254</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600921034225</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="add hover change">
+      <created>1600921684272</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1600921684272</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,11 +513,11 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600870989189" />
-    <state x="152" y="0" key="CommitChangelistDialog2" timestamp="1600921033089">
+    <state x="152" y="0" key="CommitChangelistDialog2" timestamp="1600921682839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600887122808" />
-    <state x="152" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921033089" />
+    <state x="152" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921682839" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600851994861" />
     <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600653529454">
       <screen x="0" y="0" width="1366" height="728" />

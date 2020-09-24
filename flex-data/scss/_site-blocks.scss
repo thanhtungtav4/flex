@@ -3736,13 +3736,30 @@ $blue_color : #08F2C5!default;
 		line-height: 35px;
 		color: $white;
 	}
-	.custome-icon-box-page5{
-		.seo-card-description{
-			max-width: 155px;
-			padding-top: 10px;
-		}
-	}
 }
 .border-top-right{
 	border-top-right-radius:unset;
+	.seo-card-box {
+		margin-top: 1rem;
+	}
+	.seo-card-description{
+		max-width: 155px;
+		padding-top: 10px;
+	}
+}
+.section-get-time{
+	color: $black;
+	font-style: normal;
+	.text-get-time{
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.box-get-time-des{
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 23px;
+		max-width: 528px;
+		margin: 0 auto;
+	}
 }

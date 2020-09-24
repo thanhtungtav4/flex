@@ -1088,6 +1088,43 @@ $blue_color : #08F2C5!default;
 		}
 	}
 }
+.recommended_posts{
+	.card {
+		border: unset;
+	}
+	.card-body{
+		padding:unset;
+	}
+	h4{
+		font-size: 1.2rem;
+	}
+	.categories-name-card{
+		font-size: 1rem;
+	}
+	.post-author a{
+		font-size: 1rem;
+	}
+}
+.author-box-blog{
+	.author-name-des{
+		font-size: 0.9rem;
+	}
+	.author-name{
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.share-icon{
+		display: inline-block;
+		font-size: 1.7rem;
+		padding-left: 12px;
+	}
+}
+.blog-tittle-box{
+	.title-flex {
+		font-size: 45px;
+		line-height: 57px;
+	}
+}
 .post-view-more{
 	li{
 		a{

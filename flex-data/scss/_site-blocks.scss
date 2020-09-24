@@ -3726,3 +3726,7 @@ $blue_color : #08F2C5!default;
 		z-index: 1;
 	}
 }
+.section-business-page{
+	background-image: url("../images/business-page.png");
+	@include background-custome;
+}

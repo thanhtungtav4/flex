@@ -1066,11 +1066,30 @@ $blue_color : #08F2C5!default;
 		}
 	}
 
-	.breadcrumb-custom {
+.breadcrumb-custom {
 		font-size: 1rem !important;
+}
+.breadcrumb-item+.breadcrumb-item:before {
+	color: $blue_color;
+	content: ">>";
+}
+#hs_cos_wrapper_module{
+	margin-top: 5em;
+	bottom: auto;
+	top: 0;
+	z-index: 5;
+	width: 100%;
+	.share-icon{
+		display: inline-block;
+		padding-right: 10px;
+		a {
+			color: #062846;
+			font-size: 25px;
+		}
 	}
+}
 
-	.text-muted {
+.text-muted {
 		color: #ccc !important;
 		font-size: 12px;
 		text-transform: uppercase;
@@ -3762,6 +3781,12 @@ $blue_color : #08F2C5!default;
 		max-width: 528px;
 		margin: 0 auto;
 	}
+}
+.nt-click:after{
+	border-top: unset;
+	border-right: unset;
+	border-bottom: 0;
+	border-left: unset;
 }
 .section-top-blog{
 	padding-right: 1.625rem;

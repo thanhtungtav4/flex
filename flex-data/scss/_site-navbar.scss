@@ -50,14 +50,13 @@
 				> a {
 					position: relative;
 					padding-right: 20px;						
-					&:before {
+					&:after {
+						font-family: "Font Awesome 5 Free";
+						content: "\f107";
+						padding-left: 6px;
 						position: absolute;
-						content: "\e313";
-						font-size: 16px;
-						top: 50%;
-						right: 0;
-						transform: translateY(-50%);
-						font-family: 'icomoon';
+						font-size: 14px;
+						padding-top: 3px;
 					}
 				}
 				.dropdown {
@@ -127,7 +126,7 @@
 						&.has-children {
 							> a {
 								&:before {
-									content: "\e315";
+									content: "\f107";
 									right: 20px;
 								}
 							}
@@ -279,8 +278,8 @@
 			&:before {
 				font-size: 12px;
 				z-index: 20;
-				font-family: "icomoon";
-				content: "\f078";
+				font-family: "Font Awesome 5 Free";
+				content: "\f107";
 				position: absolute;
 				top: 50%;
 				left: 50%;

@@ -13,6 +13,7 @@
     <noscript><link rel="stylesheet" href="flex-data/css/owl.carousel.min.css" ></noscript>
     <link  rel="preload" href="flex-data/css/owl.theme.default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="flex-data/css/owl.theme.default.min.css" ></noscript>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="flex-data/css/style.css">
     <link rel="canonical" href="https://fiexmarketing.com/" />
     <meta property="og:locale" content="vi_VN" />
@@ -171,7 +172,7 @@
             </div>
         </div>
     </header>
-    <section class="section-top-blog py-5">
+    <section class="section-top-blog py-3">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -200,6 +201,72 @@
                     <div class="image-blog-box">
                         <img src="flex-data/images/marketing-la-gi.jpg" class="img-fluid">
                     </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                    <div id="hs_cos_wrapper_module" class="hs_cos_wrapper ">
+                        <div class="share-this">
+                        <h5 class="mt0"><strong class="uppercase">Share</strong></h5>
+                        <div class="share-icon">
+                            <a data-url="#" href="#" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="share-icon">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="share-icon">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="share-icon">
+                            <a href="#" title="Share by Email" target="_blank">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-9 col-sm-12">
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Sample blog post</h2>
+                        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+                        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                        <blockquote>
+                            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </blockquote>
+                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                        <h2>Heading</h2>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <h3>Sub-heading</h3>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <pre><code>Example code block</code></pre>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+                        <h3>Sub-heading</h3>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <ul>
+                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                            <li>Donec id elit non mi porta gravida at eget metus.</li>
+                            <li>Nulla vitae elit libero, a pharetra augue.</li>
+                        </ul>
+                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                        <ol>
+                            <li>Vestibulum id ligula porta felis euismod semper.</li>
+                            <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                            <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                        </ol>
+                        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-md-none d-lg-block">
+
                 </div>
             </div>
         </div>
@@ -403,6 +470,13 @@
                 }
             }
         })
+    });
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 450) {
+            $('#hs_cos_wrapper_module').addClass('position-fixed');
+        } else {
+            $('#hs_cos_wrapper_module').removeClass('position-fixed');
+        }
     });
 </script>
 </body>

@@ -225,8 +225,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       font-size: 20px;
       top: -.3rem;
-      font-family: "icomoon";
-      content: "\e5ca";
+      content: url("/flex-data/images/check.png");
       position: absolute; }
   .ul-check.white li:before {
     color: #fff; }
@@ -288,12 +287,11 @@ h1, h2, h3, h4, h5,
         padding-right: 20px; }
         .site-navbar .site-navigation .site-menu .has-children > a:before {
           position: absolute;
-          content: "\e313";
+          content: url("/flex-data/images/check.png");
           font-size: 16px;
           top: 50%;
           right: 0;
           transform: translateY(-50%);
-          font-family: 'icomoon'; }
       .site-navbar .site-navigation .site-menu .has-children .dropdown {
         visibility: hidden;
         opacity: 0;

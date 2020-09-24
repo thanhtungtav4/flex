@@ -112,17 +112,17 @@ jQuery(document).ready(function($) {
 	  });
 	};
 	siteCarousel();
-	// var siteStellar = function() {
-	// 	$(window).stellar({
-	//     responsive: false,
-	//     parallaxBackgrounds: true,
-	//     parallaxElements: true,
-	//     horizontalScrolling: false,
-	//     hideDistantElements: false,
-	//     scrollProperty: 'scroll'
-	//   });
-	// };
-	// siteStellar();
+	var siteStellar = function() {
+		$(window).stellar({
+	    responsive: false,
+	    parallaxBackgrounds: true,
+	    parallaxElements: true,
+	    horizontalScrolling: false,
+	    hideDistantElements: false,
+	    scrollProperty: 'scroll'
+	  });
+	};
+	siteStellar();
 	// navigation
   var OnePageNavigation = function() {
     var navToggler = $('.site-menu-toggle');

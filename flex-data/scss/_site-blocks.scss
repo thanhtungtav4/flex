@@ -3937,3 +3937,41 @@ $blue_color : #08F2C5!default;
 		max-width: 175px !important;
 	}
 }
+.section-contact-page-5{
+	.about-you{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 35px;
+		color: $black;
+	}
+	.media-padding-form-box{
+		background: #F5F5F5;
+		box-shadow: 0px 0px 14px rgba(9,9,173,0.3);
+		border-radius: 10px;
+		padding: 20px;
+		.form-control {
+			background: #FFFFFF;
+			border: 1px solid #E6E6E6;
+			box-sizing: border-box;
+			border-radius: 5px;
+		}
+	}
+	.btn-grap-more {
+		padding: 15px;
+		background: #0909AD;
+		border-radius: 5px;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 35px;
+
+		color: #fff;
+	}
+	 .line-vertical-flywhell {
+		width: 326px;
+		height: 37px;
+		background: #08F2C5;
+		top: 36px;
+		z-index: 1;
+	}
+}

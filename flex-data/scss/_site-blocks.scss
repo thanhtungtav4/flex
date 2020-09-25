@@ -3931,3 +3931,9 @@ $blue_color : #08F2C5!default;
 	}
 
 }
+.philosophy-section{
+	background: $white;
+	.seo-card-description {
+		max-width: 175px !important;
+	}
+}

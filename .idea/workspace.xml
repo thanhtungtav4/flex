@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="add hover change">
-      <change afterPath="$PROJECT_DIR$/flex-data/images/bg-5.png" afterDir="false" />
+    <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flex-data/images/caras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/images/case-study-caras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/images/case-study-griant.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css.map" afterDir="false" />
@@ -136,14 +138,7 @@
       <workItem from="1600953831292" duration="14895000" />
       <workItem from="1600997992859" duration="603000" />
       <workItem from="1600999447567" duration="177000" />
-      <workItem from="1601043961379" duration="3334000" />
-    </task>
-    <task id="LOCAL-00135" summary="add lazy load img">
-      <created>1600764528511</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1600764528511</updated>
+      <workItem from="1601043961379" duration="6954000" />
     </task>
     <task id="LOCAL-00136" summary="add lazy load img">
       <created>1600765255401</created>
@@ -481,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600968690001</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="add hover change">
+      <created>1601047985580</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1601047985581</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,13 +529,13 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600870989189" />
-    <state x="1553" y="-285" key="CommitChangelistDialog2" timestamp="1600999473622">
-      <screen x="1366" y="-285" width="1680" height="1010" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601047983365">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600954147689" />
     <state x="152" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921682839" />
     <state x="1553" y="-285" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1600999473622" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600968689024" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601047983365" />
     <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1600653529454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -548,8 +550,8 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600756119313" />
-    <state x="1704" y="-150" key="Vcs.Push.Dialog.v2" timestamp="1600999501452">
-      <screen x="1366" y="-285" width="1680" height="1010" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601048059088">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600887129134" />
@@ -557,7 +559,7 @@
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921037022" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1600999501452" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600968695245" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601048059088" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600495145402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

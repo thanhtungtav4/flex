@@ -3875,3 +3875,59 @@ $blue_color : #08F2C5!default;
 		border-top-left-radius: 11rem;
 	}
 }
+.case-study-hot {
+	.line-vertical-flywhell {
+		width: 324px;
+		height: 30px;
+		background: $blue_color;
+		top: 36px;
+		z-index: 1;
+	}
+
+	.img-casetudybox {
+		.middle-logo {
+			bottom: 14%;
+			left: 11%;
+
+			.content-middle-logo {
+				display: none;
+
+				.content-middle-des {
+					color: $white;
+					font-weight: bold;
+					font-size: 24px;
+					line-height: 35px;
+				}
+			}
+		}
+
+	}
+	.img-casetudybox:hover {
+		transition: .5s ease;
+		.middle-logo {
+			bottom: 30%;
+			top: 30%;
+			left: 10%;
+			right: 10%;
+			.content-middle-logo {
+				display: block;
+			}
+			.opacity-1{
+				opacity: 1;
+			}
+		}
+		.overlay-one{
+			background: linear-gradient(180deg, rgba(8, 242, 197, 0.6) 0%, rgba(9, 9, 173, 0.6) 100%);
+			img{
+				opacity: 0.2;
+			}
+		}
+		.overlay-tow{
+			background: linear-gradient(180deg, rgba(8, 242, 197, 0.6) 0%, rgba(9, 9, 173, 0.6) 100%);
+			img{
+				opacity: 0.2;
+			}
+		}
+	}
+
+}

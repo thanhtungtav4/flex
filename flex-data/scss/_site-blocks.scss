@@ -3858,3 +3858,20 @@ $blue_color : #08F2C5!default;
 		background-color:unset;
 	}
 }
+.section-faith{
+	background: url("../images/bg-5.png");
+	@include background-custome;
+	.title-flex{
+		color: $white;
+	}
+	color: $white;
+}
+.section-get-time{
+	background: rgb(245,245,245);
+	background: linear-gradient(90deg, rgba(245,245,245,1) 50%, rgba(9,9,173,1) 50%);
+	.box-get-time{
+		background: $white;
+		border-bottom-right-radius: 11rem;
+		border-top-left-radius: 11rem;
+	}
+}

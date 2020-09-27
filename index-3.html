@@ -446,9 +446,23 @@
     <section class="section-mission py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 mx-auto text-center">
+                <div class="col-md-8 mx-auto text-center">
                     <h2 class="title-flex ">Sứ mệnh của FIEX</h2>
-                    <p class="mission-des">"Tạo dựng hành trình tăng trưởng liên tục cho SMB thông qua sức mạnh của trải nghiệm kỹ thuật số"</p>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="clearfix">
+                                <img src="flex-data/images/quotes2.png" class="img-fluid float-left">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mission-des">Tạo dựng hành trình tăng trưởng liên tục cho SMB thông qua sức mạnh của trải nghiệm kỹ thuật số</p>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="clearfix">
+                                <img src="flex-data/images/quotes2.png" class="img-fluid float-right transform_rotate">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -550,36 +564,36 @@
                 <div class="col-md-6 text-center">
                     <div class="box-why-seo pl-4 text-left">
                        <div class="tab-seo-01 noselector tungnt-x box-core py-2 mt-2">
-                           <strong>1. Chính trực
-                           </strong>
+                           <h3><strong>1. Chính trực
+                           </strong></h3>
                            <p class="seo-why-description text-left">
                                Luôn mang trong mình sự chính trực. Chúng tôi trung thực và thực hiện theo lời hứa của mình. Đồng thời, nhanh chóng thừa nhận và học hỏi từ những sai lầm của mình.
                            </p>
                        </div>
                         <div class="tab-seo-02 noselector box-core py-2 mt-2">
-                            <strong>2. Đoàn kết vì mục tiêu chung
-                            </strong>
+                            <h3><strong>2. Đoàn kết vì mục tiêu chung
+                            </strong></h3>
                             <p class="seo-why-description text-left">
                                 Không đùn đẩy, đổ lỗi. Nhìn mọi việc đa chiều và tập trung vào những việc mình có thể làm để giải quyết vấn đề, và để hỗ trợ người khác.
                             </p>
                         </div>
                         <div class="tab-seo-03 noselector box-core py-2 mt-2">
-                            <strong>3. Chịu trách nhiệm tuyệt đối
-                            </strong>
+                           <h3> <strong>3. Chịu trách nhiệm tuyệt đối
+                            </strong></h3>
                             <p class="seo-why-description text-left">
                                 Không đùn đẩy, đổ lỗi. Nhìn mọi việc đa chiều và tập trung vào những việc mình có thể làm để giải quyết vấn đề, và để hỗ trợ người khác.
                             </p>
                         </div>
                         <div class="tab-seo-04 noselector box-core py-2 mt-2">
-                            <strong>4. Vươn tới sự hoàn hảo mỗi ngày
-                            </strong>
+                            <h3><strong>4. Vươn tới sự hoàn hảo mỗi ngày
+                            </strong></h3>
                             <p class="seo-why-description text-left">
                                 Khiêm nhường học hỏi, không ngừng phấn đấu để làm tốt hơn ngày hôm qua. Luôn cố gắng vượt qua sự mong đợi của khách hàng và chính bản thân mình trong bất kì khía cạnh nào của cuộc sống.
                             </p>
                         </div>
                         <div class="tab-seo-05 noselector box-core py-2 mt-2">
-                            <strong>5. Cống hiến giá trị xã hội
-                            </strong>
+                            <h3> <strong>5. Cống hiến giá trị xã hội
+                            </strong></h3>
                             <p class="seo-why-description text-left">
                                 Bên cạnh vật chất, Chúng tôi thật sự muốn trao đi những gì mình có như tình cảm, kinh nghiệm, kiến thức đến cộng đồng và những người xứng đáng nhận được
                             </p>
@@ -1027,9 +1041,11 @@
     $(document).ready(function() {
         $('.owl-carousel').owlCarousel({
             stagePadding: 400,
+            smartSpeed:100,
             loop:true,
             margin:10,
             items:1,
+            autoplayTimeout:100,
             autoplay:true,
             lazyLoad: true,
             nav:true,

@@ -3986,6 +3986,20 @@ $blue_color : #08F2C5!default;
 	.table-striped tbody tr:nth-of-type(odd)  {
 		background: #CEFFF6;
 	}
+	.name-table{
+		font-size: 24px;
+		line-height: 35px;
+		margin-bottom: 0;
+	}
+	.price{
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.table-des{
+		font-size: 18px;
+		line-height: 26px;
+		color: #FBE205;
+	}
 	table{
 		background: #F5F5F5;
 		border-radius: 15px;

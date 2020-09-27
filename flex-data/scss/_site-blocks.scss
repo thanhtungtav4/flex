@@ -4045,4 +4045,18 @@ $blue_color : #08F2C5!default;
 			line-height: 26px;
 		}
 	}
+	.btn-view-table{
+		background: $btn_bg;
+		&:hover{
+			background: $blue_color;
+		}
+	}
+	.btn_blog{
+		border: 5px solid $btn_bg;
+		color: $btn_bg;
+		&:hover{
+			border: 5px solid $blue_color;
+			color: $blue_color;
+		}
+	}
 }

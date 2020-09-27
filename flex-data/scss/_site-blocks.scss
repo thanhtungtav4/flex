@@ -4059,4 +4059,16 @@ $blue_color : #08F2C5!default;
 			color: $blue_color;
 		}
 	}
+	.border-bottom-left-radius{
+		border-bottom-left-radius: 20px;
+	}
+	.border-bottom-right-radius{
+		border-bottom-right-radius: 20px;
+	}
+	.border-top-right-radius{
+		border-top-right-radius: 20px;
+	}
+	.border-top-left-radius{
+		border-top-left-radius: 20px;
+	}
 }

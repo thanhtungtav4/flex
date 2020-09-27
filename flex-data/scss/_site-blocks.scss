@@ -2893,6 +2893,15 @@ $blue_color : #08F2C5!default;
 				padding-right: 6px;
 			}
 		}
+		.hover-contnt{
+			top: 0;
+			.box-hover-user{
+				background: linear-gradient(90deg, rgba(8, 242, 197, 0.7) -0.92%, #0909AD 100%);
+				margin: 15px;
+				padding: 15px;
+				color: $white;
+			}
+		}
 	}
 	.uc-first:first-letter {
 		text-transform: uppercase;

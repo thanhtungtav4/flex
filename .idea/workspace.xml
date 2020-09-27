@@ -134,14 +134,7 @@
       <workItem from="1600999447567" duration="177000" />
       <workItem from="1601043961379" duration="9257000" />
       <workItem from="1601085400620" duration="1215000" />
-      <workItem from="1601198508799" duration="4133000" />
-    </task>
-    <task id="LOCAL-00140" summary="add lazy load img">
-      <created>1600797609023</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1600797609023</updated>
+      <workItem from="1601198508799" duration="6895000" />
     </task>
     <task id="LOCAL-00141" summary="add lazy load img">
       <created>1600799693858</created>
@@ -479,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601085488593</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="add hover change">
+      <created>1601203711095</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1601203711095</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,13 +525,13 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600870989189" />
-    <state x="1553" y="-285" key="CommitChangelistDialog2" timestamp="1601085485582">
-      <screen x="1366" y="-285" width="1680" height="1010" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1601203709128">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600954147689" />
     <state x="152" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921682839" />
     <state x="1553" y="-285" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085485582" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601053609287" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601203709128" />
     <state x="2013" y="-17" key="FileChooserDialogImpl" timestamp="1601086627875">
       <screen x="1366" y="-285" width="1680" height="1010" />
     </state>
@@ -546,8 +546,8 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600756119313" />
-    <state x="1704" y="-150" key="Vcs.Push.Dialog.v2" timestamp="1601085491455">
-      <screen x="1366" y="-285" width="1680" height="1010" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1601203714659">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600887129134" />
@@ -555,7 +555,7 @@
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921037022" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085491455" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601053617283" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601203714659" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600495145402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

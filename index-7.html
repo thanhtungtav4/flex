@@ -1,0 +1,786 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flex</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="flex-data/css/bootstrap.min.css">
+    <link rel="stylesheet" href="flex-data/css/jquery-ui.css">
+    <link rel="stylesheet" href="flex-data/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="flex-data/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="flex-data/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="flex-data/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="flex-data/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="flex-data/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="flex-data/css/aos.css">
+    <link rel="stylesheet" href="flex-data/css/style.css">
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar py-2 bg-white js-sticky-header site-navbar-target" id="site-menu" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-10 col-xl-2">
+                    <h1 class="mb-0 site-logo p-1">
+                        <a href="index.html" class="text-black h2 mb-0">
+                            <img data-src="flex-data/images/logo.png" class="img-fluid lazyload">
+                        </a>
+                    </h1>
+                </div>
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="navbar site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="has-children">
+                                <a href="#" class="nav-link">Dịch vụ</a>
+                                <ul class="dropdown">
+                                    <li><a href="/dich-vu-tu-van-marketing/">Dịch vụ tư vấn</a></li>
+                                    <li><a href="#">Dịch vụ Đồng hành tăng trưởng</a></li>
+                                    <li><a href="#">Dịch vụ Vận hành tăng trưởng</a></li>
+                                    <li><a href="/dich-vu-viet-content/">Dịch vụ viết content</a></li>
+                                    <li><a href="/dich-vu-email-marketing/">Dịch vụ Marketing Automation</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="/bao-gia-dich-vu-seo/"> Báo giá dịch vụ </a></li>
+                            <li class="nav-item dropdown has-megamenu has-children" id="has-megamenu-menu">
+                                <a class="nav-link dropdown-toggle nt-click" href="#" data-toggle="dropdown" data-hover="dropdown">Tài nguyên FIEX </a>
+                                <div class="dropdown-menu megamenu megamenu-nt" role="menu" id="megamenu-nt-check">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="col-megamenu">
+                                                <ul class="list-unstyled">
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="/blog/">
+                                                            <h4 class="hsg-nav__header" >Blog</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Tổng hợp toàn bộ bài viết mới nhất về Marketing tổng thể của FIEX.</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="/marketing-online/">
+                                                            <h4 class="hsg-nav__header" >Marketing Online</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Update kiến thức Marketing Online từ FIEX trên các lĩnh vực: Content, Facebook, Email,...</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="/marketing-online/google-ads-la-gi/">
+                                                            <h4 class="hsg-nav__header" >Google Ads</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Kiến thức Google Ads từ A - Z và hướng dẫn cách triển khai Google Adwords hiệu quả.</span></p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>  <!-- col-megamenu.// -->
+                                        </div><!-- end col-3 -->
+                                        <div class="col-md-4">
+                                            <div class="col-megamenu">
+                                                <ul class="list-unstyled">
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="/kien-thuc-fiex/">
+                                                            <h4 class="hsg-nav__header" >Kiến thức miễn phí</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Toàn tập kiến thức Marketing từ cơ bản đến nâng cao download miễn phí.</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="/seo/">
+                                                            <h4 class="hsg-nav__header" >SEO</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Cẩm nang SEO miễn phí cung cấp cho bạn kiến thức & kỹ thuật SEO từ cơ bản đến nâng cao.</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="/email-marketing/">
+                                                            <h4 class="hsg-nav__header" >Email Marketing</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Trọn bộ tài liệu về Email Marketing & Hướng dẫn cách triển khai chiến dịch Email Marketing Automation.</span></p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>  <!-- col-megamenu.// -->
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="col-megamenu">
+                                                <ul class="list-unstyled">
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="#">
+                                                            <h4 class="hsg-nav__header" >Case study</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Case study khách hàng FIEX đã thành công trong việc thúc đẩy x2 doanh thu. Bạn thì sao?</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="#">
+                                                            <h4 class="hsg-nav__header" >Facebook marketing</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Toàn tập kiến thức Facebook Marketing & Chi tiết cách chạy Facebook hiệu quả.</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="hsg-nav__box-link">
+                                                        <a href="#">
+                                                            <h4 class="hsg-nav__header" >Content Marketing</h4>
+                                                            <p class="hsg-nav__subheader">
+                                                                <span class="hsg-visible-gt-mobile">Cẩm nang viết content marketing cho website giúp tăng tỷ lệ chuyển đổi, tương tác người dùng.</span></p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>  <!-- col-megamenu.// -->
+                                        </div>
+                                    </div><!-- end row -->
+                                </div> <!-- dropdown-mega-menu.// -->
+                            </li>
+                            <li class="has-children">
+                                <a href="#" class="nav-link">Giới thiệu</a>
+                                <ul class="dropdown">
+                                    <li><a href="/gioi-thieu/">Về FIEX</a></li>
+                                    <li><a href="/lien-he/">Liên hệ</a></li>
+                                    <li><a href="/tuyen-dung/">Tuyển dụng</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;">
+                    <a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="site-blocks-cover overlay"  data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row align-items-center  text-center">
+                <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6 text-center">
+                            <div class="img-box">
+                                <img src="images/img_home.png" class="img-fluid home_img_banner">
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-left">
+                            <div class="maketing-box ">
+                                <p class="text-service-maketing">DỊCH VỤ <br> MARKETING <br>ONLINE TỔNG THỂ DÀNH CHO SMB</p>
+                                <ul class="text-service-maketing-description">
+                                    <li>- X10 khả năng Tiếp Cận Đúng tệp khách hàng </li>
+                                    <li> - X2 Doanh số trong vòng 12 tháng hoạt động </li>
+                                    <li>- Khai phá & Khuyếch đại Giá Trị Thương Hiệu trên Internet </li>
+                                    <li>- Xây dựng Trải Nghiệm Thông tin hữu ích từ Doanh nghiệp đến người dùng cuối.</li>
+                                </ul>
+                            </div>
+                            <a class="btn btn_reg" href="#" target="_blank">
+                                Đăng ký ngay
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section-get-info">
+        <div class="d-flex justify-content-center">
+            <div class="col-md-6 py-5">
+                <p class="info-business">10 PHƯƠNG THỨC X2 DOANH NGHIỆP SMB (Đã được chứng minh hiệu quả)</p>
+                <p class="info-description">Step by Step Cách thức cải tiến Sản phẩm, Định vị Thương hiệu và ứng dụng để tăng trưởng hiệu quả nhanh trên Digital Marketing.</p>
+                <form class="needs-validation">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Your name" value="" required="" />
+                            <div class="invalid-feedback">
+                                Valid  name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="email" placeholder="Your email" value="" required="" />
+                            <div class="invalid-feedback">
+                                Valid email is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-lg btn-block btn-download mx-auto" type="submit">Download</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="why-select-flex">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-9 py-4 mt-3">
+                    <p class="title-flex">Tại sao bạn nên chọn FIEX (USP)</p>
+                    <p class="text-why-description">FIEX là Agency Marketing Online Tổng Thể - Chúng tôi giúp bạn tăng trưởng Doanh nghiệp và truyền bá thông điệp của bạn thông qua sức mạnh Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="row why-select-flex-box">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> NGHÊ THUẬT TIẾP THỊ & KỂ CHUYỆN</h5>
+                            <img src="images/love.png" class="img-fluid">
+                            <p class="card-text">Tập trung xây dựng Trải nghiệm thương hiệu bằng Nghệ thuật kể chuyện, lan toả giá trị thông qua nội dung trên Website/ Fanpage/ Email/Ad quảng cáo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> KHOA HỌC KỸ THUẬT SỐ & TRUYỀN THÔNG</h5>
+                            <img src="images/setting.png" class="img-fluid">
+                            <p class="card-text"> Tăng trưởng doanh thu với các chiến lược thu hút khách hàng nhất quán, hệ thống, theo quy trình từng bước. Đã được chứng minh độ hiệu quả. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">XÂY DỰNG CƠ SỞ DỮ LIỆU & TỰ ĐỘNG HOÁ</h5>
+                            <img src="images/laptop.png" class="img-fluid">
+                            <p class="card-text">Dữ liệu nói lên sự thật. Chúng tôi cho bạn thấy rõ hiệu quả qua số liệu tăng trưởng và các quyết định trên cơ sở dữ liệu, một cách tự động hoá.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grown-up-flex">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-8 text-center mx-auto">
+                    <h2 class="title-flex"> Mục tiêu tăng trưởng x2
+                        doanh nghiệp trong vòng 12 tháng</h2>
+                </div>
+            </div>
+            <div class="row py-3" id="cart-custime">
+                <div class="col-sm-6">
+                    <div class="card-wrap">
+                        <div class='card'>
+                            <div class='card-block'>
+                                <div class="card-block-content">
+                                    <h4 class='card-title'>Build Foundation</h4>
+                                    <p class="child-designation">Hoạch định nền tảng</p>
+                                    <ul class='card-text'>
+                                        <li>- Xây dựng Chiến lược Digital Marketing Tổng thể</li>
+                                        <li>- Thiết kế Phễu Bán hàng (Marketing - Sale Funnel)</li>
+                                        <li> - Analytics & Reporting</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class='card-img-top align-items-end'>
+                                <img alt='' class='img-fluid' src='images/bf.png'>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card-wrap">
+                        <div class='card'>
+                            <div class='card-block'>
+                                <div class="card-block-content">
+                                    <h4 class='card-title'>Build Foundation</h4>
+                                    <p class="child-designation">Hoạch định nền tảng</p>
+                                    <ul class='card-text'>
+                                        <li>- Xây dựng Chiến lược Digital Marketing Tổng thể</li>
+                                        <li>- Thiết kế Phễu Bán hàng (Marketing - Sale Funnel)</li>
+                                        <li> - Analytics & Reporting</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class='card-img-top align-items-end'>
+                                <img alt='' class='img-fluid' src='images/bf.png'>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card-wrap">
+                        <div class='card'>
+                            <div class='card-block'>
+                                <div class="card-block-content">
+                                    <h4 class='card-title'>Build Foundation</h4>
+                                    <p class="child-designation">Hoạch định nền tảng</p>
+                                    <ul class='card-text'>
+                                        <li>- Xây dựng Chiến lược Digital Marketing Tổng thể</li>
+                                        <li>- Thiết kế Phễu Bán hàng (Marketing - Sale Funnel)</li>
+                                        <li> - Analytics & Reporting</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class='card-img-top align-items-end'>
+                                <img alt='' class='img-fluid' src='images/bf.png'>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card-wrap">
+                        <div class='card'>
+                            <div class='card-block'>
+                                <div class="card-block-content">
+                                    <h4 class='card-title'>Build Foundation</h4>
+                                    <p class="child-designation">Hoạch định nền tảng</p>
+                                    <ul class='card-text'>
+                                        <li>- Xây dựng Chiến lược Digital Marketing Tổng thể</li>
+                                        <li>- Thiết kế Phễu Bán hàng (Marketing - Sale Funnel)</li>
+                                        <li> - Analytics & Reporting</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class='card-img-top align-items-end'>
+                                <img alt='' class='img-fluid' src='images/bf.png'>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-inbound-marketing py-4">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-10 text-center mx-auto">
+                    <h2 class="title-flex"> Our Methodology - Inbound Marketing</h2>
+                    <p class="inbound-marketing-text">
+                        Hãy thử nhớ lại lần cuối bạn mua sắm như thế nào? Như số đông, bạn bắt đầu với việc Google,
+                        nhấp vào trang các web đầu tiên để đọc thông tin về nó. Suốt cả ngày hôm đó, bạn thấy món đồ
+                        ấy đầy trên Newsfeed Facebook điện thoại bạn. Trong cả hộp email, bạn cũng sẽ nhận được những
+                        "lí do" nhất định phải mua món đồ ấy. Thế rồi, bạn quay ngược trở lại website để đặt món hàng ấy.
+                        À, trước khi thanh toán, để chắc chắn hơn, bạn inbox Fanpage cửa hàng ấy để hỏi về các thắc mắc của
+                        bạn rồi mới toán! Bạn thật sự bị thuyết phục mua hàng nhưng Câu hỏi quan trọng.
+
+                    </p>
+                    <p class="inbound-marketing-text-bold">
+                        Điều gì đã chuyển đổi người mua? Đó có phải là mẫu quảng cáo tính năng trên Website không? Quảng cáo Facebook,
+                        những cái email hay chính sự tư vấn ở Fanpage sau cùng? Hay một sự tích hợp chiến lược của tất cả?
+                    </p>
+                    <p class="inbound-marketing-text">
+                        Tại Fiex, chúng tôi bắt đầu bằng <span class="bold_text">Tìm kiếm Insights Khách hàng, Tạo dựng Chiến lược liên kết tổng thể,
+              Phát triển chiến thuật trên mỗi Điểm Chạm, Khuyến tán thương hiệu trên các Kênh Digital.</span>
+                        Chúng tôi gọi đây là Inbound Marketing
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flywheel-section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="box-flywhell">
+                        <p class="title-flex flywhell-tittle">Mô hình Flywheel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 text-center mx-auto">
+                    <div class="row">
+                        <div class="col-md-6 text-left">
+                            <p class="customer_retention">Customer Retention</p>
+                            <ul class="detail_customer_retention">
+                                <li>70% of companies say it's cheaper to retain a customer than to acquire a new one .</li>
+
+                                <li>Companies with growth aspirations must have implementable customer retention strategies as part of
+                                    their operations or they will forever be replacing lost customers and compromising growth.</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Image Map Generated by http://www.image-map.net/ -->
+                            <img src="images/fly-wheel-trans.png" usemap="#map"  class="img-fluid box-change-image-fly-wheel">
+                            <map name="map">
+                                <area target="" alt="customer insight strategy" title="customer insight strategy" href="" coords="221,221,39" shape="circle">
+                                <area target="" alt="data analytics conversion optimization" title="data analytics conversion optimization" href="" coords="319,163,260,196,268,224,259,247,246,259,221,266,220,333,295,306,335,236" shape="poly">
+                                <area target="" alt="science marketing" title="science marketing" href="" coords="218,335,219,267,196,260,179,243,172,219,178,197,119,161,105,214,116,272,159,320" shape="poly">
+                                <area target="" alt="brand dna story telling" title="brand dna story telling" href="" coords="120,159,180,192,195,178,211,171,229,170,240,174,261,192,318,161,284,122,249,108,210,104,174,112" shape="poly">
+                                <area target="" alt="conversiton funnet" title="conversiton funnet" href="" coords="141,55,211,36,279,47,260,110,215,102,172,112,157,85" shape="poly">
+                                <area target="" alt="content maketing copy writing" title="content maketing copy writing" href="" coords="262,109,283,46,324,67,349,87,366,109,377,125,344,147,318,159,298,132" shape="poly">
+                                <area target="" alt="chatbot email auto mation" title="chatbot email auto mation" href="" coords="323,163,332,192,335,234,403,245,403,207,395,162,378,130" shape="poly">
+                                <area target="" alt="crm" title="crm" href="" coords="339,237,402,248,396,275,374,325,339,360,298,308,319,280,331,260" shape="poly">
+                                <area target="" alt="analytics  reporting" title="analytics  reporting" href="" coords="220,336,261,329,296,309,335,363,285,393,222,403" shape="poly">
+                                <area target="" alt="paid trafic" title="paid trafic" href="" coords="162,324,190,332,217,337,219,405,128,380" shape="poly">
+                                <area target="" alt="social media" title="social media" href="" coords="116,274,133,298,157,320,127,375,91,348,56,304" shape="poly">
+                                <area target="" alt="seo google" title="seo google" href="" coords="38,212,103,215,107,243,115,274,57,305" shape="poly">
+                                <area target="" alt="lead gen" title="lead gen" href="" coords="60,128,119,160,109,186,104,212,38,209" shape="poly">
+                                <area target="" alt="website ui/ux" title="website ui/ux" href="" coords="140,56,170,113,139,136,119,159,60,128" shape="poly">
+                                <area target="_blank" alt="nuôi dưỡng " title="nuôi dưỡng" href="https://mewmew.ml"  coords="378,129,400,175,404,208,398,264,378,319,351,346,341,361,365,384,399,348,416,317,432,271,440,236,439,193,431,151,412,111" shape="poly">
+                                <area target="" alt="chuyển đổi" title="chuyển đổi" href="" coords="58,132,39,175,35,211,40,260,54,304,86,350,124,378,158,393,218,405,259,398,313,378,340,362,363,388,324,414,261,434,203,438,126,419,74,386,41,350,12,291,2,193,16,142,28,109" shape="poly">
+                                <area target="" alt="thu hút" title="thu hút" href="" coords="63,124,94,83,135,53,186,38,235,34,283,43,340,77,378,123,410,109,366,54,300,15,212,1,129,18,79,47,29,106" shape="poly">
+                            </map>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="return-kpi">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-kpi">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-12">
+                    <h2 class="title-flex">KẾT QUẢ DỊCH VỤ ĐƯỢC THỂ HIỆN BẰNG KPI
+                    </h2>
+                </div>
+            </div>
+            <div class="row text-center card-kpi-box">
+                <div class="col-md-10 text-center mx-auto">
+                    <div class="row">
+                        <div class="col-md-4 card-kpi">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/awareness.png" class="img-fluid">
+                                    <h5 class="card-title"> 1. KPI về nhận thức Khách hàng
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 card-kpi">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/growth.png" class="img-fluid">
+                                    <h5 class="card-title"> 2. KPI về hành vi mua của khách hàng
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 card-kpi">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/love.png" class="img-fluid">
+                                    <h5 class="card-title"> 3. KPI về Tổng doanh thu từ khách hàng</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-md-6">
+                            <div class="kpi-custome-box">
+                                <img src="images/custome-kpi.png" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-end">
+                            <div class="kpi-des">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="clearfix">
+                                            <img src="images/quotes.png" class="img-fluid float-left">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Nếu khách hàng không nói về bạn, họ không cân nhắc mua hàng của bạn.
+                                    Nếu họ không cân nhắc họ không mua bạn - và nếu họ không mua bạn, họ
+                                    đang mua từ một người khác Tại Fiex, chúng tôi cam kết khách hàng sẽ
+                                    nói về bạn, cân nhắc đến bạn và mua hàng của bạn.</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="clearfix">
+                                            <img src="images/quotes.png" class="img-fluid float-right transform_rotate">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-get-grow">
+        <div class="d-flex justify-content-center">
+            <div class="col-md-6 py-5">
+                <p class="title-ready-to-grow">READY TO <span class="ready-to-grow-bold">GROW YOUR BUSINESS</span></p>
+                <p class="info-description">Nếu khách hàng không nói về bạn, họ không cân nhắc mua hàng của bạn.
+                    Nếu họ không cân nhắc họ không mua bạn - và nếu họ không mua bạn, họ đang mua từ một người khác</p>
+                <form class="needs-validation">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <button class="btn btn-lg btn-block btn-download mx-auto" type="submit">Download</button>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <button class="btn btn-lg btn-block btn-download mx-auto" type="submit">Download</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="site-section testimonial-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="title-flex">Khách hàng nói gì về FIEX?</h2>
+                </div>
+            </div>
+        </div>
+        <div class="slide-one-item home-slider owl-carousel">
+            <div>
+                <div class="testimonial">
+                    <div class="card-container">
+                        <div class="card-wrap">
+                            <div class='card'>
+                                <div class='card-img-top'>
+                                    <img alt='' class='img-fluid' src='images/customer-avatar.png'>
+                                </div>
+                                <div class='card-block'>
+                                    <div class="card-block-content">
+                                        <h4 class='card-title mb-0'>Nguyen Van A</h4>
+                                        <small class="position-custome">Nguyen Van A</small>
+                                        <blockquote class="blockquote-designation">
+                                            <p>&ldquo;Mọi thứ đều có trình tự! Tất cả chúng ta đều lăn trước khi bò, trườn trước khi đi,
+                                                đi trước khi chạy, chạy trước khi nhảy và nhảy trước khi tiếp đất.
+                                                Từ những bước nền tảng, chúng ta mới vươn đến Tăng trưởng.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="testimonial">
+                    <div class="card-container">
+                        <div class="card-wrap">
+                            <div class='card'>
+                                <div class='card-img-top'>
+                                    <img alt='' class='img-fluid' src='images/customer-avatar.png'>
+                                </div>
+                                <div class='card-block'>
+                                    <div class="card-block-content">
+                                        <h4 class='card-title mb-0'>Nguyen Van A</h4>
+                                        <small class="position-custome">Nguyen Van A</small>
+                                        <blockquote class="blockquote-designation">
+                                            <p>&ldquo;Mọi thứ đều có trình tự! Tất cả chúng ta đều lăn trước khi bò, trườn trước khi đi,
+                                                đi trước khi chạy, chạy trước khi nhảy và nhảy trước khi tiếp đất.
+                                                Từ những bước nền tảng, chúng ta mới vươn đến Tăng trưởng.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="testimonial">
+                    <div class="card-container">
+                        <div class="card-wrap">
+                            <div class='card'>
+                                <div class='card-img-top'>
+                                    <img alt='' class='img-fluid' src='images/customer-avatar.png'>
+                                </div>
+                                <div class='card-block'>
+                                    <div class="card-block-content">
+                                        <h4 class='card-title mb-0'>Nguyen Van A</h4>
+                                        <small class="position-custome">Nguyen Van A</small>
+                                        <blockquote class="blockquote-designation">
+                                            <p>&ldquo;Mọi thứ đều có trình tự! Tất cả chúng ta đều lăn trước khi bò, trườn trước khi đi,
+                                                đi trước khi chạy, chạy trước khi nhảy và nhảy trước khi tiếp đất.
+                                                Từ những bước nền tảng, chúng ta mới vươn đến Tăng trưởng.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="case-study py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+                    <img src="images/about_image.png" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 order-md-1" data-aos="fade">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-left pb-1">
+                                <h2 class="text-black h1 site-section-heading">Case Study</h2>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-4">
+                            <p class="lead">Mọi thứ đều có trình tự! Tất cả chúng ta đều
+                                lăn trước khi bò, trườn trước khi đi,
+                                đi trước khi chạy, chạy trước khi nhảy và nhảy trước khi tiếp đất.
+                                Từ những bước nền tảng, chúng ta mới vươn đến Tăng trưởng.</p>
+                            <div class="row">
+                                <div class="col-lg-4 case-study-box text-center">
+                                    <div class="study_box">
+                                        <h3 class="number-study">99%</h3>
+                                        <p class="number-study-description">lorem ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 case-study-box text-center">
+                                    <div class="study_box">
+                                        <h3 class="number-study">99%</h3>
+                                        <p class="number-study-description">lorem ipsum</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 case-study-box text-center">
+                                    <div class="study_box">
+                                        <h3 class="number-study">99%</h3>
+                                        <p class="number-study-description">lorem ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div  class="row">
+                <div class="col-12 text-center mx-auto">
+                    <a class="btn btn_reg " href="#" target="_blank">
+                        Các Case Study khác
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-flex-news py-5">
+        <div class="container">
+            <div class="row justify-content-center py-4">
+                <div class="col-md-8 text-center">
+                    <h2 class="title-flex">KIẾN THỨC MARKETING ONLINE MỚI NHẤT TỪ FIEX</h2>
+                </div>
+            </div>
+            <div class="card-deck py-4">
+                <div class="card">
+                    <img class="card-img-top" src="flex-data/images/flex-news-1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                        <div class="badges">
+                            <span class="badge badge-pill">Primary</span>
+                            <span class="badge badge-pill">Secondary</span>
+                            <span class="badge badge-pill">Success</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/flex-news-1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                        <div class="badges">
+                            <span class="badge badge-pill">Primary</span>
+                            <span class="badge badge-pill">Secondary</span>
+                            <span class="badge badge-pill">Success</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/flex-news-1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                        <div class="badges">
+                            <span class="badge badge-pill">Primary</span>
+                            <span class="badge badge-pill">Secondary</span>
+                            <span class="badge badge-pill">Success</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="btn btn-lg btn-block btn-view-more mx-auto" type="submit">Xem thêm</button>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2 class="footer-heading mb-4">About Us</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                        </div>
+                        <div class="col-md-3 ml-auto">
+                            <h2 class="footer-heading mb-4">Features</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="footer-heading mb-4">Follow Us</h2>
+                            <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+                    <form action="#" method="post">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <div class="border-top pt-5">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Flex</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</div> <!-- .site-wrap -->
+
+<script src="flex-data/js/jquery-3.3.1.min.js"></script>
+<script src="flex-data/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="flex-data/js/jquery-ui.js"></script>
+<script src="flex-data/js/popper.min.js"></script>
+<script src="flex-data/js/bootstrap.min.js"></script>
+<script src="flex-data/js/owl.carousel.min.js"></script>
+<script src="flex-data/js/jquery.stellar.min.js"></script>
+<script src="flex-data/js/jquery.easing.1.3.js"></script>
+<script src="flex-data/js/aos.js"></script>
+<script src="flex-data/js/jquery.fancybox.min.js"></script>
+<script src="flex-data/js/jquery.sticky.js"></script>
+<script src="flex-data/js/imageMapResizer.min.js"></script>
+<script src="flex-data/js/main.js"></script>
+<script>
+    $(document).ready(function(e){$("map").imageMapResize();});
+</script>
+
+</body>
+</html>

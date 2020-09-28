@@ -20,24 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flex-data/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex-data/fonts/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data/scss/_site-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/_site-navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,14 +150,7 @@
       <workItem from="1601085400620" duration="1215000" />
       <workItem from="1601198508799" duration="20981000" />
       <workItem from="1601256589196" duration="20000" />
-      <workItem from="1601304929629" duration="1515000" />
-    </task>
-    <task id="LOCAL-00158" summary="add hover change">
-      <created>1600917464263</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1600917464263</updated>
+      <workItem from="1601304929629" duration="5820000" />
     </task>
     <task id="LOCAL-00159" summary="add hover change">
       <created>1600917986317</created>
@@ -498,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601255084700</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="add hover change">
+      <created>1601308604002</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1601308604003</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,10 +541,10 @@
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-929" y="479" key="#com.intellij.fileTypes.FileTypeChooser/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600870989189" />
-    <state x="-1214" y="313" key="CommitChangelistDialog2" timestamp="1601255083063">
+    <state x="-1214" y="313" key="CommitChangelistDialog2" timestamp="1601308601770">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
-    <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601255083063" />
+    <state x="-1214" y="313" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601308601770" />
     <state x="214" y="0" key="CommitChangelistDialog2/-1366.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601225466661" />
     <state x="152" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921682839" />
     <state x="1553" y="-285" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085485582" />
@@ -566,11 +563,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600756119313" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601254933941">
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601308606744">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601254933941" />
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601308606744" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1600921037022" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085491455" />
@@ -593,10 +590,10 @@
       <screen x="-1366" y="375" width="1366" height="728" />
     </state>
     <state x="-866" y="653" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599380807136" />
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1600959584507">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-976" y="313" width="585" height="728" key="find.popup" timestamp="1601311019430">
+      <screen x="-1366" y="313" width="1366" height="728" />
     </state>
-    <state x="-976" y="313" width="585" height="728" key="find.popup/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600619246759" />
+    <state x="-976" y="313" width="585" height="728" key="find.popup/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601311019430" />
     <state x="-976" y="375" width="585" height="728" key="find.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599069402270" />
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600959584507" />
     <state x="339" y="6" key="run.anything.popup" timestamp="1600968129885">

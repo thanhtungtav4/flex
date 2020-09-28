@@ -4181,4 +4181,10 @@ $blue_color : #08F2C5!default;
 	}
 
 }
-
+.community-section .card:hover{
+	box-shadow: 0px 0px 14px rgba(9,9,173,0.3);
+	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.seo-card-box:hover, .img-casetudybox:hover , .community-section .card:hover, .flex-custome-logo .img-fluid{
+	transform: translate3d(0, -10px, 0);
+}

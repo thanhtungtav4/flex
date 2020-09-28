@@ -1106,8 +1106,13 @@ $blue_color : #08F2C5!default;
 	}
 }
 .author-box-blog{
+	width: 100%;
+	margin: 30px auto;
+	border-top: 1px solid #4f4f4f;
 	.author-name-des{
-		font-size: 0.9rem;
+		line-height: 1.5;
+		font-size: 12px;
+		text-align: justify;
 	}
 	.author-name{
 		font-size: 24px;
@@ -1118,6 +1123,12 @@ $blue_color : #08F2C5!default;
 		font-size: 1.7rem;
 		padding-left: 12px;
 	}
+}
+.bg-box-author{
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 8px 8px 8px rgba(79,79,79,.25);
+	background-color: #f6f6f6;
 }
 .blog-tittle-box{
 	.title-flex {

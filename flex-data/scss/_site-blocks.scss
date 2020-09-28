@@ -1097,9 +1097,20 @@ $blue_color : #08F2C5!default;
 	}
 	h4{
 		font-size: 1.2rem;
+		color: $black;
+	}
+	h4 a{
+		color: $black;
+		&:hover{
+			color: $btn_bg;
+		}
 	}
 	.categories-name-card{
-		font-size: 1rem;
+		font-size: 0.8rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		color: $black;
 	}
 	.post-author a{
 		font-size: 1rem;
@@ -2311,35 +2322,6 @@ $blue_color : #08F2C5!default;
 			font-size: 24px;
 			line-height: 35px;
 			color: $black;
-		}
-
-		.badges {
-			font-style: normal;
-			font-weight: 500;
-			font-size: 16px;
-			line-height: 23px;
-			color: #969696;
-
-			.badge-pill {
-				padding-right: 1em;
-				padding-left: 1em;
-			}
-
-			.badge {
-				background: #CEFFF6;
-				&:hover{
-					transform: translate3d(0,-3px,0);
-					transition: all .2s cubic-bezier(.4,0,.2,1);
-				}
-			}
-
-			.badge:nth-child(2) {
-				background: #D6D6FF;
-			}
-
-			.badge:nth-child(3) {
-				background: #E6E6E6;
-			}
 		}
 	}
 	.section-reg-maketing {
@@ -4185,6 +4167,34 @@ $blue_color : #08F2C5!default;
 	box-shadow: 0px 0px 14px rgba(9,9,173,0.3);
 	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.seo-card-box:hover, .img-casetudybox:hover , .community-section .card:hover, .flex-custome-logo .img-fluid{
+.seo-card-box:hover, .img-casetudybox:hover , .community-section .card:hover, .flex-custome-logo .img-fluid , .slider-full-box-v2 .item, .grown-up-flex .card-wrap:hover{
 	transform: translate3d(0, -10px, 0);
+}
+.badges {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 23px;
+	color: #969696;
+
+	.badge-pill {
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+
+	.badge {
+		background: #CEFFF6;
+		&:hover{
+			transform: translate3d(0,-3px,0);
+			transition: all .2s cubic-bezier(.4,0,.2,1);
+		}
+	}
+
+	.badge:nth-child(2) {
+		background: #D6D6FF;
+	}
+
+	.badge:nth-child(3) {
+		background: #E6E6E6;
+	}
 }

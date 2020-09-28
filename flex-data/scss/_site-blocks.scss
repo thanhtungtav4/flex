@@ -4173,7 +4173,11 @@ $blue_color : #08F2C5!default;
 		 margin: 0 0 1.5rem;
 		 border-left: 5px solid #0909ac;
 		 line-height: 1.5;
-		 background-color: rgb(0 0 0 / 5%);
+		background-color: rgba(79,79,79,.25);
 	 }
+	figcaption {
+		font-style: italic;
+		text-align: center;
+	}
 
 }

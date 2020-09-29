@@ -4216,6 +4216,10 @@ $blue_color : #08F2C5!default;
 		background-color: $btn_bg;
 		color: $white;
 		border-radius:unset;
+		border-color: $btn_bg;
+		&:hover{
+			border-color: $blue_color;
+		}
 	}
 
 }
@@ -4231,4 +4235,14 @@ $blue_color : #08F2C5!default;
 .sticky-category{
 	position: fixed;
 	display: block !important;
+}
+.progress-bar {
+	height: 5px;
+	background: $btn_bg;
+	width: 0%;
+}
+.progress-container {
+	width: 100%;
+	height: 5px;
+	background: #ccc;
 }

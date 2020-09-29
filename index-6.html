@@ -189,7 +189,7 @@
             </form>
         </div>
         <div class="progress-container">
-            <div class="progress-bar" id="myBar" style="width: 1.54583%;"></div>
+            <div class="progress-bar" id="myBar"></div>
         </div>
     </div>
     <section class="section-top-blog py-3">
@@ -965,26 +965,6 @@
 <script src="flex-data/js/lazysizes.min.js" defer></script>
 <script src="flex-data/js/main.js" defer></script>
 <script>
-    //is page 2
-    $(document).ready(function() {
-        $('#owl-carousel-logo').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: false,
-            dots:false,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            }
-        })
-    });
     $(window).scroll(function(){
         if ($(this).scrollTop() > 450) {
             $('.hs_cos_wrapper').addClass('position-fixed');
@@ -997,10 +977,14 @@
     window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            jQuery('#category-menu').addClass('sticky-category');
+            jQuery('#category-menu').removeClass('sticky-category');
             // document.getElementById("category-menu").addClass('sticky-category');
         } else {
-            jQuery('#category-menu').removeClass('sticky-category');
+            jQuery('#category-menu').addClass('sticky-category');
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
         }
         prevScrollpos = currentScrollPos;
     };

@@ -4198,3 +4198,37 @@ $blue_color : #08F2C5!default;
 		background: #E6E6E6;
 	}
 }
+.custome-blog-menu{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	.form-control{
+		height: 35px;
+		border-radius: 0;
+	}
+	label{
+		font-size: 13px;
+		color: $black;
+		font-weight: 500;
+		text-align: left;
+		line-height: 20px;
+	}
+	.get-docs{
+		background-color: $btn_bg;
+		color: $white;
+		border-radius:unset;
+	}
+
+}
+#category-menu {
+	display: none;
+	background-color: #f6f6f6;
+	box-shadow: 0 4px 4px rgba(79,79,79,.25);
+	transition: height .4s;
+	z-index: 999999;
+	overflow: hidden;
+	width: 100%;
+}
+.sticky-category{
+	position: fixed;
+	display: block !important;
+}

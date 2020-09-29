@@ -2900,14 +2900,25 @@ $blue_color : #08F2C5!default;
 				padding: 15px;
 				border-radius: 10px;
 				color: $white;
+				height: 255px;
+				width: auto;
 				.name{
-					font-size: 1.3rem;
+					font-size: 1.2rem;
 					font-weight: bold;
 					margin-bottom: 0;
 				}
 				.des-user{
-					font-size: 1rem;
+					font-size: 11px;
 					font-weight: 300;
+				}
+				p{
+					font-size: 12px;
+				}
+			}
+			.user-box{
+				img{
+					min-width: 273px;
+					height: auto;
 				}
 			}
 

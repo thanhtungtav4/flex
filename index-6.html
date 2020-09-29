@@ -175,6 +175,7 @@
     <div id="category-menu">
         <div class="category-wrap container">
             <form class="form-inline custome-blog-menu">
+                <div class="form-row">
                 <label for="inlineFormEmail" class="m-2">Email</label>
                 <input type="email" class="form-control m-2" id="inlineFormEmail">
                 <label for="inlineFormname" class="m-2">Họ và Tên</label>
@@ -186,6 +187,7 @@
                     <option>Content Marketing</option>
                 </select>
                 <button type="submit" class="btn btn-primary m-2 get-docs">Nhận tài liệu</button>
+                </div>
             </form>
         </div>
         <div class="progress-container">
@@ -213,7 +215,7 @@
                         <div class="date-blog mt-4">August 27, 2020</div>
                         <h5 class="post-author mt-3  mb-4">
                             <a href="#"><img src="flex-data/images/mr-thu.png" class="circle post-author-img" alt="mr-thuho"></a>
-                            <a href="#">bởi Thu Ho</a>
+                            <a href="#" class="custome-a">bởi Thu Ho</a>
                         </h5>
                     </div>
                 </div>
@@ -671,7 +673,7 @@
 
                         <p>Nếu có bất kỳ thắc mắc hoặc chia sẻ về Yoast SEO, comment bên dưới bài viết nhé! </p>
 
-
+                        <blockquote class="wp-block-quote"><p>Thực khách đi ăn một mình tại nhà hàng sẽ vui vẻ hơn nếu ở đó có wifi. Đồng thời, nhiều nhà bán lẻ cũng nhận thấy doanh số bán hàng tăng cao khi cửa hàng của họ có cung cấp wifi miễn phí.&nbsp;</p></blockquote>
 
                         <p>Chúc bạn thành công!</p>
                     </div>
@@ -714,72 +716,76 @@
 
                         </div>
                     </div>
-                    <h3 class="recommended_posts-heading "><strong>Bài viết liên quan :</strong></h3>
-                    <div class="row recommended_posts mt-5 mb-5">
-                       <div class="col-md-4">
-                                <div class="card mb-4 box-shadow">
-                                    <img class="img-fluid"  src="https://fiexmarketing.com/wp-content/uploads/marketing-la-gi.jpg">
-                                    <div class="card-body">
-                                        <div class="badges">
-                                            <span class="badge badge-pill">Marketing</span>
-                                            <span class="badge badge-pill">SEO</span>
-                                        </div>
-                                        <h4><a href="#">Marketing là gì? Cẩm nang mới nhất về ngành marketing 2020</a></h4>
-                                        <p class="card-text">Sales operations teams are an essential piece of the sales department puzzle. For sales...</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <h5 class="post-author">
-                                                <a href="#"><img src="https://learn.g2.com/hubfs/editedheadshot.jpg" class="circle post-author-img"></a>
-                                                by <a href="#">Tricia Dempsey</a>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="img-fluid"  src="https://fiexmarketing.com/wp-content/uploads/seo.jpg">
-                                <div class="card-body">
-                                    <div class="badges">
-                                        <span class="badge badge-pill">Marketing</span>
-                                        <span class="badge badge-pill">SEO</span>
-                                    </div>
-                                    <h4><a href="#">SEO là gì và những kiến thức quan trọng nhất khi làm SEO</a></h4>
-                                    <p class="card-text">Sales operations teams are an essential piece of the sales department puzzle. For sales...</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <h5 class="post-author">
-                                            <a href="#"><img src="https://learn.g2.com/hubfs/editedheadshot.jpg" class="circle post-author-img"></a>
-                                            by <a href="#">Tricia Dempsey</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="img-fluid"  src="https://fiexmarketing.com/wp-content/uploads/aida.jpg">
-                                <div class="card-body">
-                                    <div class="badges">
-                                        <span class="badge badge-pill">Marketing</span>
-                                        <span class="badge badge-pill">SEO</span>
-                                    </div>
-                                    <h4><a href="#">46 Best Sales Tools for Sales Operations</a></h4>
-                                    <p class="card-text">Sales operations teams are an essential piece of the sales department puzzle. For sales...</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <h5 class="post-author">
-                                            <a href="#"><img src="https://learn.g2.com/hubfs/editedheadshot.jpg" class="circle post-author-img"></a>
-                                            by <a href="#">Tricia Dempsey</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-lg-3 d-md-none d-lg-block">
                     <div class="box-ads-view w-75 mx-auto text-center">
                         <a href="#" target="_blank">
                             <img src="flex-data/images/pasted-ads.png" class="img-fluid">
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-recommended-posts">
+        <div class="container">
+            <h3 class="recommended_posts-heading "><strong>Bài viết liên quan :</strong></h3>
+            <div class="row recommended_posts mt-5 mb-5">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="img-fluid"  src="https://fiexmarketing.com/wp-content/uploads/marketing-la-gi.jpg">
+                        <div class="card-body">
+                            <div class="badges">
+                                <span class="badge badge-pill">Marketing</span>
+                                <span class="badge badge-pill">SEO</span>
+                            </div>
+                            <h4><a href="#">Marketing là gì? Cẩm nang mới nhất về ngành marketing 2020</a></h4>
+                            <p class="card-text">Sales operations teams are an essential piece of the sales department puzzle. For sales...</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="post-author">
+                                    <a href="#"><img src="https://learn.g2.com/hubfs/editedheadshot.jpg" class="circle post-author-img"></a>
+                                     <a href="#">Tricia Dempsey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="img-fluid"  src="https://fiexmarketing.com/wp-content/uploads/seo.jpg">
+                        <div class="card-body">
+                            <div class="badges">
+                                <span class="badge badge-pill">Marketing</span>
+                                <span class="badge badge-pill">SEO</span>
+                            </div>
+                            <h4><a href="#">SEO là gì và những kiến thức quan trọng nhất khi làm SEO</a></h4>
+                            <p class="card-text">Sales operations teams are an essential piece of the sales department puzzle. For sales...</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="post-author">
+                                    <a href="#"><img src="https://learn.g2.com/hubfs/editedheadshot.jpg" class="circle post-author-img"></a>
+                                     <a href="#">Tricia Dempsey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="img-fluid"  src="https://fiexmarketing.com/wp-content/uploads/aida.jpg">
+                        <div class="card-body">
+                            <div class="badges">
+                                <span class="badge badge-pill">Marketing</span>
+                                <span class="badge badge-pill">SEO</span>
+                            </div>
+                            <h4><a href="#">46 Best Sales Tools for Sales Operations</a></h4>
+                            <p class="card-text">Sales operations teams are an essential piece of the sales department puzzle. For sales...</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="post-author">
+                                    <a href="#"><img src="https://learn.g2.com/hubfs/editedheadshot.jpg" class="circle post-author-img"></a>
+                                     <a href="#">Tricia Dempsey</a>
+                                </h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -973,21 +979,28 @@
         }
     });
     $(document).ready(function() {
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            jQuery('#category-menu').removeClass('sticky-category');
-            // document.getElementById("category-menu").addClass('sticky-category');
-        } else {
-            jQuery('#category-menu').addClass('sticky-category');
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
+        var mq = window.matchMedia( "(min-width: 768px)" );
+        if (mq.matches) {
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    jQuery('#category-menu').removeClass('sticky-category');
+                    // document.getElementById("category-menu").addClass('sticky-category');
+                } else {
+                    jQuery('#category-menu').addClass('sticky-category');
+                    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                    var scrolled = (winScroll / height) * 100;
+                    document.getElementById("myBar").style.width = scrolled + "%";
+                }
+                prevScrollpos = currentScrollPos;
+            };
         }
-        prevScrollpos = currentScrollPos;
-    };
+        else {
+            // window width is greater than 570px
+        }
+
     });
 </script>
 </body>

@@ -4275,3 +4275,35 @@ $blue_color : #08F2C5!default;
 	object-fit: cover;
 	border-radius: 50%;
 }
+.section-tab{
+	.nav-pills{
+		li{
+			margin: 10px;
+			a{
+				display: block;
+				padding: 11px 25px 12px 25px;
+				border-radius: 100px;
+				font-size: 1rem;
+				font-weight: 700;
+				color: #26313d;
+			}
+			.active{
+				color: $white;
+				text-decoration: none;
+				background: $btn_bg;
+			}
+		}
+	}
+	.card{
+		border-bottom: 2px solid #eee;
+	}
+	.ghost{
+		background: transparent;
+		color: $btn_bg;
+		border: 2px solid $btn_bg;
+		&:hover{
+			color: $blue_color;
+			border: 2px solid $blue_color;
+		}
+	}
+}

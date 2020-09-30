@@ -4256,21 +4256,22 @@ $blue_color : #08F2C5!default;
 		letter-spacing: .1em;
 		color: $black;
 	}
-	.post-author{
-		a{
-			font-size: 1rem;
-			color: $btn_bg;
-			&:hover{
-				color: $blue_color;
-			}
+
+}
+.post-author{
+	a{
+		font-size: 1rem;
+		color: $btn_bg;
+		&:hover{
+			color: $blue_color;
 		}
 	}
-	.post-author-img{
-		max-width: 50px;
-		max-height: 50px;
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-		border-radius: 50%;
-	}
+}
+.post-author-img{
+	max-width: 50px;
+	max-height: 50px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 50%;
 }

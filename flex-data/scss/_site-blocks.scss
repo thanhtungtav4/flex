@@ -4277,6 +4277,7 @@ $blue_color : #08F2C5!default;
 }
 .section-tab{
 	.nav-pills{
+		border-top: 2px solid #eee;
 		li{
 			margin: 10px;
 			a{
@@ -4297,13 +4298,27 @@ $blue_color : #08F2C5!default;
 	.card{
 		border-bottom: 2px solid #eee;
 	}
-	.ghost{
-		background: transparent;
-		color: $btn_bg;
-		border: 2px solid $btn_bg;
-		&:hover{
-			color: $blue_color;
-			border: 2px solid $blue_color;
+
+}
+.no-bullet{
+	li {
+		a{
+			color: $btn_bg;
+			&:hover{
+				color: $blue_color;
+			}
 		}
+	}
+}
+.eyebrow{
+	margin-bottom: 0.3rem;
+}
+.ghost{
+	background: transparent;
+	color: $btn_bg;
+	border: 2px solid $btn_bg;
+	&:hover{
+		color: $blue_color;
+		border: 2px solid $blue_color;
 	}
 }

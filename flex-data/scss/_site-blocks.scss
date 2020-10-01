@@ -4329,9 +4329,38 @@ $blue_color : #08F2C5!default;
 	top: 36px;
 	z-index: 1;
 }
+.section-author-box{
+
+}
 .author-banner{
 	.fab{
 		font-size: 2rem;
 		padding-left: 1rem;
+	}
+}
+.bg-oranges{
+	background-image: url(../images/bg-oranges-img.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: $white;
+	font-style: normal;
+	.btn{
+		a{
+			color: $white;
+		}
+	}
+}
+.bg-box-author-section{
+	background-image: url(../images/bg-section.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 16rem;
+}
+.section-author-box{
+	margin-top: -10rem;
+	.margin-top-3rem{
+		margin-top: -3rem;
 	}
 }

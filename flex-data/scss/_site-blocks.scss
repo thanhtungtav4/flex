@@ -4383,3 +4383,24 @@ $blue_color : #08F2C5!default;
 .hubspot-link__container{
 	display: none;
 }
+.customer-feedback-box{
+	.text-description{
+		max-height: 135px;
+		height: 135px;
+		overflow-y: scroll;
+	}
+	.text-description::-webkit-scrollbar {
+		display: none;
+	}
+	.image-customer-box{
+		height: 110px;
+	}
+}
+.why-select-flex-box-fix{
+	.card{
+		max-height: none;
+		.card-text{
+			height: 285px;
+		}
+	}
+}

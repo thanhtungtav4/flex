@@ -4398,7 +4398,7 @@ $blue_color : #08F2C5!default;
 }
 .why-select-flex-box-fix{
 	.card{
-		max-height: none;
+		max-height: none !important;
 		.card-text{
 			height: 285px;
 		}

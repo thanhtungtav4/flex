@@ -23,9 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="fix menu">
+      <change afterPath="$PROJECT_DIR$/flex-data.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,21 +152,9 @@
       <workItem from="1601438692347" duration="3516000" />
       <workItem from="1601522529052" duration="36000" />
       <workItem from="1601540693249" duration="15000" />
-      <workItem from="1601560512111" duration="7318000" />
-    </task>
-    <task id="LOCAL-00175" summary="add hover change">
-      <created>1600932506866</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1600932506866</updated>
-    </task>
-    <task id="LOCAL-00176" summary="add hover change">
-      <created>1600934132570</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1600934132570</updated>
+      <workItem from="1601560512111" duration="15996000" />
+      <workItem from="1601598569387" duration="1378000" />
+      <workItem from="1601648791452" duration="3582000" />
     </task>
     <task id="LOCAL-00177" summary="add hover change">
       <created>1600939751092</created>
@@ -494,7 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601568989179</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="fix menu">
+      <created>1601572232987</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1601572232987</updated>
+    </task>
+    <task id="LOCAL-00225" summary="fix menu">
+      <created>1601572316429</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1601572316429</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,11 +569,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600756119313" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601568996149">
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2" timestamp="1601572320151">
       <screen x="-1366" y="313" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
-    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601568996149" />
+    <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601572320151" />
     <state x="-1091" y="472" key="Vcs.Push.Dialog.v2/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599928713176" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1601460201298" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085491455" />

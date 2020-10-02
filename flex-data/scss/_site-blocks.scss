@@ -4131,6 +4131,11 @@ $blue_color : #08F2C5!default;
 		display: table;
 		font-size: 95%;
 		font-weight: 700;
+		.toc_list{
+			li::before{
+				content: "";
+			}
+		}
 	}
 	a {
 		color: #0909ad;
@@ -4271,7 +4276,7 @@ $blue_color : #08F2C5!default;
 	max-width: 50px;
 	max-height: 50px;
 	width: 100%;
-	height: auto;
+	height: 50px;
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -4364,4 +4369,17 @@ $blue_color : #08F2C5!default;
 	.margin-top-3rem{
 		margin-top: -3rem;
 	}
+}
+.image-blog-box{
+	img{
+		max-width: 100% !important;
+	}
+}
+.hbspt-form{
+	.actions{
+		text-align: center !important;
+	}
+}
+.hubspot-link__container{
+	display: none;
 }

@@ -3577,6 +3577,16 @@ $blue_color : #08F2C5!default;
 	@include stroke-page-six;
 	}
 }
+.active-seo-01 {
+	.seo-01{
+		fill:url(#paint0_linear);
+		@include stroke-unset;
+		color: $white;
+	}
+	.icon-six{
+		fill:$white;
+	}
+}
 .seo-02{
 	@include stroke-page;
 	&:hover{
@@ -4287,9 +4297,9 @@ $blue_color : #08F2C5!default;
 			margin: 10px;
 			a{
 				display: block;
-				padding: 11px 25px 12px 25px;
+				padding: 10px 20px 10px 20px;
 				border-radius: 100px;
-				font-size: 1rem;
+				font-size: 0.8rem;
 				font-weight: 700;
 				color: #26313d;
 			}
@@ -4402,5 +4412,19 @@ $blue_color : #08F2C5!default;
 		.card-text{
 			height: 285px;
 		}
+		.card-text-2{
+			height: 170px;
+		}
+		.card-text-email-marketing{
+			height: 318px;
+		}
+	}
+	.card-tittle{
+		height: 50px;
+	}
+}
+.why-select-flex-box-card-2{
+	.card{
+		padding-top: 1rem;
 	}
 }

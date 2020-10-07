@@ -4096,6 +4096,7 @@ $blue_color : #08F2C5!default;
 .blog-post{
 	img{
 		max-width: 100%;
+		width: 100% !important;
 		border-radius: 10px;
 		box-shadow: 4px 4px 8px rgba(0,0,0,.25);
 		transition: all .5s ease-out;
@@ -4149,6 +4150,11 @@ $blue_color : #08F2C5!default;
 	}
 	a {
 		color: #0909ad;
+		font-weight: bold;
+		&:hover{
+			color: $blue_color;
+			text-decoration: underline;
+		}
 	}
 	blockquote {
 		 font-style: italic;
@@ -4426,5 +4432,38 @@ $blue_color : #08F2C5!default;
 .why-select-flex-box-card-2{
 	.card{
 		padding-top: 1rem;
+	}
+}
+.the_excerpt_max_255 p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 25px;
+	-webkit-line-clamp: 3;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+.wp-caption-text{
+	font-style: italic;
+	text-align: center;
+}
+.hbspt-form {
+	.form{
+		input{
+			background: #E6E6E6;
+		}
+		.hs-submit > .actions{
+			text-align: center;
+		}
+	}
+}
+.hs-form-d920e7c6-9f93-4d5b-9080-c6dee2ff176f_65930a12-0b07-46de-9cfe-82ac10b9d38a .hs-submit > .actions {
+	text-align: center;
+}
+a {
+	color: #0909ad;
+	font-weight: bold;
+	&:hover{
+		color: $blue_color;
+		text-decoration: underline;
 	}
 }

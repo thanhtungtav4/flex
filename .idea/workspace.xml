@@ -24,12 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="fix menu">
       <change afterPath="$PROJECT_DIR$/flex-data.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/fonts/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/fonts/css/fontawesome-all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex-data/fonts/icomoon/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/fonts/icomoon/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +41,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/thanhtungtav4/flex" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1gtBy0r3yBHos8mepht7upMnJtc" />
   <component name="ProjectLevelVcsManager">
@@ -159,21 +160,7 @@
       <workItem from="1601648791452" duration="9577000" />
       <workItem from="1601915365594" duration="383000" />
       <workItem from="1601997762105" duration="1808000" />
-      <workItem from="1602085509734" duration="704000" />
-    </task>
-    <task id="LOCAL-00182" summary="add hover change">
-      <created>1600967190733</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1600967190733</updated>
-    </task>
-    <task id="LOCAL-00183" summary="add hover change">
-      <created>1600968690001</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1600968690001</updated>
+      <workItem from="1602085509734" duration="1028000" />
     </task>
     <task id="LOCAL-00184" summary="add hover change">
       <created>1601047985580</created>
@@ -504,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601915522023</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="fix menu">
+      <created>1602087603416</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1602087603417</updated>
+    </task>
+    <task id="LOCAL-00232" summary="fix menu">
+      <created>1602087638994</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1602087638994</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

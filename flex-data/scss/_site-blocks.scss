@@ -4265,9 +4265,11 @@ $blue_color : #08F2C5!default;
 		color: $black;
 	}
 	h4 a{
-		color: $black;
+		color: #0909ad;
+		font-weight: bold;
 		&:hover{
-			color: $btn_bg;
+			color: $blue_color;
+			text-decoration: underline;
 		}
 	}
 	.categories-name-card{

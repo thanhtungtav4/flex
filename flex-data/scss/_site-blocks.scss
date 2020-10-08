@@ -38,7 +38,7 @@ $blue_color : #08F2C5!default;
 @mixin text_bold {
 		font-weight: bold;
 		font-style: normal;
-		font-size: 48px;
+		font-size: 44px;
 		line-height: 65px;
 		text-align: center;
 		color: $black;
@@ -913,7 +913,7 @@ $blue_color : #08F2C5!default;
 		}
 
 		h3 {
-			font-size: 20px;
+			font-size: 18px;
 		}
 	}
 
@@ -1448,14 +1448,14 @@ $blue_color : #08F2C5!default;
 			z-index: 10;
 		}
 
-		h2, h3 {
+		h2 {
 			font-size: 20px;
 			color: $white;
 		}
 
 		h3 {
 			font-size: 18px;
-
+			color: $white;
 			.icon {
 				font-size: 30px;
 			}
@@ -1688,7 +1688,7 @@ $blue_color : #08F2C5!default;
 				width: calc(100% - 80px);
 
 				h3 {
-					font-size: 20px;
+					font-size: 18px;
 					color: $black;
 				}
 
@@ -2497,7 +2497,7 @@ $blue_color : #08F2C5!default;
 				color: $white;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 48px;
+				font-size: 45px;
 				line-height: 65px;
 			}
 
@@ -4468,4 +4468,21 @@ a {
 		color: $blue_color;
 		text-decoration: underline;
 	}
+}
+.nt-thumbnail img{
+	max-width: 100%;
+	height: auto;
+}
+.css-fix-menu{
+	top: 7rem;
+	max-width: 180px;
+}
+.email-box{
+	position: relative;
+	background-image: url(../images/bg-mail.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
 }

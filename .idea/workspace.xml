@@ -23,12 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183f242d-01f7-4e10-b5be-6254135c76c0" name="Default Changelist" comment="fix menu">
-      <change afterPath="$PROJECT_DIR$/flex-data/images/bg-mail.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/flex-data/scss/_site-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +167,14 @@
       <workItem from="1601997762105" duration="1808000" />
       <workItem from="1602085509734" duration="4135000" />
       <workItem from="1602140102783" duration="650000" />
-      <workItem from="1602170390748" duration="3247000" />
-    </task>
-    <task id="LOCAL-00185" summary="add hover change">
-      <created>1601051683723</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1601051683724</updated>
+      <workItem from="1602170390748" duration="5770000" />
+      <workItem from="1602229250819" duration="280000" />
+      <workItem from="1602254824639" duration="5444000" />
+      <workItem from="1602302445292" duration="148000" />
+      <workItem from="1602421270217" duration="14000" />
+      <workItem from="1602421287396" duration="6803000" />
+      <workItem from="1602556945467" duration="108000" />
+      <workItem from="1602691876292" duration="416000" />
     </task>
     <task id="LOCAL-00186" summary="add hover change">
       <created>1601052351524</created>
@@ -511,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602087854478</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="fix menu">
+      <created>1602175375563</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1602175375564</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,22 +574,22 @@
     <state x="152" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1601460194866" />
     <state x="1553" y="-285" key="CommitChangelistDialog2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085485582" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601206880521" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1602141872821">
+    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1602557054204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-840" y="506" key="FileChooserDialogImpl/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600626976715" />
     <state x="-840" y="568" key="FileChooserDialogImpl/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599078420062" />
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1601522563295" />
-    <state x="2013" y="-17" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601540708855" />
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1602557054204" />
+    <state x="2013" y="-17" key="FileChooserDialogImpl/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1602302596597" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@0.0.1366.728" timestamp="1599097987100" />
     <state x="2106" y="-38" key="FileChooserDialogImpl/0.0.1366.728/1366.-313.1920.1040@1366.-313.1920.1040" timestamp="1598928058277" />
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599905938458" />
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602141872821" />
+    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602421282328" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1600756119313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600756119313" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602087860930">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602175380212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1091" y="410" key="Vcs.Push.Dialog.v2/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599934044386" />
@@ -590,7 +598,7 @@
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@0.0.1366.728" timestamp="1601460201298" />
     <state x="1704" y="-150" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-285.1680.1010@1366.-285.1680.1010" timestamp="1601085491455" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1599907917524" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602087860930" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602175380212" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600495145402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -614,18 +622,18 @@
     <state x="-976" y="313" width="585" height="728" key="find.popup/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601311019430" />
     <state x="-976" y="375" width="585" height="728" key="find.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599069402270" />
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600959584507" />
-    <state x="339" y="6" key="run.anything.popup" timestamp="1600968129885">
+    <state x="339" y="6" key="run.anything.popup" timestamp="1602175537635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1027" y="319" key="run.anything.popup/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1600348743519" />
     <state x="-1027" y="350" key="run.anything.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599074917286" />
-    <state x="339" y="6" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600968129885" />
-    <state x="-1020" y="362" width="672" height="678" key="search.everywhere.popup" timestamp="1601402943149">
-      <screen x="-1366" y="313" width="1366" height="728" />
+    <state x="339" y="6" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602175537635" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602175603036">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1020" y="362" width="672" height="678" key="search.everywhere.popup/-1366.313.1366.728/0.0.1360.728@-1366.313.1366.728" timestamp="1599932173585" />
     <state x="-1020" y="362" width="672" height="678" key="search.everywhere.popup/-1366.313.1366.728/0.0.1920.1040@-1366.313.1366.728" timestamp="1601402943149" />
     <state x="-1020" y="424" width="672" height="678" key="search.everywhere.popup/-1366.375.1366.728/0.0.1920.1040@-1366.375.1366.728" timestamp="1599843864773" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601315642496" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602175603036" />
   </component>
 </project>

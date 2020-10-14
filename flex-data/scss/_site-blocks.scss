@@ -32,14 +32,14 @@ $blue_color : #08F2C5!default;
 	background-repeat: no-repeat;
 }
 @mixin padding_section {
-		padding-top: 3rem;
-		padding-bottom: 6rem;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
 @mixin text_bold {
 		font-weight: bold;
 		font-style: normal;
-		font-size: 44px;
-		line-height: 65px;
+		font-size: 43px;
+		line-height: 63px;
 		text-align: center;
 		color: $black;
 		z-index: 99;
@@ -2003,9 +2003,9 @@ $blue_color : #08F2C5!default;
 
 		.customer_retention {
 			font-style: normal;
-			font-weight: 500;
-			font-size: 36px;
-			line-height: 53px;
+			font-weight: 600;
+			font-size: 32px;
+			line-height: 45px;
 		}
 
 		.detail_customer_retention {
@@ -2097,8 +2097,8 @@ $blue_color : #08F2C5!default;
 		.title-ready-to-grow {
 			font-style: normal;
 			font-weight: normal;
-			font-size: 42px;
-			line-height: 70px;
+			font-size: 37px;
+			line-height: 56px;
 		}
 
 		.btn-download {
@@ -2247,15 +2247,15 @@ $blue_color : #08F2C5!default;
 
 		}
 		.line-vertical-case-study {
-			width: 260px;
-			height: 43px;
+			width: 255px;
+			height: 38px;
 			left: 0;
-			top: 37px;
+			top: 30px;
 			background: $blue_color;
 			z-index: 1;
 		}
 		.site-section-heading{
-			left: 8%;
+			left: 4%;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 48px;

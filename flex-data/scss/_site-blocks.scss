@@ -1125,8 +1125,8 @@ $blue_color : #08F2C5!default;
 }
 .blog-tittle-box{
 	.title-flex {
-		font-size: 43px;
-		line-height: 57px;
+		font-size: 35px;
+		line-height: 45px;
 	}
 }
 .post-view-more{
@@ -1889,6 +1889,7 @@ $blue_color : #08F2C5!default;
 		font-style: normal;
 
 		#cart-custime {
+			padding: 3rem!important;
 			.card-wrap {
 				box-shadow: 0px 0px 10px rgba(9, 9, 173, 0.3);
 				border-radius: 10px;
@@ -1909,6 +1910,11 @@ $blue_color : #08F2C5!default;
 					transition: .3s;
 					color: $white;
 				}
+				@include media-breakpoint-down(sm) {
+					.card-text li{
+						font-size: 0.7rem;
+					}
+				}
 			}
 
 			.card-img-top {
@@ -1918,29 +1924,34 @@ $blue_color : #08F2C5!default;
 				img {
 					display: block;
 					object-fit: cover;
-					max-width: 100%;
+					max-width: 75%;
 					height: auto;
 					position: absolute;
 					bottom: 0;
 					right: 30px;
+					@include media-breakpoint-down(sm) {
+						right: 10px;
+					}
 				}
 			}
 
 			.card-block-content {
-				padding: 24px;
+				padding: 15px;
 				height: 359px;
 				@include media-breakpoint-down(sm) {
 					height: 300px;
+					padding: 10px;
 				}
 				.card-title {
 					font-style: italic;
 					font-weight: bold;
-					font-size: 35px;
-					line-height: 45px;
+					font-size: 30px;
+					line-height: 40px;
 					color: #969696;
 					@include media-breakpoint-down(sm) {
-						font-size: 25px;
+						font-size: 17px;
 						line-height: 30px;
+						margin-bottom: 0;
 					}
 				}
 			}
@@ -1960,6 +1971,10 @@ $blue_color : #08F2C5!default;
 				font-size: 18px;
 				line-height: 26px;
 				text-align: justify;
+				@include media-breakpoint-down(sm) {
+					font-size: 12px;
+					margin-bottom: 0px;
+				}
 			}
 
 			.card-designation {
@@ -2025,6 +2040,13 @@ $blue_color : #08F2C5!default;
 				background: $blue_color;
 				top: 36px;
 				z-index: 1;
+				@include media-breakpoint-down(sm) {
+					width: 272px;
+					height: 30px;
+					left: -6px;
+					background: #08F2C5;
+					top: 23px;
+				}
 			}
 		}
 	}
@@ -2497,8 +2519,8 @@ $blue_color : #08F2C5!default;
 				color: $white;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 43px;
-				line-height: 65px;
+				font-size: 35px;
+				line-height: 45px;
 			}
 
 			.strong {
@@ -4515,4 +4537,28 @@ a {
 }
 .w-90{
 	width: 90%;
+}
+.py-5{
+	@include media-breakpoint-down(sm) {
+		padding-top: 1rem!important;
+		padding-bottom: 1rem!important;
+	}
+}
+@include media-breakpoint-down(lg) {
+	.position-fixed {
+		position: fixed!important;
+	}
+}
+@include media-breakpoint-down(md) {
+	.position-fixed {
+		position: unset!important;
+	}
+	#hs_cos_wrapper_module {
+		margin: 0 auto;
+		left: 14%;
+		right: 14%;
+	}
+}
+.active, .accordion:hover {
+	background-color: unset!important;
 }

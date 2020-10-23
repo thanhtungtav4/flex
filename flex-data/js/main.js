@@ -111,19 +111,26 @@ jQuery(document).ready(function($) {
 	  });
 	};
 	siteCarousel();
-  var OnePageNavigation = function() {
-    var navToggler = $('.site-menu-toggle');
-   	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
-      e.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        'scrollTop': $(hash).offset().top
-      }, 600, 'easeInOutCirc', function(){
-        window.location.hash = hash;
-      });
-
-    });
-  };
+	/// tungnt
+	var OnePageNavigation = function() {
+		var navToggler = $('.site-menu-toggle');
+		$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
+			if (this.hash !== "" && this.pathname == window.location.pathname) {
+				e.preventDefault();
+				var target = this.hash;
+				var topOffset = 0; //#top should default to 0 so no need to calculate the difference between top and top :)
+				if (target != "#top") { //If the target is not "#top", then calculate topOffset
+					var topOffset = $(target).offset().top;
+				}
+				$('html, body').animate({
+					'scrollTop': $(target).offset().top
+				}, 600, 'easeInOutCirc', function(){
+					window.location.hash = target;
+				});
+			}
+		});
+	};
+	OnePageNavigation();
   OnePageNavigation();
   var siteScroll = function() {
   	$(window).scroll(function() {
@@ -138,6 +145,7 @@ jQuery(document).ready(function($) {
   };
   siteScroll();
 });
+
 $("#has-megamenu-menu").hover(function(){
 		 var dropdownMenu = $("#has-megamenu-menu");
 		 if(dropdownMenu.is(":visible")){
@@ -169,7 +177,8 @@ $("#has-megamenu-menu").hover(function(){
 	 if (prevScrollpos > currentScrollPos) {
 		 document.getElementById("site-menu").style.position = "relative";
 	 } else {
-		 document.getElementById("site-menu").style.position = "fixed";
+		  document.getElementById("site-menu").style.position = "fixed";
+		  document.getElementById("site-menu").style.top = "0";
 	 }
 	 prevScrollpos = currentScrollPos;
  };
